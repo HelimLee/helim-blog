@@ -1,0 +1,6 @@
+baseURL = 'https://blog.helim.net/'
+languageCode = 'zh-cn'
+title = '荷岭网居'
+
+theme = 'nostyleplease'
+

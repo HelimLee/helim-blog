@@ -1,0 +1,2 @@
+[permalinks]
+posts = "/:section/:filename"

@@ -1,0 +1,40 @@
+[[entries]]
+title = "Info"
+
+  [[entries.entries]]
+  title = "这里是李荷岭的网络居所"
+
+  [[entries.entries]]
+  title = "一个人的低语，也是一群人的呐喊。"
+
+  [[entries.entries]]
+  title = "站点内容遵照CC-BY-SA协议提供。"
+
+[[entries]]
+title = "All posts"
+
+  [entries.post_list]
+  limit = 15
+  show_more = true
+  show_more_text = "See more posts..."
+  show_more_url = "archive"
+
+[[entries]]
+title = "rss"
+url = "index.xml"
+
+[[entries]]
+title = "Additional Content"
+
+  [[entries.entries]]
+  title = "Friends"
+
+    [[entries.entries.entries]]
+    title = "晓雨杂记"
+    url = "https://lihaoyu.cn/"
+
+[[entries]]
+title = "Reminder for Admin"
+entries = [
+   { title = "to edit this menu, edit data/menu.toml file" }
+  ]
