@@ -2,8 +2,8 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   {{ if .IsPage }} <meta name="description" content="{{ .Summary }}">  {{ end }}
-  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-webfont/1.6.0/style.min.css">
   <title>
     {{ if not .IsHome }}
       {{ .Title }}
