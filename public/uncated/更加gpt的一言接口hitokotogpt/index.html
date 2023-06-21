@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-cn"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="description" content="HitokotoGPT 是我一时兴起做的一个简单小脚本，用来提供一个基于 ChatGPT 的 “一言” 接口。
+这个原版所谓的 “一言” 接口是一个项目，它在每一次请求 API 时都会返回一句话，用来装点网站的文艺风范。而 HitokotoGPT 则更进一步，它使用 ChatGPT 来动态生成这句话，使得网站上的文学装点也显得更加新颖。
+HitokotoGPT 建立在 ChatGPT 上，是一个简单部署的 Python 程序。通过这一程序，你将可以简单地获取由 ChatGPT 生成的 “名言警句”。你可以自己部署这一程序，也可以使用公开的接口。本项目自带的公开接口仅供测试用，不对其稳定性负责。
+部署指南 满足系统需求 本项目非常轻量，一般能够运行 python 的机器都能顺利运行本程序。但您需要确定运行本程序的机器可以访问 OpenAI 的 API 接口。
+本项目依赖 uvicorn 和 fastapi 等库运行。所以，请在 CLI 中执行这一条命令，自动化地安装所需的全部依赖
+pip install -r requirements.txt 这个安装过程将很快结束。完成后请检查防火墙的端口状态，是否开放65530端口。本程序在65530端口监听。如果你认为高位端口不方便使用，请在config.json中将port变量修改为你期望开放的端口号。
+进行必要设置 本项目的全部配置都存储在config.json文件中，请打开默认目录下的 config.json 文件，遵照遵照下面的提示进行配置。
+{ &#34;api_key&#34; : &#34;your openai api key&#34;, //OpenAI API鉴权密钥 &#34;access_token&#34; : &#34;access token to access the web server&#34;, //用来给HitokotoGPT接口鉴权的密钥 &#34;port&#34; : 65530, //API 服务监听的端口，如无必要请勿修改 &#34;database&#34; : &#34;testdebug&#34;, //SQLite数据库的名称。如无必要请勿修改 &#34;rate&#34; : &#34;1/min&#34;, //对于每个来源IP的请求速率限制 &#34;rate_cached&#34; : &#34;3/min&#34; //对于非即时生成的内容的请求速率限制 } 调用接口 重要：本项目可以设置 Rate Limit，但请您务必注意使本项目的 Rate Limit 和 OpenAI 的频率限制相吻合，否则，将会造成不可预料的后果。">  
+  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-webfont/1.6.0/style.min.css">
+  <title>
+    
+      更加GPT的“一言”接口：HitokotoGPT
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/" />
+  
+  
+  
+  <link rel="stylesheet" href="/css/main.d07cfa1493bd4cf5a6cf9ceb0245180e7ad271988f0ee5fb495bd05fe063f4eb538c9824fd998588627c25771dcc434997588be713cb79968b07fe3b38c9d68c.css" integrity="sha512-0Hz6FJO9TPWmz5zrAkUYDnrScZiPDuX7SVvQX&#43;Bj9OtTjJgk/ZmFiGJ8JXcdzENJl1iL5xPLeZaLB/47OMnWjA==" />
+  
+  
+</head>
+<body a="auto">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<a href="/">..</a>
+
+<article>
+    <p class="post-meta">
+        <time datetime="2023-05-20 13:04:00 &#43;0000 UTC">
+            2023-05-20
+        </time>
+    </p>
+
+    <h1>更加GPT的“一言”接口：HitokotoGPT</h1>
+
+    
+
+    <p>HitokotoGPT 是我一时兴起做的一个简单小脚本，用来提供一个基于 ChatGPT 的 “一言” 接口。</p>
+<p>这个原版所谓的 “一言” 接口是一个项目，它在每一次请求 API 时都会返回一句话，用来装点网站的文艺风范。而 HitokotoGPT 则更进一步，它使用 ChatGPT 来动态生成这句话，使得网站上的文学装点也显得更加新颖。</p>
+<p>HitokotoGPT 建立在 ChatGPT 上，是一个简单部署的 Python 程序。通过这一程序，你将可以简单地获取由 ChatGPT 生成的 “名言警句”。你可以自己部署这一程序，也可以使用公开的接口。本项目自带的公开接口仅供测试用，不对其稳定性负责。</p>
+<h2 id="部署指南">部署指南</h2>
+<h3 id="满足系统需求">满足系统需求</h3>
+<p>本项目非常轻量，一般能够运行 python 的机器都能顺利运行本程序。但您需要确定运行本程序的机器可以访问 OpenAI 的 API 接口。</p>
+<p>本项目依赖 uvicorn 和 fastapi 等库运行。所以，请在 CLI 中执行这一条命令，自动化地安装所需的全部依赖</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip install -r requirements.txt
+</span></span></code></pre></div><p>这个安装过程将很快结束。完成后请检查防火墙的端口状态，是否开放<code>65530</code>端口。本程序在<code>65530</code>端口监听。如果你认为高位端口不方便使用，请在<code>config.json</code>中将<code>port</code>变量修改为你期望开放的端口号。</p>
+<h3 id="进行必要设置">进行必要设置</h3>
+<p>本项目的全部配置都存储在<code>config.json</code>文件中，请打开默认目录下的 config.json 文件，遵照遵照下面的提示进行配置。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;api_key&#34;</span> : <span style="color:#e6db74">&#34;your openai api key&#34;</span>, <span style="color:#75715e">//OpenAI API鉴权密钥
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#f92672">&#34;access_token&#34;</span> : <span style="color:#e6db74">&#34;access token to access the web server&#34;</span>, <span style="color:#75715e">//用来给HitokotoGPT接口鉴权的密钥
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#f92672">&#34;port&#34;</span> : <span style="color:#ae81ff">65530</span>, <span style="color:#75715e">//API 服务监听的端口，如无必要请勿修改
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#f92672">&#34;database&#34;</span> : <span style="color:#e6db74">&#34;testdebug&#34;</span>, <span style="color:#75715e">//SQLite数据库的名称。如无必要请勿修改
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#f92672">&#34;rate&#34;</span> : <span style="color:#e6db74">&#34;1/min&#34;</span>, <span style="color:#75715e">//对于每个来源IP的请求速率限制
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#f92672">&#34;rate_cached&#34;</span> : <span style="color:#e6db74">&#34;3/min&#34;</span> <span style="color:#75715e">//对于非即时生成的内容的请求速率限制
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span></code></pre></div><h2 id="调用接口">调用接口</h2>
+<p><em><strong>重要：本项目可以设置 Rate Limit，但请您务必注意使本项目的 Rate Limit 和 OpenAI 的频率限制相吻合，否则，将会造成不可预料的后果。</strong></em></p>
+<p>请求体请统一通过 JSON 发送，接口只处理内容类型为 JSON 的 POST 请求，其他请求一概报错。</p>
+<h3 id="鉴权">鉴权</h3>
+<p>本项目使用简单鉴权。请在访问所有接口时都使用<code>gptauth</code>参数，其值为在 json 中设置的<code>api_key</code></p>
+<h3 id="即时生成的一言">即时生成的一言</h3>
+<p>在这种模式下，本程序将请求 OpenAI 的接口，通过默认的提示词生成一言并返回。需要注意：此请求可因 OpenAI 的速率问题而严重拖延时长，甚至超时而失败。请不要将即时生成的一言用于页面醒目位置，因为它可能会在很长一段时间内加载不出来。</p>
+<p>接口地址：<code>/hitokoto</code> (POST)</p>
+<p>请求参数：</p>
+<ul>
+<li><code>gptauth</code> 字符串，用于鉴权的密钥（必须）</li>
+<li><code>encycle</code> 布尔值，设置此次生成产生的一言是否允许供给不重复缓存生成使用，即如果调用 <code>/hitokoto-cached</code> 接口并选择 “不重样” 模式时，是否使用此生成。（可选，默认为否，即<code>false</code>）</li>
+</ul>
+<h3 id="预生成--已缓存的一言">预生成 / 已缓存的一言</h3>
+<p>在调用 “即时生成的一言” 端口时，所有生成都会被记录进入一个 SQLite 数据库中，这是为了供这个接口调用已经预提交过的生成。同时，你还可以使用<code>./batch.py</code>在低峰时段大量生成一言，并存储进数据库中。你可以选择使用 “重样” 或 “不重样” 模式，但需要注意，尽管在这个接口选择了 “不重样” 模式，你还是有可能看到相同的一言，这是因为在 “即时生成的一言” 接口中它是否被使用过的状态设置为 “没有”。当然你不会再看到它了，因为现在它的使用状态已经被设置为 “已使用”</p>
+<p>但如果 “不重样” 模式已经找不到从未被使用过的一言，那接口将直接返回已经使用过的一言，且不会有任何提示，请务必注意。</p>
+<p>接口地址 <code>/hitokoto-cached</code> (POST)</p>
+<p>请求参数：</p>
+<ul>
+<li><code>gptauth</code> 已介绍</li>
+<li><code>recycle</code> 布尔值，设置为真时使用 “重样”，设置为否时使用 “不重样”（可选，默认为否，即<code>False</code>）</li>
+</ul>
+<h2 id="低峰批量生成">低峰批量生成</h2>
+<p>通过<code>batch.py</code>，你可以大量生成一言，并将它们存进数据库中供日后调用使用。</p>
+<p>具体操作是在<code>batch.py</code>中设置<code>sentence_num</code>变量的数值，以便决定生成的数量。同时，还可以使用其他程序来让<code>batch.py</code>在夜深人静的低峰时段执行，或是隔一两个小时定时执行，以提高成功率并保证总能有一言调用。</p>
+
+</article>
+
+            </div>
+        </main>
+    </body>
+</html>

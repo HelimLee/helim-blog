@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>版本控制 on 荷岭网居</title>
+    <link>https://blog.helim.net/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/</link>
+    <description>Recent content in 版本控制 on 荷岭网居</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 11 May 2023 22:28:00 +0000</lastBuildDate><atom:link href="https://blog.helim.net/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github遭受一周三次停机，本站未受直接影响</title>
+      <link>https://blog.helim.net/uncated/github%E9%81%AD%E5%8F%97%E4%B8%80%E5%91%A8%E4%B8%89%E6%AC%A1%E5%81%9C%E6%9C%BA%E6%9C%AC%E7%AB%99%E6%9C%AA%E5%8F%97%E7%9B%B4%E6%8E%A5%E5%BD%B1%E5%93%8D/</link>
+      <pubDate>Thu, 11 May 2023 22:28:00 +0000</pubDate>
+      
+      <guid>https://blog.helim.net/uncated/github%E9%81%AD%E5%8F%97%E4%B8%80%E5%91%A8%E4%B8%89%E6%AC%A1%E5%81%9C%E6%9C%BA%E6%9C%AC%E7%AB%99%E6%9C%AA%E5%8F%97%E7%9B%B4%E6%8E%A5%E5%BD%B1%E5%93%8D/</guid>
+      <description>Github在其官方Twitter上发布消息，其网站已于GMT 2023/5/11 十三时左右（北京时间下午九点）遭受性能下降。但实则很多业务完全无法访问。
+Github作为托管了大量开源软件的Git托管平台，凭借着免费的服务和大量的、甚至直接构成互联网本身的仓库，成为互联网上已经不可或缺的一个基础设施。如果Github永久停止，那将是对自由软件和互联网的一次重创。这次停机只是一次意外，但因为类似的故障在本周内已经发生约三次，还是引起了开发者和公众的忧虑。
+有用户在官推下表示：“这周已经宕机2-3次了，对于Github的服务来说，这非常多”
+夏荷博客（荷李网络）未受此事故直接影响。</description>
+    </item>
+    
+  </channel>
+</rss>

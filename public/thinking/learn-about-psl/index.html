@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-cn"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="description" content="Public Suffix List or PSL，这一专有名词常常出现在各大信息提供者与个人博客上。很多个人博客（包括本博客）在交换友链的时候都指出，域名必须是被PSL收录的后缀。但很多人可能对此有疑惑，为什么要维护这样一份列表，来记录这些Public Suffix呢？更有人会疑问，为什么 .gitee.io这样的域名会选择拒绝加入PSL,或者说，成为一个Public Suffix又意味着什么呢？让我们来从PSL入手，浅看一下当今互联网，在域名层保护隐私、提升用户体验的方式吧。
+一、什么是、为什么、如何是Public Suffix Public Suffix的官方定义是一种任何人都可以（或曾可以）注册的域名之域名后缀。这个定义十分有趣，它实际上指出了浏览器或者其他WEB客户端，是怎么判断“域名”这一概念的构成的。
+我们在互联网上能看到很多“免费二级域名解析”服务，它们往往很有用，可以帮助开发者快速取得公开提供的域名，而不是发一串长而难记忆的IP地址。但这些二级域名解析当中的大部分的所谓“一级域名”都是没有被收录进PSL的，可以理解为它们并没有被认定为是Public Suffix。由此可以将Public Suffix翻译为“公共后缀”。一个例子：假如example.com提供免费的“二级域名解析”，就会有人注册hello.example.com，那这时hello.example.com和example.com就会被认为是一个网站运营体的两个不同的域名，因为后者并没有被视作对外提供注册的Public Suffix。
+为什么各个NIC会选择让自己的域名成为Public Suffix呢？原因有很多，但大体上是为了让自己的域名服务被正确标识。如.eu.org这一个域名现在被PSL收入，即代表.eu.org下运行的其他二级域名所对应的网站和.eu.org在运行者构成上，没有任何关系。其他的原因还有，通过这种方式声明自己的二级域名解析人人可以操作，所以如果其提供之内容有问题，也并非原始域名的运营者的可控范围内。等于撇清了责任
+此外，要成为一个Public Suffix也不是毫无门槛的。PSL由Mozilla基金会维护，而申请成为PSL中收录的Public Suffix的过程，则更向是一种双向选择。首先，Mozilla方面需要承认这个域名可以作为一个PS，它必须开放公众注册。然后，域名的拥有者也必须同意它变成一个PS，考虑到这样做会带来的接续后果。
+二、Public Suffix的责任和意义 如果一个域名成为了Public Suffix，那么恭喜，这个域名的管理者在某种意义上算半个域名注册局。他们需要提供可靠的域名注册和解析、始终如一地接受用户提起的新次级域名申请。当一个域名成为了Public Suffix，它的子域名可以被看作另一个截然不同的运营者提供的网站。
+然而这些责任，并不具备完备的效力。Public Suffix List的最重要的意义，还是在于它极大的改善了用户的体验。在早期互联网，浏览器需要靠自己维护一套列表，包含了会被认为是公共后缀的列表。它通常会包含.org,.me,.com,.net等这类开放注册的域名，有时也可能包含一些包含次级域名解析的含点域名后缀，.co.uk这样。但这会带来问题。
+还是以eu.org为例。在早期互联网，浏览器并不会将.eu.org为后缀的域名下的网站，彼此给标识成不同的网站。a.eu.org和b.eu.org将会被看作eu.org的同一个网站实体的不同域名。这会严重危害用户隐私，会造成Super Cookies，即可以不被检测为“第三方Cookies”的真正的“第三方Cookie”
+要理解这（指第三方Cookies）是怎么工作的，可以以本站域名和Busuanzi结合使用为例。本站的域名是helim.net，它并不是一个Public Suffix。当访问该域名下的某些二级域名，譬如blog.helim.net和log.helim.net时，浏览器会检索其内置的Public Suffix List，发现helim.net并不被认为是一个Public Suffix，所以blog.helim.net和log.helim.net会被标记为同一个网站运营者的不同域名。换句话说，相对于blog.helim.net，log.helim.net并不被认为是一个第三方。假如blog.helim.net中调用了一个log.helim.net下的资源，且该资源会给客户端设置Cookies，那一般地，浏览器和其他追踪拦截插件不会拦截这个Cookies. 且幸运的是，由于helim.net确实不向公众开放二级域名解析，其所有的二级域名都是自己管理的，这个Cookies也真的不是一个第三方Cookies，它对网站可能有至关重要的作用，且helim.net的运营者能够对该Cookies内容和用途有所掌控和了解——而PSL机制保障了这一Cookies能被正确设置。
+但Busuanzi，是在ibruce.info这个域名下提供的一个网站访问量计数器。它是通过标签引入的站外一个JS脚本，会以其自己域名的身份在访客浏览blog.helim.net时为访客设置Cookies.对于blog.helim.net来说，确实，ibruce.info和其二级域名都应该被看作是第三方。这时，浏览器或追踪拦截插件就会拦截这一Cookies设置请求。这样一来，用户的隐私可以得到保护，因为helim.net的网络运行者，无法控制ibruce.info下的服务。
+通过这个实例，不难理解WEB中Cookies是如何被谨慎对待的。Super Cookies其本质是一种更加猖狂，且无法通过PSL以外的方法来检查出的“第三方”Cookies.而要想理解PSL是如何阻止Super Cookies的，让我们继续看下一个例子：现在example.com正式对外开放二级域名免费解析，但它并没有被登记入Public Suffix List，接下来可能会发生什么可怕的事呢？让我们设立两个不同的角色，小红和小蓝双方彼此都不认识，所以小蓝的网站对于小红的网站而言，显而易见地是一个妥妥的第三方。小红和小蓝现在都使用着example.com的二级域名解析服务，小红注册了red.example.com，小蓝注册了blue.example.com。而此时，由于PSL中并不包含example.com，浏览器理所应当地将red.example.com和blue.example.com认定为同一个网站实体运营——此时危险的种子已经埋下：浏览器并不认为小蓝的网站于小红的网站而言是一个“第三方”，追踪拦截插件也持一样的态度。
+小蓝阴阳差错之间，开始为小红提供网站托管服务。小红没有多想，就选择使用小蓝的服务来继续运行自己的网站。而小蓝则可以利用PSL没有收录example.com从中作梗了。现在他通过CDN配置等技术，在小红的所有页面里都加上一句引入JS文件的HTML语句，而该JS文件由blue-stats.example.com提供服务，它会设置严重侵犯用户隐私的追踪Cookies,并且与小蓝的服务器进行沟通。整个过程，小红都无法控制。当用户访问red.example.com时，浏览器不会阻止来自blue-stats...这个域名的Cookies设置，因为它们还被认为是一个网站运营实体的非第三方Cookies。后来，小蓝的网站托管做大做强了，很多人使用他的托管服务，而每个人的页面上都被不声不响地加上了这样一句话，浏览器和拦截器们，因为PSL没有包含这个域名，依然对它们视而不见，最终酿成了几百位使用.example.com二级域名解析的站长的站点隐私数据被窃取，名誉严重被毁。
+小蓝和小红的例子听起来有些片面，但却准确体现了Super Cookies怎么会造成一个严重的隐私悲剧。但倘若使用PSL中收录的二级域名解析，那这些问题大部分可以避免。现在小蓝注册了blue.eu.org，小红注册了red.eu.org。即使小蓝篡改了小红的页面，使它设置来自blue..的Cookies，因为.eu.org被视作公共后缀，两个网站也被视作截然不同的两站，小蓝被视作小红的第三方——所以浏览器英勇且正确地拦截了这一个请求，使小蓝的破坏计划不能得逞。再极端一点，假如某个PS提供商监守自盗，作为一级域名去篡改二级用户的页面，因为作为公共后缀会被浏览器视为第三方，这些Cookies设定也会被拦截。Super Cookies的威胁成功解除！
+此外，PSL还有一些别的用途。比如将一个域名中最重要的部分加粗显示。p2n2.eu.org这个域名中，显然应该加粗的部分是p2n2，而不应加粗p2n2.eu。或者帮助用户键入正确的域名前缀，正确的解析主机名等。
+总结：为什么拒绝非PSL域名？ 总地看来，友链交换和其他将网站公开链接展示的场合中，拒绝非PSL域名的原因也很好理解了——如果不去这样做，将是对用户隐私的不负责任。因为非PSL域名下的二级域名网站们，在被访问时，浏览器无法正确标记和警惕、拦截第三方Cookies。而如果将这些潜在的危险链接暴露向公众，那的确是不倡导的。我们应该自觉在使用二级域名解析服务时，优先选择那些被PSL收录的域名。保护自己，也尊重他人。">  
+  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-webfont/1.6.0/style.min.css">
+  <title>
+    
+      关于Public Suffix List,你所要知道的一切
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/" />
+  
+  
+  
+  <link rel="stylesheet" href="/css/main.d07cfa1493bd4cf5a6cf9ceb0245180e7ad271988f0ee5fb495bd05fe063f4eb538c9824fd998588627c25771dcc434997588be713cb79968b07fe3b38c9d68c.css" integrity="sha512-0Hz6FJO9TPWmz5zrAkUYDnrScZiPDuX7SVvQX&#43;Bj9OtTjJgk/ZmFiGJ8JXcdzENJl1iL5xPLeZaLB/47OMnWjA==" />
+  
+  
+</head>
+<body a="auto">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<a href="/">..</a>
+
+<article>
+    <p class="post-meta">
+        <time datetime="2023-05-29 22:37:30 &#43;0000 UTC">
+            2023-05-29
+        </time>
+    </p>
+
+    <h1>关于Public Suffix List,你所要知道的一切</h1>
+
+    
+
+    <p><strong>Public Suffix List</strong> or PSL，这一专有名词常常出现在各大信息提供者与个人博客上。很多个人博客（包括本博客）在交换友链的时候都指出，域名必须是<strong>被PSL收录的后缀</strong>。但很多人可能对此有疑惑，为什么要维护这样一份列表，来记录这些Public Suffix呢？更有人会疑问，为什么 <strong>.gitee.io</strong>这样的域名会选择拒绝加入PSL,或者说，成为一个Public Suffix又意味着什么呢？让我们来从PSL入手，浅看一下当今互联网，在域名层保护隐私、提升用户体验的方式吧。</p>
+<h2 id="一什么是为什么如何是public-suffix">一、什么是、为什么、如何是Public Suffix</h2>
+<p><code>Public Suffix</code>的官方定义是一种<em>任何人都可以（或曾可以）注册的域名之域名后缀</em>。这个定义十分有趣，它实际上指出了浏览器或者其他WEB客户端，是怎么判断“域名”这一概念的构成的。</p>
+<p>我们在互联网上能看到很多“免费二级域名解析”服务，它们往往很有用，可以帮助开发者快速取得公开提供的域名，而不是发一串长而难记忆的IP地址。但这些二级域名解析当中的大部分的所谓“一级域名”都是没有被收录进PSL的，可以理解为它们并没有被认定为是Public Suffix。由此可以将Public Suffix翻译为“公共后缀”。一个例子：假如<code>example.com</code>提供免费的“二级域名解析”，就会有人注册<code>hello.example.com</code>，那这时<code>hello.example.com</code>和<code>example.com</code>就会被认为是一个网站运营体的两个不同的域名，因为后者并没有被视作对外提供注册的<code>Public Suffix</code>。</p>
+<p>为什么各个NIC会选择让自己的域名成为<code>Public Suffix</code>呢？原因有很多，但大体上是为了让自己的域名服务被正确标识。如<code>.eu.org</code>这一个域名现在被PSL收入，即代表<code>.eu.org</code>下运行的其他二级域名所对应的网站和<code>.eu.org</code>在运行者构成上，没有任何关系。其他的原因还有，通过这种方式声明自己的二级域名解析人人可以操作，所以如果其提供之内容有问题，也并非原始域名的运营者的可控范围内。等于撇清了责任</p>
+<p>此外，要成为一个<code>Public Suffix</code>也不是毫无门槛的。PSL由Mozilla基金会维护，而申请成为PSL中收录的Public Suffix的过程，则更向是一种双向选择。首先，Mozilla方面需要承认这个域名可以作为一个PS，它必须开放公众注册。然后，域名的拥有者也必须同意它变成一个PS，考虑到这样做会带来的接续后果。</p>
+<h2 id="二public-suffix的责任和意义">二、Public Suffix的责任和意义</h2>
+<p>如果一个域名成为了Public Suffix，那么恭喜，这个域名的管理者在某种意义上算半个域名注册局。他们需要提供可靠的域名注册和解析、始终如一地接受用户提起的新次级域名申请。当一个域名成为了Public Suffix，它的子域名可以被看作另一个截然不同的运营者提供的网站。</p>
+<p>然而这些责任，并不具备完备的效力。Public Suffix List的最重要的意义，还是在于它极大的改善了用户的体验。在早期互联网，浏览器需要靠自己维护一套列表，包含了会被认为是公共后缀的列表。它通常会包含<code>.org</code>,<code>.me</code>,<code>.com</code>,<code>.net</code>等这类开放注册的域名，有时也可能包含一些包含次级域名解析的含点域名后缀，<code>.co.uk</code>这样。但这会带来问题。</p>
+<p>还是以<code>eu.org</code>为例。在早期互联网，浏览器并不会将<code>.eu.org</code>为后缀的域名下的网站，彼此给标识成不同的网站。<code>a.eu.org</code>和<code>b.eu.org</code>将会被看作<code>eu.org</code>的同一个网站实体的不同域名。这会<strong>严重危害用户隐私</strong>，会造成<code>Super Cookies</code>，即可以不被检测为“第三方Cookies”的真正的“第三方Cookie”</p>
+<p>要理解这（指第三方Cookies）是怎么工作的，可以以本站域名和Busuanzi结合使用为例。本站的域名是<code>helim.net</code>，它并不是一个<code>Public Suffix</code>。当访问该域名下的某些二级域名，譬如<code>blog.helim.net</code>和<code>log.helim.net</code>时，浏览器会检索其内置的Public Suffix List，发现<code>helim.net</code>并不被认为是一个<code>Public Suffix</code>，所以<code>blog.helim.net</code>和<code>log.helim.net</code>会被标记为同一个网站运营者的不同域名。换句话说，相对于<code>blog.helim.net</code>，<code>log.helim.net</code>并<strong>不</strong>被认为是一个<em>第三方</em>。假如<code>blog.helim.net</code>中调用了一个<code>log.helim.net</code>下的资源，且该资源会给客户端设置Cookies，那一般地，浏览器和其他追踪拦截插件<strong>不会</strong>拦截这个Cookies. 且幸运的是，由于<code>helim.net</code>确实不向公众开放二级域名解析，其所有的二级域名都是自己管理的，这个Cookies也真的不是一个第三方Cookies，它对网站可能有至关重要的作用，且<code>helim.net</code>的运营者能够对该Cookies内容和用途有所掌控和了解——而PSL机制保障了这一Cookies能被正确设置。</p>
+<p>但Busuanzi，是在<code>ibruce.info</code>这个域名下提供的一个网站访问量计数器。它是通过标签引入的站外一个JS脚本，会以其自己域名的身份在访客浏览<code>blog.helim.net</code>时为访客设置Cookies.对于<code>blog.helim.net</code>来说，确实，<code>ibruce.info</code>和其二级域名都应该被看作是第三方。这时，浏览器或追踪拦截插件就会拦截这一Cookies设置请求。这样一来，用户的隐私可以得到保护，因为<code>helim.net</code>的网络运行者，无法控制<code>ibruce.info</code>下的服务。</p>
+<p>通过这个实例，不难理解WEB中Cookies是如何被谨慎对待的。<code>Super Cookies</code>其本质是一种更加猖狂，且无法通过PSL以外的方法来检查出的“第三方”Cookies.而要想理解PSL是如何阻止<code>Super Cookies</code>的，让我们继续看下一个例子：现在<code>example.com</code>正式对外开放二级域名免费解析，但它并没有被登记入<code>Public Suffix List</code>，接下来可能会发生什么可怕的事呢？让我们设立两个不同的角色，小红和小蓝双方彼此都不认识，所以小蓝的网站对于小红的网站而言，显而易见地是一个妥妥的<strong>第三方</strong>。小红和小蓝现在都使用着<code>example.com</code>的二级域名解析服务，小红注册了<code>red.example.com</code>，小蓝注册了<code>blue.example.com</code>。而此时，由于PSL中并不包含<code>example.com</code>，浏览器理所应当地将<code>red.example.com</code>和<code>blue.example.com</code>认定为同一个网站实体运营——此时危险的种子已经埋下：浏览器并不认为小蓝的网站于小红的网站而言是一个“第三方”，追踪拦截插件也持一样的态度。</p>
+<p>小蓝阴阳差错之间，开始为小红提供网站托管服务。小红没有多想，就选择使用小蓝的服务来继续运行自己的网站。而小蓝则可以利用PSL没有收录<code>example.com</code>从中作梗了。现在他通过CDN配置等技术，在小红的所有页面里都加上一句引入JS文件的HTML语句，而该JS文件由<code>blue-stats.example.com</code>提供服务，它会设置严重侵犯用户隐私的追踪Cookies,并且与小蓝的服务器进行沟通。整个过程，小红都无法控制。当用户访问<code>red.example.com</code>时，浏览器不会阻止来自<code>blue-stats...</code>这个域名的Cookies设置，因为它们还被认为是一个网站运营实体的非第三方Cookies。后来，小蓝的网站托管做大做强了，很多人使用他的托管服务，而每个人的页面上都被不声不响地加上了这样一句话，浏览器和拦截器们，因为PSL没有包含这个域名，依然对它们视而不见，最终酿成了几百位使用<code>.example.com</code>二级域名解析的站长的站点隐私数据被窃取，名誉严重被毁。</p>
+<p>小蓝和小红的例子听起来有些片面，但却准确体现了<code>Super Cookies</code>怎么会造成一个严重的隐私悲剧。但倘若使用PSL中收录的二级域名解析，那这些问题大部分可以避免。现在小蓝注册了<code>blue.eu.org</code>，小红注册了<code>red.eu.org</code>。即使小蓝篡改了小红的页面，使它设置来自<code>blue..</code>的Cookies，因为<code>.eu.org</code>被视作公共后缀，两个网站也被视作截然不同的两站，小蓝被视作小红的第三方——所以浏览器英勇且正确地拦截了这一个请求，使小蓝的破坏计划不能得逞。再极端一点，假如某个PS提供商监守自盗，作为一级域名去篡改二级用户的页面，因为作为公共后缀会被浏览器视为第三方，这些Cookies设定也会被拦截。<code>Super Cookies</code>的威胁成功解除！</p>
+<p>此外，PSL还有一些别的用途。比如将一个域名中最重要的部分加粗显示。<code>p2n2.eu.org</code>这个域名中，显然应该加粗的部分是<strong>p2n2</strong>，而不应加粗<strong>p2n2.eu</strong>。或者帮助用户键入正确的域名前缀，正确的解析主机名等。</p>
+<h2 id="总结为什么拒绝非psl域名">总结：为什么拒绝非PSL域名？</h2>
+<p>总地看来，友链交换和其他将网站公开链接展示的场合中，拒绝非PSL域名的原因也很好理解了——如果不去这样做，将是对用户隐私的不负责任。因为非PSL域名下的二级域名网站们，在被访问时，浏览器无法正确标记和警惕、拦截第三方Cookies。而如果将这些潜在的危险链接暴露向公众，那的确是不倡导的。我们应该自觉在使用二级域名解析服务时，优先选择那些被PSL收录的域名。保护自己，也尊重他人。</p>
+
+</article>
+
+            </div>
+        </main>
+    </body>
+</html>

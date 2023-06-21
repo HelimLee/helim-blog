@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-cn"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="description" content="前段时间，知名中文开源字体霞鹜文楷发布了v1.250版本。然而，很多用户仍然在使用1.235甚至更陈旧的webfont版本。我已经重新编译了最新的WebFont版本。并将它托管在了我自己的CNDC的服务器上。
+发布最新版本 提供下载链接 原理 中文的字体调用一直都是一个让人伤脑筋的问题。曾经使用TTF文件来启用字体，然而这会带来极大的带宽需求。需要将整个TTF文件下载到本地。一个TTF小有15M，大则有30多M，十分的不便。
+然而经过一段时间的研究，一些前端工程师发现中文字体可以通过切分Unicode区域，并将每个区域对准到每一个woff文件作为子集，以次来实现按需调用，极大减少了带宽需求。代价是这种字体(WebFont)需要专门构建。
+本文中的WebFont代码库源自 https://github.com/chawyehsu/lxgw-wenkai-webfont 这个项目被LXGW官方作为其网站的WebFont库。本文的构建采用了仓库内提供的 update.py
+构建步骤 尽管我已经构建并会在文章末尾发布WebFont的在线调用和下载链接，学会构建还是很重要的——而且这并不困难，还很简单。只需要稍微更改几个设置就可以确保你正在使用最新的WebFont支持。
+第一步，安装Python (IDLE编辑器，如果你需要)并从刚刚给出的仓库链接下载 / Clone这个项目。解压并进入文件夹。
+第二步，安装依赖。确保在项目文件夹下，打开命令行工具，执行这个命令（对于Linux和Windows不会有太大差别）
+pip3 install -r ./requirements.txt 第三步，您可以在命令行中完成（只针对Linux），或者在Windows中通过IDLE完成。
+如果您是在命令行中完成，请执行这个命令；${您要构建的字体包名} 等同于&quot;lxgw-wenkai-webfont&quot;,&ldquo;lxgw-wenkai-tc-webfont&rdquo;,&ldquo;lxgw-wenkai-lite-webfont&rdquo;,&ldquo;lxgw-wenkai-screen-webfont&quot;其中任意一者。它们分别对应：标准的霞鹜文楷，繁体版，轻量版，以及屏幕阅读优化版。其中轻量版删除了一些“不必要的”字符，因此不推荐，可能会造成一些非常用字无法正常显示。
+python3 ./update.py --package ${您要构建的字体包名} 如果您使用Windows系统，那么您大概需要使用IDLE对文件代码作出一些修改。请定位到 update.py的172行，将 if &quot;--package&quot; in args:修正为 if True:，同时再将173行修改为 package = &quot;${您要构建的字体包名}&quot;在这之后，您可以开始Run Module (按下 F5键）
+构建将耗费相当数量的系统资源，并可能造成其他应用运行缓慢。这是因为这个过程本质上是一个压缩&#43;切割文件。
+[scode type=&ldquo;lblue&rdquo;]为了保障您服务的SLA，请不要在生产环境的服务器上构建字体文件。您应当在本地完成构建后将竣工的字体文件上传到远端。[/scode]
+使用构建成品 在您完成了构建后，请打开到 packages/${您要构建的字体包名},并将该文件夹下除了 sources文件夹的文件上传到CDN / 远端。然后按照Google Fonts的形式配置调用。在HTML Head当中，它看起来会像这样：
+&lt;link href=&#34;${您服务器上的地址}/style.css&#34; rel=&#34;stylesheet&#34; /&gt; 在Head中添加了这样的引用后，您将可以在任何随后的css中定义字体。譬如对全站启用霞鹜文楷标准字体，您需要在引用后添加这样的CSS：
+body{ font-family: &#34;LXGW WenKai&#34;; } 您还可以设置字体Fallback规则等。这可能对修复特定字符无法显示有重要帮助。
+控制使用的字体，需要使用各自特定的 font-face,它们各自都对应着一个特定的字体。LXGW WenKai对应着霞鹜文楷的标准版本，而 LXGW WenKai Mono（本站使用的字体）对应着霞鹜文楷的等宽版本（常见于展示代码）">  
+  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-webfont/1.6.0/style.min.css">
+  <title>
+    
+      霞鹜文楷 WebFont V1.250发布（附特定字符无法显示的解决方案）
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/" />
+  
+  
+  
+  <link rel="stylesheet" href="/css/main.d07cfa1493bd4cf5a6cf9ceb0245180e7ad271988f0ee5fb495bd05fe063f4eb538c9824fd998588627c25771dcc434997588be713cb79968b07fe3b38c9d68c.css" integrity="sha512-0Hz6FJO9TPWmz5zrAkUYDnrScZiPDuX7SVvQX&#43;Bj9OtTjJgk/ZmFiGJ8JXcdzENJl1iL5xPLeZaLB/47OMnWjA==" />
+  
+  
+</head>
+<body a="auto">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<a href="/">..</a>
+
+<article>
+    <p class="post-meta">
+        <time datetime="2023-02-04 14:20:00 &#43;0000 UTC">
+            2023-02-04
+        </time>
+    </p>
+
+    <h1>霞鹜文楷 WebFont V1.250发布（附特定字符无法显示的解决方案）</h1>
+
+    
+
+    <p>前段时间，知名中文开源字体霞鹜文楷发布了v1.250版本。然而，很多用户仍然在使用1.235甚至更陈旧的webfont版本。我已经重新编译了最新的WebFont版本。并将它托管在了我自己的CNDC的服务器上。</p>
+<ul>
+<li><input disabled="" type="checkbox"> 发布最新版本</li>
+<li><input disabled="" type="checkbox"> 提供下载链接</li>
+</ul>
+<h2 id="原理">原理</h2>
+<p>中文的字体调用一直都是一个让人伤脑筋的问题。曾经使用TTF文件来启用字体，然而这会带来极大的带宽需求。需要将整个TTF文件下载到本地。一个TTF小有15M，大则有30多M，十分的不便。</p>
+<p>然而经过一段时间的研究，一些前端工程师发现中文字体可以通过切分Unicode区域，并将每个区域对准到每一个woff文件作为子集，以次来实现按需调用，极大减少了带宽需求。代价是这种字体(WebFont)需要专门构建。</p>
+<p>本文中的WebFont代码库源自 <a href="https://github.com/chawyehsu/lxgw-wenkai-webfont">https://github.com/chawyehsu/lxgw-wenkai-webfont</a> 这个项目被LXGW官方作为其网站的WebFont库。本文的构建采用了仓库内提供的 <code>update.py</code></p>
+<h2 id="构建步骤">构建步骤</h2>
+<p>尽管我已经构建并会在文章末尾发布WebFont的在线调用和下载链接，学会构建还是很重要的——而且这并不困难，还很简单。只需要稍微更改几个设置就可以确保你正在使用最新的WebFont支持。</p>
+<p>第一步，安装Python (IDLE编辑器，如果你需要)并从刚刚给出的仓库链接下载 / Clone这个项目。解压并进入文件夹。</p>
+<p>第二步，安装依赖。确保在项目文件夹下，打开命令行工具，执行这个命令（对于Linux和Windows不会有太大差别）</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip3 install -r ./requirements.txt
+</span></span></code></pre></div><p>第三步，您可以在命令行中完成（只针对Linux），或者在Windows中通过IDLE完成。</p>
+<p>如果您是在命令行中完成，请执行这个命令；<code>${您要构建的字体包名}</code> 等同于&quot;lxgw-wenkai-webfont&quot;,&ldquo;lxgw-wenkai-tc-webfont&rdquo;,&ldquo;lxgw-wenkai-lite-webfont&rdquo;,&ldquo;lxgw-wenkai-screen-webfont&quot;其中任意一者。它们分别对应：标准的霞鹜文楷，繁体版，轻量版，以及屏幕阅读优化版。其中轻量版删除了一些“不必要的”字符，因此不推荐，可能会造成一些非常用字无法正常显示。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python3 ./update.py --package <span style="color:#e6db74">${</span>您要构建的字体包名<span style="color:#e6db74">}</span>
+</span></span></code></pre></div><p>如果您使用Windows系统，那么您大概需要使用IDLE对文件代码作出一些修改。请定位到 <code>update.py</code>的172行，将 <code>if &quot;--package&quot; in args:</code>修正为 <code>if True:</code>，同时再将173行修改为 <code>package = &quot;${您要构建的字体包名}&quot;</code>在这之后，您可以开始Run Module (按下 <code>F5</code>键）</p>
+<p>构建将耗费相当数量的系统资源，并可能造成其他应用运行缓慢。这是因为这个过程本质上是一个压缩+切割文件。</p>
+<p>[scode type=&ldquo;lblue&rdquo;]为了保障您服务的SLA，请不要在生产环境的服务器上构建字体文件。您应当在本地完成构建后将竣工的字体文件上传到远端。[/scode]</p>
+<h2 id="使用构建成品">使用构建成品</h2>
+<p>在您完成了构建后，请打开到 <code>packages/${您要构建的字体包名}</code>,并将该文件夹下除了 <code>sources</code>文件夹的文件上传到CDN / 远端。然后按照Google Fonts的形式配置调用。在HTML Head当中，它看起来会像这样：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;${您服务器上的地址}/style.css&#34;</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span> /&gt;
+</span></span></code></pre></div><p>在Head中添加了这样的引用后，您将可以在任何随后的css中定义字体。譬如对全站启用霞鹜文楷标准字体，您需要在<strong>引用后</strong>添加这样的CSS：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">body</span>{
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">font-family</span>: <span style="color:#e6db74">&#34;LXGW WenKai&#34;</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>您还可以设置字体Fallback规则等。这可能对<a href="#%E7%89%B9%E5%AE%9A%E5%AD%97%E7%AC%A6%E6%98%BE%E7%A4%BA%E5%BC%82%E5%B8%B8">修复特定字符无法显示</a>有重要帮助。</p>
+<p>控制使用的字体，需要使用各自特定的 <code>font-face</code>,它们各自都对应着一个特定的字体。<code>LXGW WenKai</code>对应着霞鹜文楷的标准版本，而 <code>LXGW WenKai Mono</code>（本站使用的字体）对应着霞鹜文楷的等宽版本（常见于展示代码）</p>
+<h2 id="使用本站的托管">使用本站的托管</h2>
+<p>本站的托管也可以工作。</p>
+<p>本站的 <code>style.css</code>地址是 <code>https://cndc.helim.net:5244/d/zerospeedyDC1/static/lxgw-fonts-v1.250/style.css</code></p>
+<h2 id="span-id特定字符显示异常特定字符显示异常span"><!-- raw HTML omitted -->特定字符显示异常<!-- raw HTML omitted --></h2>
+<p>特定字符显示异常是一个诡异的错误。本站就遭遇了这个问题。</p>
+<p>我现在正在使用的笔名是“堾荷甃”，没有意外的话，这三个字得益于霞鹜文楷庞大的字库，应该能够正常显示在您的设备上。然而事实是，在调试过程中，“堾”字一直遇到显示困难。稍后我进行了研究，发现如果使用这样的CSS，这个问题就会被修复：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>@<span style="color:#66d9ef">font-face</span>{
+</span></span><span style="display:flex;"><span><span style="color:#f92672">font-family</span><span style="color:#f92672">:</span> <span style="color:#f92672">FixingMissing</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">src</span><span style="color:#f92672">:</span> <span style="color:#f92672">url</span><span style="color:#f92672">($</span>{<span style="color:#960050;background-color:#1e0010">到TTF文件的地址</span>}<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#f92672">body</span>{
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">font-family</span>: <span style="color:#e6db74">&#34;LXGW WenKai Mono&#34;</span>, FixingMissing, <span style="color:#66d9ef">sans-serif</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>是的，我通过CSS让在 <code>LXGW Wenkai Mono</code>这个Webfont字体中找不到的字Fallback到 <code>FixingMissing</code>对应的完整TTF文件中去找——听起来这样会拖慢速度，而且得不偿失，因为为了显示一个字要下载15M的文件。</p>
+<p>然而稍后经过实际测试，发现通过 <code>F12开发者工具</code>的请求分析中，浏览器并没有真的请求那个TTF，然而让人诧异的是“堾”字却能够正确显示了!</p>
+<p>然后，我就发现我高兴的太早了。用这样的方法，在清空了缓存之后，重新请求，又开始下载文件了！然后发现是我的远端直接走了内网才导致看起来很快。</p>
+<p>所以现在本站采用了这样的解决方法，把名字用图片形式打出来！然后在不能放行内图片的地方用Helium Lee代替。</p>
+<p>经过检查，只有堾一个字受到这种错误的困扰。如果有哪位专业人士能解答，烦请在评论区发表出来，感激不尽！</p>
+<h3 id="更新功夫不费有心人">更新：功夫不费有心人</h3>
+<p>经过苦思冥想，我终于在没找到任何文档的情况下找到了解决方案：需要修改unicode.json，这个文档规定了切分Unicode子集的规则！</p>
+<p>你需要添加显示错误的字符的Unicode编码，然后重新编译！比如堾的Unicode编码是<strong>U+583e</strong>!那要添加进去，update.py才会编译进去！</p>
+
+</article>
+
+            </div>
+        </main>
+    </body>
+</html>
