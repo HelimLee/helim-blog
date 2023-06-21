@@ -2,7 +2,7 @@
 title = "Info"
 
   [[entries.entries]]
-  title = "这里是李荷岭的网络居所"
+  title = "这里是<a href='/about'>李荷岭</a>的网络居所"
 
   [[entries.entries]]
   title = "一个人的低语，也是一群人的呐喊。"
@@ -11,10 +11,13 @@ title = "Info"
   title = "站点内容遵照CC-BY-SA协议提供。"
 
 [[entries]]
-title = "All posts"
-
+title = "Posts"
+  [[entries.entries]]
+  title = "Categories"
+  url = "/categories"
+  
   [entries.post_list]
-  limit = 15
+  limit = 5
   show_more = true
   show_more_text = "See more posts..."
   show_more_url = "archive"
@@ -28,11 +31,18 @@ title = "Additional Content"
 
   [[entries.entries]]
   title = "Friends"
-
+  url = "mailto:i@helim.net?subject=Add Friend Link"
     [[entries.entries.entries]]
     title = "晓雨杂记"
     url = "https://lihaoyu.cn/"
 
+  [[entries.entries]]
+  title = "开往"
+  url = "https://travellings.cn/go.html"
+
+  [[entries.entries]]
+  title = "十年之约(虫洞)"
+  url = "https://foreverblog.cn/go.html"
 [[entries]]
 title = "Reminder for Admin"
 entries = [

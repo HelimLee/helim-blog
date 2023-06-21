@@ -4,3 +4,5 @@ title = '荷岭网居'
 
 theme = 'nostyleplease'
 
+[markup.goldmark.renderer]
+unsafe= true
