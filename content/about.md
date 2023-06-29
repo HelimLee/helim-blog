@@ -24,9 +24,7 @@ draft: false
                 This is really sad.</p>
             <p>However, clear your sadness, then realize that stands for there are 90% of hope waiting there.</p>
             <h2 id="-">联系我</h2>
-            <p>公益及开源性质服务，请联系我的个人邮箱<a href="mailto:heliumlee@tutanota.com">heliumlee@tutanota.com</a></p>
-            <p>For non-profit and FOSS activities, contact my personal email <a
-                    href="mailto:heliumlee@tutanota.com">heliumlee@tutanota.com</a>.</p>
+            <p>请联系电子邮箱：<a href="mailto:i@helim.net">i@helim.net</a> </p>
             <h2 id="-">敏感技术声明</h2>
             <p>本站（指本网站和夏荷/李荷岭运行的其他所有网络实体）可能使用一系列的敏感技术，包括但不限于Cookies和类似技术和有版权或其他问题的AI模型。</p>
             <p>本站积极采取措施应对这些敏感技术可能的副作用，并力求最小化争议。本站最小化Cookies使用，不主动使用第三方统计和第三方Cookies. 本站使用自建（应用）Umami统计。</p>
