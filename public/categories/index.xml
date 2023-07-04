@@ -2,89 +2,89 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 荷岭网居</title>
-    <link>https://blog.helim.net/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on 荷岭网居</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 28 May 2023 19:38:54 +0000</lastBuildDate><atom:link href="https://blog.helim.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Jun 2023 10:29:27 +0800</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diaries</title>
+      <link>/categories/diaries/</link>
+      <pubDate>Wed, 21 Jun 2023 10:29:27 +0800</pubDate>
+      
+      <guid>/categories/diaries/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Science</title>
-      <link>https://blog.helim.net/categories/science/</link>
+      <link>/categories/science/</link>
       <pubDate>Sun, 28 May 2023 19:38:54 +0000</pubDate>
       
-      <guid>https://blog.helim.net/categories/science/</guid>
+      <guid>/categories/science/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Notifications</title>
-      <link>https://blog.helim.net/categories/notifications/</link>
+      <link>/categories/notifications/</link>
       <pubDate>Fri, 26 May 2023 20:25:54 +0000</pubDate>
       
-      <guid>https://blog.helim.net/categories/notifications/</guid>
+      <guid>/categories/notifications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Thinking</title>
-      <link>https://blog.helim.net/categories/thinking/</link>
+      <link>/categories/thinking/</link>
       <pubDate>Wed, 24 May 2023 20:24:43 +0000</pubDate>
       
-      <guid>https://blog.helim.net/categories/thinking/</guid>
+      <guid>/categories/thinking/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Uncategorized</title>
-      <link>https://blog.helim.net/categories/uncategorized/</link>
+      <link>/categories/uncategorized/</link>
       <pubDate>Sat, 20 May 2023 13:04:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/categories/uncategorized/</guid>
+      <guid>/categories/uncategorized/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Literature</title>
-      <link>https://blog.helim.net/categories/literature/</link>
+      <link>/categories/literature/</link>
       <pubDate>Fri, 12 May 2023 13:36:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/categories/literature/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Diaries</title>
-      <link>https://blog.helim.net/categories/diaries/</link>
-      <pubDate>Wed, 03 May 2023 21:49:00 +0000</pubDate>
-      
-      <guid>https://blog.helim.net/categories/diaries/</guid>
+      <guid>/categories/literature/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Novels</title>
-      <link>https://blog.helim.net/categories/novels/</link>
+      <link>/categories/novels/</link>
       <pubDate>Tue, 02 May 2023 22:12:28 +0000</pubDate>
       
-      <guid>https://blog.helim.net/categories/novels/</guid>
+      <guid>/categories/novels/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Computer Science</title>
-      <link>https://blog.helim.net/categories/computer-science/</link>
+      <link>/categories/computer-science/</link>
       <pubDate>Sun, 30 Apr 2023 15:07:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/categories/computer-science/</guid>
+      <guid>/categories/computer-science/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Radio Technology</title>
-      <link>https://blog.helim.net/categories/radio-technology/</link>
+      <link>/categories/radio-technology/</link>
       <pubDate>Wed, 22 Mar 2023 21:07:15 +0000</pubDate>
       
-      <guid>https://blog.helim.net/categories/radio-technology/</guid>
+      <guid>/categories/radio-technology/</guid>
       <description></description>
     </item>
     

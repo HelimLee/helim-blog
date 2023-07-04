@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>公益服务 on 荷岭网居</title>
-    <link>https://blog.helim.net/tags/%E5%85%AC%E7%9B%8A%E6%9C%8D%E5%8A%A1/</link>
+    <link>/tags/%E5%85%AC%E7%9B%8A%E6%9C%8D%E5%8A%A1/</link>
     <description>Recent content in 公益服务 on 荷岭网居</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 13 May 2023 22:05:00 +0000</lastBuildDate><atom:link href="https://blog.helim.net/tags/%E5%85%AC%E7%9B%8A%E6%9C%8D%E5%8A%A1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 May 2023 22:05:00 +0000</lastBuildDate><atom:link href="/tags/%E5%85%AC%E7%9B%8A%E6%9C%8D%E5%8A%A1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Helim ASP 本站的非商业AI使用帮助</title>
-      <link>https://blog.helim.net/notifications/helim-asp-%E6%9C%AC%E7%AB%99%E7%9A%84%E9%9D%9E%E5%95%86%E4%B8%9Aai%E4%BD%BF%E7%94%A8%E5%B8%AE%E5%8A%A9/</link>
+      <link>/notifications/helim-asp-%E6%9C%AC%E7%AB%99%E7%9A%84%E9%9D%9E%E5%95%86%E4%B8%9Aai%E4%BD%BF%E7%94%A8%E5%B8%AE%E5%8A%A9/</link>
       <pubDate>Sat, 13 May 2023 22:05:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/notifications/helim-asp-%E6%9C%AC%E7%AB%99%E7%9A%84%E9%9D%9E%E5%95%86%E4%B8%9Aai%E4%BD%BF%E7%94%A8%E5%B8%AE%E5%8A%A9/</guid>
+      <guid>/notifications/helim-asp-%E6%9C%AC%E7%AB%99%E7%9A%84%E9%9D%9E%E5%95%86%E4%B8%9Aai%E4%BD%BF%E7%94%A8%E5%B8%AE%E5%8A%A9/</guid>
       <description>Helim ASP (AI Service Provider) 是我的一个公益（非盈利、非商用）计划，旨在帮助难以使用最新的AI内容生成技术的创作者与其它互联网边缘用户，更好地使用这些技术，并以此拓展文艺的素养。正如《为什么互联网的边缘用户如此重要？》所记录的我的感想一样，这个计划的目的还包括通过提供非商业的AI使用机会，通过将中心技术推向边缘的形式，力求将最新的技术推给多数人，以保障他们的数字权利。如果您也希望让新科技投入到更广泛的群众中去，您也可以尝试开展类似的计划。但本计划只是个人爱好、研究性质的，并不希望扩张团队范围。
 简叙 现在很多内容创作者，或者很多有志于通过AI来创作内容的人士，亦或者只是对AI感兴趣的过客，都因为这样那样的原因，没有条件亲手尝试AI，或者没有耐心和闲暇、负担不起学习成本，所以无法将AI运行出比较好的结果。在专业工作者们正为了AI和去中心化概念结合起来的同时，我这个非专业的爱好者，也想利用手头的资源，添一把向上的火，帮助更多的人进入和了解AI相关的内容创作，以让我们的表达权得到共同的进步。同时，还可以帮助初创的内容创作者，让人与AI优势互补，创作出既有特色，又有一定技术含量的混合作品（即混合了音乐、文学、美术等等多门美学学科的成就的作品），以此提升创作者知名度，方便日后与其它对象展开深度合作——最终也会反映到文化的更加多元上来——因为AI给予了其使用者平等程度表达的可能。
 [scode type=&amp;ldquo;yellow&amp;rdquo;]再次强调：这是一个个人的、非商业的兴趣项目。请求使用AI者需要为他们的生成作品负完全责任。我会出于友谊地提示不适宜生成的内容，但不对其结果负任何责任，请知晓。本人未运行任何交互式网站平台来直接提供这些服务，本人不是ISP（互联网服务提供商/云服务商）。[/scode]

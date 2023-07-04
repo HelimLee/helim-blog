@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>统计 on 荷岭网居</title>
-    <link>https://blog.helim.net/tags/%E7%BB%9F%E8%AE%A1/</link>
+    <link>/tags/%E7%BB%9F%E8%AE%A1/</link>
     <description>Recent content in 统计 on 荷岭网居</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 28 May 2023 19:38:54 +0000</lastBuildDate><atom:link href="https://blog.helim.net/tags/%E7%BB%9F%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 May 2023 19:38:54 +0000</lastBuildDate><atom:link href="/tags/%E7%BB%9F%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>数据后室-The Backrooms Fandom中英两站页面数量变迁估测</title>
-      <link>https://blog.helim.net/science/backrooms-statistics/</link>
+      <link>/science/backrooms-statistics/</link>
       <pubDate>Sun, 28 May 2023 19:38:54 +0000</pubDate>
       
-      <guid>https://blog.helim.net/science/backrooms-statistics/</guid>
+      <guid>/science/backrooms-statistics/</guid>
       <description>本站不是The Backrooms的附属/官方网站，本统计只是娱乐目的，请您知晓。
 数据收集 数据样本是从Internet Archive的Wayback Machine留存的页面中收集而来的。可信度高，连续性较强。通过对数据的归纳汇总估算了每个月月末的页面数量，可能会有所偏差。且本次数据收集排除了极端异常量（Fandom Backrooms CN删文退站高峰期的数据并没有被Internet Archive记录下来），导致在短时极端事件期间的数据未有明确体现。
 数据分析 调查是重要的了解事物发展的方式。通过本次参考性的抽样调查，可以看出中英后室两站的发展具有以下共同特点：

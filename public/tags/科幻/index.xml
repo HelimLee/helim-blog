@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>科幻 on 荷岭网居</title>
-    <link>https://blog.helim.net/tags/%E7%A7%91%E5%B9%BB/</link>
+    <link>/tags/%E7%A7%91%E5%B9%BB/</link>
     <description>Recent content in 科幻 on 荷岭网居</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 16 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.helim.net/tags/%E7%A7%91%E5%B9%BB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/%E7%A7%91%E5%B9%BB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>展望未来：2035年的互联网模样</title>
-      <link>https://blog.helim.net/thinking/%E5%B1%95%E6%9C%9B%E6%9C%AA%E6%9D%A52035%E5%B9%B4%E7%9A%84%E4%BA%92%E8%81%94%E7%BD%91%E6%A8%A1%E6%A0%B7/</link>
+      <link>/thinking/%E5%B1%95%E6%9C%9B%E6%9C%AA%E6%9D%A52035%E5%B9%B4%E7%9A%84%E4%BA%92%E8%81%94%E7%BD%91%E6%A8%A1%E6%A0%B7/</link>
       <pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/thinking/%E5%B1%95%E6%9C%9B%E6%9C%AA%E6%9D%A52035%E5%B9%B4%E7%9A%84%E4%BA%92%E8%81%94%E7%BD%91%E6%A8%A1%E6%A0%B7/</guid>
+      <guid>/thinking/%E5%B1%95%E6%9C%9B%E6%9C%AA%E6%9D%A52035%E5%B9%B4%E7%9A%84%E4%BA%92%E8%81%94%E7%BD%91%E6%A8%A1%E6%A0%B7/</guid>
       <description>是时候看看，2035 年，或者说是二十一世纪中前期的互联网，应该会发展到什么模样了！
 一、一个更加节能的、可持续的网络 到 2035 年，世界互联网的碳排放量将大幅度减小，且极有可能在这之前就已经实现了碳达峰，并积极地向碳中和发展。这样说并非没有道理。
 要造成一个更加低碳的网络，其一是倚赖低技术、低能耗的独立网站数量激增，并逐步取代中心化的大型网络平台。前者数量的激增，将和互联网风气变得更加崇尚技术、更加开放有关，而后者数量的锐减，则和网络去中心化运动密切相关。但总地来说，因为中心化的大型网络平台，如某些社交网络衰落直至消失，2035 年的互联网之碳排放将有效降低。这并不难理解。某些大型的社交网络，为了牟取利益，必须保持 “长期高性能” 在线，而这对资源的消耗和浪费是非常严重的。一个大型的数据中心所消耗的能量是一个普通家庭的几千倍，而前者的大部分能量，都是在网络低峰期毫无意义地被浪费掉了。在 2035 年，由于网络风气更加开放，以及 IPv6 的大力普及，每个人都将有权使用它们的接入网络搭建自己的网站，而且，因为这些网站是个人的、非盈利性的，它们并不需要处理极其大的流量，也不需要保持 “24*7 在线”—— 它们可能可以一天只在高峰期在线 8 个甚至 5 个小时。而且，因为工作负载轻，它们的功耗可以很小，在极限情况下可以小至 2W，一般情况下也可以在 50W 左右正常工作。考虑到 2035 年半导体的进一步发展，这些设备的功耗可以比现在预想的小的多（因为能效比可以进一步提高）。个人博客等个人独立网站逐渐取代大型社交网络的计划听起来很疯狂，但这将会切实地减小能源浪费，同时还附带地提升了网络的稳定性。
@@ -24,10 +24,10 @@
     
     <item>
       <title>带来她的眼睛（终：一）</title>
-      <link>https://blog.helim.net/novels/%E5%B8%A6%E6%9D%A5%E5%A5%B9%E7%9A%84%E7%9C%BC%E7%9D%9B%E7%BB%88%E4%B8%80/</link>
+      <link>/novels/%E5%B8%A6%E6%9D%A5%E5%A5%B9%E7%9A%84%E7%9C%BC%E7%9D%9B%E7%BB%88%E4%B8%80/</link>
       <pubDate>Tue, 02 May 2023 22:12:28 +0000</pubDate>
       
-      <guid>https://blog.helim.net/novels/%E5%B8%A6%E6%9D%A5%E5%A5%B9%E7%9A%84%E7%9C%BC%E7%9D%9B%E7%BB%88%E4%B8%80/</guid>
+      <guid>/novels/%E5%B8%A6%E6%9D%A5%E5%A5%B9%E7%9A%84%E7%9C%BC%E7%9D%9B%E7%BB%88%E4%B8%80/</guid>
       <description>本文是对永远明亮的双眼，一世短暂的闹钟（终）一文的故事提纲的补全。
 2131 年 4 月 24 日，GMT17:18, 月球，红旗六号地下实验综合体，放射区入口走道 H-1
 岭一行人在这个昏暗的走道里，尽管没人穿皮鞋或者高跟鞋，走道里还是回响着明亮的脚步声。而且还能隐约听见隐藏在脚步声中感应电灯开关的声音。或许这就是拜吸音能力极强的月壤所赐罢。墙上还贴着海报，上面的日期都好像是最新的，什么” 庆祝 2131 年五一星际工人劳动节 “之类，看来说这里是个废弃设施还是有点不妥。但尽管周遭环境收拾的多么停当，那些悬浮在空气中的月尘也还是暗示，这里最多就只有几个 AI 维持日常的打理了。且灰尘这般大，恐怕，那几个 AI 也坚持不了几天了。
@@ -80,10 +80,10 @@
     
     <item>
       <title>公寓：《蔚然成林》最终章</title>
-      <link>https://blog.helim.net/novels/%E5%85%AC%E5%AF%93%E8%94%9A%E7%84%B6%E6%88%90%E6%9E%97%E6%9C%80%E7%BB%88%E7%AB%A0/</link>
+      <link>/novels/%E5%85%AC%E5%AF%93%E8%94%9A%E7%84%B6%E6%88%90%E6%9E%97%E6%9C%80%E7%BB%88%E7%AB%A0/</link>
       <pubDate>Sat, 04 Feb 2023 21:35:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/novels/%E5%85%AC%E5%AF%93%E8%94%9A%E7%84%B6%E6%88%90%E6%9E%97%E6%9C%80%E7%BB%88%E7%AB%A0/</guid>
+      <guid>/novels/%E5%85%AC%E5%AF%93%E8%94%9A%E7%84%B6%E6%88%90%E6%9E%97%E6%9C%80%E7%BB%88%E7%AB%A0/</guid>
       <description>《蔚然成林》系列小说，最终章。
 22世纪初，太阳系，地球
 地球上已经不剩下多少人了。中纬度往上便被冰雪覆盖，中纬线以下则夏凉冬寒，赤道则完全被浓密的雨林覆盖。

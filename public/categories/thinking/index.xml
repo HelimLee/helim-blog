@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thinking on 荷岭网居</title>
-    <link>https://blog.helim.net/categories/thinking/</link>
+    <link>/categories/thinking/</link>
     <description>Recent content in Thinking on 荷岭网居</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 24 May 2023 20:24:43 +0000</lastBuildDate><atom:link href="https://blog.helim.net/categories/thinking/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 May 2023 20:24:43 +0000</lastBuildDate><atom:link href="/categories/thinking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>网络是一门个性飞扬的艺术</title>
-      <link>https://blog.helim.net/thinking/%E7%BD%91%E7%BB%9C%E6%98%AF%E4%B8%80%E9%97%A8%E4%B8%AA%E6%80%A7%E9%A3%9E%E6%89%AC%E7%9A%84%E8%89%BA%E6%9C%AF/</link>
+      <link>/thinking/%E7%BD%91%E7%BB%9C%E6%98%AF%E4%B8%80%E9%97%A8%E4%B8%AA%E6%80%A7%E9%A3%9E%E6%89%AC%E7%9A%84%E8%89%BA%E6%9C%AF/</link>
       <pubDate>Wed, 24 May 2023 20:24:43 +0000</pubDate>
       
-      <guid>https://blog.helim.net/thinking/%E7%BD%91%E7%BB%9C%E6%98%AF%E4%B8%80%E9%97%A8%E4%B8%AA%E6%80%A7%E9%A3%9E%E6%89%AC%E7%9A%84%E8%89%BA%E6%9C%AF/</guid>
+      <guid>/thinking/%E7%BD%91%E7%BB%9C%E6%98%AF%E4%B8%80%E9%97%A8%E4%B8%AA%E6%80%A7%E9%A3%9E%E6%89%AC%E7%9A%84%E8%89%BA%E6%9C%AF/</guid>
       <description>网络是一门个性飞扬的艺术，这种说法不无道理。且我可以粗暴地以为，这能够很好的体现网络上的矛盾与合作的艺术性。
 [scode type=&amp;ldquo;yellow&amp;rdquo;]仅代表个人观点，欢迎批评讨论[/scode]
 个性飞扬，就说明网络的成员是不同的。我以为，网络的成员可以简单的分为三类，一类是“父辈”（这些双引号表示“辈分”其实是相对于互联网诞生时间而言），一类是“兄辈”，一类是“同龄人”。无论在公众平台还是独立平台上，这三类人的总得个性就大不相同，在后者上体现的更为彻底，且这三类人各自内部又可无限细分。
@@ -31,10 +31,10 @@
     
     <item>
       <title>展望未来：2035年的互联网模样</title>
-      <link>https://blog.helim.net/thinking/%E5%B1%95%E6%9C%9B%E6%9C%AA%E6%9D%A52035%E5%B9%B4%E7%9A%84%E4%BA%92%E8%81%94%E7%BD%91%E6%A8%A1%E6%A0%B7/</link>
+      <link>/thinking/%E5%B1%95%E6%9C%9B%E6%9C%AA%E6%9D%A52035%E5%B9%B4%E7%9A%84%E4%BA%92%E8%81%94%E7%BD%91%E6%A8%A1%E6%A0%B7/</link>
       <pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/thinking/%E5%B1%95%E6%9C%9B%E6%9C%AA%E6%9D%A52035%E5%B9%B4%E7%9A%84%E4%BA%92%E8%81%94%E7%BD%91%E6%A8%A1%E6%A0%B7/</guid>
+      <guid>/thinking/%E5%B1%95%E6%9C%9B%E6%9C%AA%E6%9D%A52035%E5%B9%B4%E7%9A%84%E4%BA%92%E8%81%94%E7%BD%91%E6%A8%A1%E6%A0%B7/</guid>
       <description>是时候看看，2035 年，或者说是二十一世纪中前期的互联网，应该会发展到什么模样了！
 一、一个更加节能的、可持续的网络 到 2035 年，世界互联网的碳排放量将大幅度减小，且极有可能在这之前就已经实现了碳达峰，并积极地向碳中和发展。这样说并非没有道理。
 要造成一个更加低碳的网络，其一是倚赖低技术、低能耗的独立网站数量激增，并逐步取代中心化的大型网络平台。前者数量的激增，将和互联网风气变得更加崇尚技术、更加开放有关，而后者数量的锐减，则和网络去中心化运动密切相关。但总地来说，因为中心化的大型网络平台，如某些社交网络衰落直至消失，2035 年的互联网之碳排放将有效降低。这并不难理解。某些大型的社交网络，为了牟取利益，必须保持 “长期高性能” 在线，而这对资源的消耗和浪费是非常严重的。一个大型的数据中心所消耗的能量是一个普通家庭的几千倍，而前者的大部分能量，都是在网络低峰期毫无意义地被浪费掉了。在 2035 年，由于网络风气更加开放，以及 IPv6 的大力普及，每个人都将有权使用它们的接入网络搭建自己的网站，而且，因为这些网站是个人的、非盈利性的，它们并不需要处理极其大的流量，也不需要保持 “24*7 在线”—— 它们可能可以一天只在高峰期在线 8 个甚至 5 个小时。而且，因为工作负载轻，它们的功耗可以很小，在极限情况下可以小至 2W，一般情况下也可以在 50W 左右正常工作。考虑到 2035 年半导体的进一步发展，这些设备的功耗可以比现在预想的小的多（因为能效比可以进一步提高）。个人博客等个人独立网站逐渐取代大型社交网络的计划听起来很疯狂，但这将会切实地减小能源浪费，同时还附带地提升了网络的稳定性。
@@ -46,20 +46,20 @@
     
     <item>
       <title>Are we stepping into the wrong way of decentralization: Upgrade to WEB3 or downgrade to WEB1?</title>
-      <link>https://blog.helim.net/thinking/are-we-stepping-into-the-wrong-way-of-decentralization--upgrade-to-web3-or-downgrade-to-web1-/</link>
+      <link>/thinking/are-we-stepping-into-the-wrong-way-of-decentralization--upgrade-to-web3-or-downgrade-to-web1-/</link>
       <pubDate>Sun, 07 May 2023 19:32:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/thinking/are-we-stepping-into-the-wrong-way-of-decentralization--upgrade-to-web3-or-downgrade-to-web1-/</guid>
+      <guid>/thinking/are-we-stepping-into-the-wrong-way-of-decentralization--upgrade-to-web3-or-downgrade-to-web1-/</guid>
       <description>Nowdays people online are often talking about the Internet&amp;rsquo;s decentralization progress. However in most of the Internet edge users&amp;rsquo; minds, decentralization is just the same as something like Blockchain, NFTs, crypto or anonymous currency and so on. They call this as WEB3, a future version of web (Or maybe even internet) that based upon independent and decentralized connections and platforms.
 I. Why decentralize? Most people who actually care the Internet&amp;rsquo;s future agree that a decentralized network is the future.</description>
     </item>
     
     <item>
       <title>为何泪流</title>
-      <link>https://blog.helim.net/thinking/%E4%B8%BA%E4%BD%95%E6%B3%AA%E6%B5%81/</link>
+      <link>/thinking/%E4%B8%BA%E4%BD%95%E6%B3%AA%E6%B5%81/</link>
       <pubDate>Sat, 29 Apr 2023 11:01:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/thinking/%E4%B8%BA%E4%BD%95%E6%B3%AA%E6%B5%81/</guid>
+      <guid>/thinking/%E4%B8%BA%E4%BD%95%E6%B3%AA%E6%B5%81/</guid>
       <description>多好的一双眼睛， 多笔挺的睫毛。 却静静含着泪水， 涌动着心中的波涛。
 燕子向她问好， “泪流，泪流， 可春天不已到？” 却匆匆飞走，继续它的寻找。
 柳叶为她祈祷， “泪流，泪流， 春天可还不够早？” 却零零飘散，折成暖阳的飞刀。
@@ -74,10 +74,10 @@ I. Why decentralize? Most people who actually care the Internet&amp;rsquo;s futu
     
     <item>
       <title>无言之美，笔记若干</title>
-      <link>https://blog.helim.net/thinking/%E6%97%A0%E8%A8%80%E4%B9%8B%E7%BE%8E%E7%AC%94%E8%AE%B0%E8%8B%A5%E5%B9%B2/</link>
+      <link>/thinking/%E6%97%A0%E8%A8%80%E4%B9%8B%E7%BE%8E%E7%AC%94%E8%AE%B0%E8%8B%A5%E5%B9%B2/</link>
       <pubDate>Thu, 20 Apr 2023 22:09:53 +0000</pubDate>
       
-      <guid>https://blog.helim.net/thinking/%E6%97%A0%E8%A8%80%E4%B9%8B%E7%BE%8E%E7%AC%94%E8%AE%B0%E8%8B%A5%E5%B9%B2/</guid>
+      <guid>/thinking/%E6%97%A0%E8%A8%80%E4%B9%8B%E7%BE%8E%E7%AC%94%E8%AE%B0%E8%8B%A5%E5%B9%B2/</guid>
       <description>朱光潜有一篇耳熟能详的文章，叫做《无言之美》。非常系统地介绍了中国乃至世界文化中常常出现的“留白”或其他“无言”艺术的形式。原版文章结构很是紧凑，最妇孺皆知的、刊登在教科书上的版本，通过对于文章中一些例证的删节，使得文章自己也“无言”了起来。朱光潜以极其深厚的美学功底，和略显仓促但凭借轻松自然的语言、更能引发深思的文笔，写出来的是他和一代美学家对于“无言”这一泛艺术的一般认识。
 文章的引入，先从孔子时的名言，“予欲无言”说起。孔子，冷不丁地冒出来一句话，说自己不想要再说话了，可把他的学生吓坏了。作者就用这样戏剧性的一幕引出了全文，既用了一位知名人士，使自己的文章更有权威；又很聪明地通过恰当的选例子，把文章的整体奠定为清新自然的语言风格。可谓兼顾了风趣和严肃。继而又引发读者的思考：孔子的一些思想并不那么管用，它们真的能够作为全文所要围绕的中心论点，即“无言”吗？如此一来，调动的是读者，其实是给作者的写作留了发挥空间，方便在质疑中把自己思想的全貌予以展示。
 孔子的例子，实际上是在强调教育并不一定要以单纯的语言形式。放在之后的世界，这也是比较正确的。后来的教育大家也都提出了以生产生活为课本，以劳动为教材的概念。但朱光潜作为一名美学家，研究的是人类对于美的认识，可并不仅局限于论证教育的方法。他所做的，我认为，应该是通过把教育纳入美学的研究范畴，拓宽的是论证的广度，实际上在悄然中给问题升华了。于是无言之美不单单只是一种艺术方法，更是一种常常用到的生活策略。
@@ -91,10 +91,10 @@ I. Why decentralize? Most people who actually care the Internet&amp;rsquo;s futu
     
     <item>
       <title>涌现，意识从何而来</title>
-      <link>https://blog.helim.net/thinking/%E6%B6%8C%E7%8E%B0%E6%84%8F%E8%AF%86%E4%BB%8E%E4%BD%95%E8%80%8C%E6%9D%A5/</link>
+      <link>/thinking/%E6%B6%8C%E7%8E%B0%E6%84%8F%E8%AF%86%E4%BB%8E%E4%BD%95%E8%80%8C%E6%9D%A5/</link>
       <pubDate>Tue, 18 Apr 2023 19:00:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/thinking/%E6%B6%8C%E7%8E%B0%E6%84%8F%E8%AF%86%E4%BB%8E%E4%BD%95%E8%80%8C%E6%9D%A5/</guid>
+      <guid>/thinking/%E6%B6%8C%E7%8E%B0%E6%84%8F%E8%AF%86%E4%BB%8E%E4%BD%95%E8%80%8C%E6%9D%A5/</guid>
       <description>我看到一位站长撰的文章，关于神和世间万物的一个思考 ，真的产生了很多感慨。如果不是得益于区块链技术的发展，我可能就会自此错过很多藏匿在平凡生活中的有思想的人。当然，我的这种感慨不等同于对该站长观点的赞同。该站长的其他几篇文章我也断断续续地粗浅看过，我知道和他而论，我们思想的基础是不大一样的。但我仍然希望在这里写下我一些粗浅的、对于“意识”这种玄乎其玄的事物中自己的感慨。
 AI摘要这一功能确实很实用：这篇文章探讨了意识的起源和神的存在。作者提出了一个问题：没有意识的原子分子如何组合形成意识？如果我们假设原子分子没有意识，那么这就涉及到神创论。如果我们否定这个假设，那么意识/灵魂就是世间万物所具有的，这类似于泛神论的观点。作者认为无论如何，神是存在的，可能是独立于世间万物的神创论，也可能是渗入世间万物的泛神论，或者二者兼有。作者还提到了亚里士多德的“整体大于部分之和”命题，但不确定它是否能解释物质和意识之间的巨大鸿沟。它让我很快地就找到了这篇文章的核心论点。
 首先我的立论是，对于该作者的观点，我在总体上是难以苟同的。如果可能，带着批判的眼光，可以去看看Kurzgesagt的视频，他们有一期视频用很通俗的方式介绍了一种现象，称为“涌现现象”。大概讲一堆看似无意识的物质，拢合在一起，就能变得“更加聪明”。这种“涌现”和博主文章结尾中提到的“整体大于部分之和”这一论点非常相似。先不看博主文章的结尾，只看开头，他的理论已经明确：他先行提出的是，认为单纯凭借排列组合，基本粒子无法构成意识。在接下来的论证中，他是建立在自己这一观点已经完备的假设上论证：要么微观有神，要么宏观有神的观点，又将此总结为神存在的必然性，再依托此总结继续他的论证。作者却没有意识到，自从他文章立论的一开始，提出“意识只能赋予，不能自发产生”这一刹那始，他就已经承认了自由意志的存在，甚至还额外添了一笔，承认自由意志只能通过赋予产生，不能自行发生，直勾勾地把自己放到了唯心的地带里。这可能是导致博主接下来论证偏颇的根本——因为已经先行将自己的目光局限在比较落后的，或至少比较狭隘的单独一种哲学思想中了。针对这种认为意识不能自发产生，想要破除其实难度并不大。只需要打破砂锅问到底即可——如果意识只能通过赋予来发生，赋予意识的那个意识又是谁赋予的呢？如此递归下去，可不永远没有头了？换位思考是人类的一项本领。假如我们承认神创论，确实存在神，那神要思考，他们的意识又是谁来创造呢？于是就真的完了，这个问题永远也找不到答案了。
@@ -115,10 +115,10 @@ AI摘要这一功能确实很实用：这篇文章探讨了意识的起源和神
     
     <item>
       <title>为什么互联网的边缘用户如此重要？</title>
-      <link>https://blog.helim.net/thinking/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BA%92%E8%81%94%E7%BD%91%E7%9A%84%E8%BE%B9%E7%BC%98%E7%94%A8%E6%88%B7%E5%A6%82%E6%AD%A4%E9%87%8D%E8%A6%81/</link>
+      <link>/thinking/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BA%92%E8%81%94%E7%BD%91%E7%9A%84%E8%BE%B9%E7%BC%98%E7%94%A8%E6%88%B7%E5%A6%82%E6%AD%A4%E9%87%8D%E8%A6%81/</link>
       <pubDate>Sat, 15 Apr 2023 19:28:39 +0000</pubDate>
       
-      <guid>https://blog.helim.net/thinking/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BA%92%E8%81%94%E7%BD%91%E7%9A%84%E8%BE%B9%E7%BC%98%E7%94%A8%E6%88%B7%E5%A6%82%E6%AD%A4%E9%87%8D%E8%A6%81/</guid>
+      <guid>/thinking/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BA%92%E8%81%94%E7%BD%91%E7%9A%84%E8%BE%B9%E7%BC%98%E7%94%A8%E6%88%B7%E5%A6%82%E6%AD%A4%E9%87%8D%E8%A6%81/</guid>
       <description>本文副标题：边缘才是互联网的根本。
 几乎所有进阶的互联网使用者都明白，互联网一开始是一个专用于科研和军事情报交换的专有计算机设施，后来逐步发展成为人人访问、人人创造的全球性计算机网络。然而在这一发展的过程中，在互联网所扎根的广大现实之中，实际上已经因互联网的高速发展而发生了巨大的变革。这一变革使得原先最平凡的人也有接触互联网，接触全世界的机会——同样也使得，这一部分人作为只能接触到最浅层互联网的人——互联网的边缘用户，无比重要。
 “平凡者”？“边缘用户”？ 说平凡的互联网人等于边缘用户，这种说法并不全面。应该说边缘用户中有相当一部分都是平凡的人。一些在现实中平平无奇的人可能其实是互联网的核心用户（比如个人站长，就是贴近互联网运作中心的典型），而一些现实中明明处处得意的人则可能在使用互联网上遇到很大的困难，以至于只能使用抖音这一类最边缘的应用程序，被动接受推送，把互联网当成一个大号的电视网络来用。这种情况在很多青年时意气风发，现在衰老沧桑的老年人中很常见。
@@ -139,10 +139,10 @@ AI摘要这一功能确实很实用：这篇文章探讨了意识的起源和神
     
     <item>
       <title>大隐隐于互联网</title>
-      <link>https://blog.helim.net/thinking/%E5%A4%A7%E9%9A%90%E9%9A%90%E4%BA%8E%E4%BA%92%E8%81%94%E7%BD%91/</link>
+      <link>/thinking/%E5%A4%A7%E9%9A%90%E9%9A%90%E4%BA%8E%E4%BA%92%E8%81%94%E7%BD%91/</link>
       <pubDate>Sat, 15 Apr 2023 11:45:07 +0000</pubDate>
       
-      <guid>https://blog.helim.net/thinking/%E5%A4%A7%E9%9A%90%E9%9A%90%E4%BA%8E%E4%BA%92%E8%81%94%E7%BD%91/</guid>
+      <guid>/thinking/%E5%A4%A7%E9%9A%90%E9%9A%90%E4%BA%8E%E4%BA%92%E8%81%94%E7%BD%91/</guid>
       <description>本文已经发表在IPFS和Crossbell区块链上。详请访问去中心化夏荷博客。
 古人说“小隐隐于野，大隐隐于市”，说的太有道理了。真正的隐士不应该是一天到晚四处逃避世俗，而是应该豁达地走进世俗，凭借自己的放松应对尘世嘈杂。不愧是朴素唯物主义的道家思想，就是这样有道理。许多人在世多年，最大的期望就是找到一处僻静之所，孤独生活到老，却因为现实的阻碍无法实现田园山水的梦想。殊不知隐居的生活恰应该从脚下就开始，从最紧张的时刻开始提出隐居——有时甚至可以是从整个世界最喧嚣的地方——互联网隐居。
 有人可能要问了，互联网这样一个人人访问，人人发言的地方，恰似那菜场，你一嘴我一嘴，莫要说隐居了，怕是连正常睡觉都做不到。但这样说自身也缺乏道理。如果互联网太过吵闹，无法隐居，那山林的乐趣这些人恐怕也是享受不到的。山林并不是专为人类准备的，暗处处处都有危机四伏，指不定哪日跳出来一只大虫，就毙命其口下了。光是这种提心吊胆就已经比互联网的喧嚣更不利于隐居。再来隐居山林还要体力劳动，隐居互联网只需要动动脑子。所以“隐居”之所谓为“隐居”，就代表肯定要相较于绝对市井的生活还是要有牺牲的，不然隐居个什么劲呢？在山林隐居，要牺牲体力甚至生命；在互联网和市井隐居，要牺牲脑力甚至精神，其实是相当的。
@@ -153,10 +153,10 @@ AI摘要这一功能确实很实用：这篇文章探讨了意识的起源和神
     
     <item>
       <title>所谓的“AI绘画”真的是一个ACGN领域插画的廉价解决方案吗？</title>
-      <link>https://blog.helim.net/thinking/%E6%89%80%E8%B0%93%E7%9A%84ai%E7%BB%98%E7%94%BB%E7%9C%9F%E7%9A%84%E6%98%AF%E4%B8%80%E4%B8%AAacgn%E9%A2%86%E5%9F%9F%E6%8F%92%E7%94%BB%E7%9A%84%E5%BB%89%E4%BB%B7%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E5%90%97/</link>
+      <link>/thinking/%E6%89%80%E8%B0%93%E7%9A%84ai%E7%BB%98%E7%94%BB%E7%9C%9F%E7%9A%84%E6%98%AF%E4%B8%80%E4%B8%AAacgn%E9%A2%86%E5%9F%9F%E6%8F%92%E7%94%BB%E7%9A%84%E5%BB%89%E4%BB%B7%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E5%90%97/</link>
       <pubDate>Sun, 12 Feb 2023 16:32:21 +0000</pubDate>
       
-      <guid>https://blog.helim.net/thinking/%E6%89%80%E8%B0%93%E7%9A%84ai%E7%BB%98%E7%94%BB%E7%9C%9F%E7%9A%84%E6%98%AF%E4%B8%80%E4%B8%AAacgn%E9%A2%86%E5%9F%9F%E6%8F%92%E7%94%BB%E7%9A%84%E5%BB%89%E4%BB%B7%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E5%90%97/</guid>
+      <guid>/thinking/%E6%89%80%E8%B0%93%E7%9A%84ai%E7%BB%98%E7%94%BB%E7%9C%9F%E7%9A%84%E6%98%AF%E4%B8%80%E4%B8%AAacgn%E9%A2%86%E5%9F%9F%E6%8F%92%E7%94%BB%E7%9A%84%E5%BB%89%E4%BB%B7%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E5%90%97/</guid>
       <description>2022年末，大量声音导向了NovelAI和其它类似的StableDiffusion的AI之ACGN绘图技术，并宣称“效果卓越”“超过一般画师水平”。随后，我进行了一些亲自尝试，发现：确实如此。随后关于AI替代插画师的恐怖论调高涨，紧接着是针对AI版权正义性的质疑蜂拥而至。
 本质上，这些种种质疑之重要来源在AI的低门槛、低成本。可过去了数个月后，我却开始发现，AI绘画并不像公众想象的那样，真的是一种低成本的廉价方案。
 “AI画风”的出现 这是现阶段AI绘画最常见的问题，也是流传最广的NovelAI泄露版中包含的一大漏洞。其实也不能称之为漏洞，只是数据集中成分组成不当，产生的恶果。
@@ -190,65 +190,82 @@ AI摘要这一功能确实很实用：这篇文章探讨了意识的起源和神
     
     <item>
       <title>故事的崩塌（个人笔记）</title>
-      <link>https://blog.helim.net/thinking/%E6%95%85%E4%BA%8B%E7%9A%84%E5%B4%A9%E5%A1%8C%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/</link>
+      <link>/thinking/%E6%95%85%E4%BA%8B%E7%9A%84%E5%B4%A9%E5%A1%8C%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Tue, 31 Jan 2023 21:38:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/thinking/%E6%95%85%E4%BA%8B%E7%9A%84%E5%B4%A9%E5%A1%8C%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/</guid>
-      <description> </description>
+      <guid>/thinking/%E6%95%85%E4%BA%8B%E7%9A%84%E5%B4%A9%E5%A1%8C%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/</guid>
+      <description>写故事，这是好的！然而当故事完成，或者写到高潮尽而结尾始处，我纵使使出再多的武艺，却无法组织我故事的崩塌——就好像在向某个不稳定的领域前进。篇幅稍短一些时，一切安好。一旦篇幅长了，就迎来一步一步的崩塌，故事变得越来越生硬，甚至开始自相矛盾，驴头不对马嘴。
+我仔细思考了一下，鉴于这是一种常见且有趣的现象，应该把它记录在这个博客里。
+盖楼房假说其实写一部故事，无论篇幅长短，内容类型，都好似盖楼房，这是我体会到的第一道理。所谓的写作要打草，列提纲，本质上是给这楼房作个蓝图，好让具体施工的时候有个照应。然而如果是低矮而临时的楼房，则不必要列提纲，画蓝图，建设的时候看着些便好。
+先不论蓝图画不画与否，一个楼房无论如何都是需要地基的。除了地上的，谁都可以看得到的地方，在看不见的地方一定也要有个基础。这个基础就是一个作品所处的虚构世界的世界观。任何一部作品都会有它的世界观的。
+有的时候可能会觉得，一部不到1000字的短文，甚至虚构的成分都没有多少的纪实文学，这些连“故事”可能都算不上，为什么需要打下名为“世界观”的地下基础呢？然而事实是，最真实的文学，但凡不是为了报告之用途而撰写的，都要有艺术加工的成分，而这就代表着它必然也要虚构。一旦来了虚构，就牵扯上了世界观的构建。再低矮的楼房也要有地基，同样，再破烂的，带一丁点虚构性的文章也要有它的世界观。如果作为作者，脑子里构想的不比读者看到的多，甚至比读者悟出的还要少，就是完全地败北了。这是我悟出的第二道理。
+当然了，短文既然是短文，可供构思的世界观也不会很多。有的时候，地基甚至故意做得不是很充分，为了是留给读者自己填充的空间，激发思考，留下悬念。500字的、1000字的文本留下悬念，自然是没有关系，甚至是胜于写得事无巨细的。然而如果超过了5000字，假使世界观不是很完整，那么整个故事就呈现出不稳定的状态——如果这个时候再没有提前打提纲，情况会更糟糕——会发现所写出来的东西好像只有自己能看懂，别人思考文本背后隐藏世界所花费的精力则远远超过了他们阅读文章所获得的感慨——这个时候，故事的大厦就因为地基的不牢靠而崩塌了。
+地基毕竟是地基，对于任何建筑，自然是越深，越全面，质量越高越好的。但是在实际盖楼的时候，需要对自己盖楼的高度有个估量，再对应地打好基础，才能兼顾经济效益与房屋安全——同样，写故事的时候，纵使不打草，也要知道自己要写多少，然后再根据这个先构建好自己这个虚构的世界的面貌，才是平衡精力与效果的最佳选择。如果故事很长，这个虚构的世界将非常全面。比如要写一个外星人攻打地球的俗套但经典的例子故事，要想脱颖而出，最起码要构思好外星人的社会和地球人社会的成员构成如何，双方都有哪些武器，哪些思想——甚至各自发展的历史进程之中彼此的互相影响。
+打地基是盖楼房的步骤了，打草稿——画蓝图则是在设计的时候要完成的。后者和前者的最大不同，我悟出来的第三道理是，打草稿并不是必须要做的事。500-1000字的短文，我自以为是不必准备上甚么草稿的，大概明白自己要写甚么就好——单层楼房就不需要甚么蓝图一般。但怕的是摩天大楼也不准备草稿，这会是要命的。虚构的世界观再完备，如果故事的发展连作者自己都“看着办”，那整个楼房要么“老办法”，每一层都盖得一模一样，毫无波澜，要么“没法办”，写着写着就发现由于自己都忘记了之前的剧情链条，写得开始自相矛盾了。
+故事以连载的形式发表出来时，草稿和大纲们就是救命稻草，万金油。因为连载这种对作者“较为愉悦”的交稿方式很有欺骗性——好像我可以自由决定每一篇故事下一篇的走向，而整个故事会“自然而然”就连成了一个整体。殊不知，连载是连续剧，不是《猫和老鼠》，集与集是密切相关的，整个故事的走向和大概的情节在第一篇连载文章发表之前，就应该完全确定下来，除非发生了什么惊天动地的大事，否则不应该因为任何原因再修改。没有大纲，哪怕不是写在纸上而是脑子里的大纲，写完一期就去睡觉了，等一觉醒来准备下一篇的时候发现写出来的东西就已经开始矛盾了，因为楼层都盖得错位了，楼房自然倾斜，然后坍塌。有大纲后，作者不像是在一边写作一边发表，更像是把一篇写好了的长文截成一段段短一些的文章，然后故意拖延时间，一篇篇再发出来——这就是连续性强的连载应该有的感觉。
+悲剧故事是讲究转折，讲究给读者一个出其不意。这是所谓的“刀子”，前期塑造阳光感情，后来转向黑暗。然而这种出其不意绝对只是针对读者。作者自己可绝对不能有任何出其不意，而是要保证无论是现实中还是故事中，每一步发展都在一个完备的计划之下，而这个计划的一个可能的名字叫做“大纲”“草稿”。所以有笑话，说悲剧都是在得意的时候写出来的，有道理。得意时候精神好，脑子清醒，清楚这个名为“大纲”的故事线计划是怎么定的，自然悲得彻底。所谓的悲喜剧并不是决定要不要大纲的理由。决定要不要大纲的，还是故事的长度——这是我悟出的第四个道理。
+大纲和世界观好像一个道理，实则不一致。世界观是个静态的对象，共享的文件，在整个故事里处处是它的作用域，因为整座楼房都是用名为世界观的地基撑起来的。一般的世界观是这个虚构世界最平凡，如果大纲里的剧情不发生，它永远不会改变的面貌。而大纲则是对这个世界观的挑战，给平凡的虚构草原挤进一丝反抗的火星，然后燃起名曰故事的燎原大火。用三要素的原理，世界观是“在哪里”，而大纲是“怎么了”。
+盖房子难道不选址吗？可是很多时候会忽略，房子要盖起来，它外部的自然条件也是至关重要的。在火山口上盖房子，火山一喷发，别说房子，命恐怕也要搭进去。所以要选择地质条件优越，而环境安全的地带盖房子。
+而这个过程，在写故事，就是要确保故事是符合现实事理的。这是我悟到的第五个道理——最纪实的文艺也有艺术的虚构，同样，最虚构的艺术也是现实的照应。不信吗？那请列举一个和现实脱节的成功作品。几乎每一个作品，尤其是成功的作品，都和现实密切相关。要么就是直截了当地为了某种现实目的而创作，要么就是为了反应现实，再不济也有对于现实事物事理的借鉴。
+世界观是虚构的，但地基所占据的土地要适合盖房子才能动工。所以就要选择贴近现实的地方开工，因为那里是土地优渥之处。
+总结故事的建构和房屋的建筑是一般的。都要设计、选址、打基础才动工一部作品，读者能看到的一定要比作者能想到的少打草稿和列提纲对于短作品，不是必须的，强行干还会限制创造力对于连载长文，一定要有大纲，一定要在所有文章完结前比所有人先知道结局最纪实的文艺也有艺术的虚构，最虚构的艺术也是现实的照应</description>
     </item>
     
     <item>
       <title>Is this the end?</title>
-      <link>https://blog.helim.net/thinking/is-this-the-end-/</link>
+      <link>/thinking/is-this-the-end-/</link>
       <pubDate>Sun, 29 Jan 2023 21:36:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/thinking/is-this-the-end-/</guid>
-      <description> </description>
+      <guid>/thinking/is-this-the-end-/</guid>
+      <description>Admit it or not, every story, including stories in fictional writings and stories in real life, all have its own endings. Sun will explode in the future, while even the universe will destroy itself after a countable time. People like dividing endings to several or only two groups. One group is called &#34;Happy Ending&#34;, while the other is called &#34;Bad Ending&#34;. Both the names show the people&#39;s opinions on these two different types of the endings.</description>
     </item>
     
     <item>
       <title>Discussing AI Artworks copyrights problems and AI Artwork’s values of culture</title>
-      <link>https://blog.helim.net/thinking/discussing-ai-artworks-copyrights-problems-and-ai-artworks-values-of-culture/</link>
+      <link>/thinking/discussing-ai-artworks-copyrights-problems-and-ai-artworks-values-of-culture/</link>
       <pubDate>Thu, 12 Jan 2023 20:12:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/thinking/discussing-ai-artworks-copyrights-problems-and-ai-artworks-values-of-culture/</guid>
-      <description> </description>
+      <guid>/thinking/discussing-ai-artworks-copyrights-problems-and-ai-artworks-values-of-culture/</guid>
+      <description>By Helium Lee
+What happened?In late 2022, a great number of AIs were released to the public. And, surprisingly, most of them have something to do with ARTWORK, which used to be considered a “cold point” of AI development, because people usually think that AI lack in “CREATING” things, while the invention of Stable Diffusion completely ends those thoughts.
+While developing and using better models, problems also came up.</description>
     </item>
     
     <item>
       <title>我们正空前光荣地见证艺术的变革</title>
-      <link>https://blog.helim.net/thinking/%E6%88%91%E4%BB%AC%E6%AD%A3%E7%A9%BA%E5%89%8D%E5%85%89%E8%8D%A3%E5%9C%B0%E8%A7%81%E8%AF%81%E8%89%BA%E6%9C%AF%E7%9A%84%E5%8F%98%E9%9D%A9/</link>
+      <link>/thinking/%E6%88%91%E4%BB%AC%E6%AD%A3%E7%A9%BA%E5%89%8D%E5%85%89%E8%8D%A3%E5%9C%B0%E8%A7%81%E8%AF%81%E8%89%BA%E6%9C%AF%E7%9A%84%E5%8F%98%E9%9D%A9/</link>
       <pubDate>Sat, 29 Oct 2022 22:16:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/thinking/%E6%88%91%E4%BB%AC%E6%AD%A3%E7%A9%BA%E5%89%8D%E5%85%89%E8%8D%A3%E5%9C%B0%E8%A7%81%E8%AF%81%E8%89%BA%E6%9C%AF%E7%9A%84%E5%8F%98%E9%9D%A9/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;</description>
+      <guid>/thinking/%E6%88%91%E4%BB%AC%E6%AD%A3%E7%A9%BA%E5%89%8D%E5%85%89%E8%8D%A3%E5%9C%B0%E8%A7%81%E8%AF%81%E8%89%BA%E6%9C%AF%E7%9A%84%E5%8F%98%E9%9D%A9/</guid>
+      <description>&lt;p&gt;副标题：能看到头一次人工智能对于艺术领域的探索，是我们所有人一生的荣幸&lt;/p&gt;&lt;p&gt;讲真的，这些天里悲观的声音愈来愈多了。有关于艺术，尤其是较为小众的二次元——私人稿件艺术的未来，正变得更加扑朔迷离。一切的根源来自10月13号一位外国友人泄露了Novel AI的模型，人们开始获得轻松使用AI软件创作图画的机会。只要手头有一张2000以上N卡，简简单单点下鼠标，输入并不晦涩的代码，就可以轻松通过关键词生成自己想要的动漫风格人像画。更有甚者利用Google Colab的免费资源，开启了0成本AI作图的新纪元——点三下鼠标，访问一个网址，输入关键词再点击生成——一切就完成了！随后开源的后端模型应运而生，开始逐渐替代原先泄露的官方模型（那可能有安全问题），伟大的互联网开源精神极大地推动了这一技术的大众化和安全化、透明化。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>浅谈国漫之光《废柴狐阿桔》——“人类”的边界到底在哪里？</title>
-      <link>https://blog.helim.net/thinking/%E6%B5%85%E8%B0%88%E5%9B%BD%E6%BC%AB%E4%B9%8B%E5%85%89%E5%BA%9F%E6%9F%B4%E7%8B%90%E9%98%BF%E6%A1%94%E4%BA%BA%E7%B1%BB%E7%9A%84%E8%BE%B9%E7%95%8C%E5%88%B0%E5%BA%95%E5%9C%A8%E5%93%AA%E9%87%8C/</link>
+      <link>/thinking/%E6%B5%85%E8%B0%88%E5%9B%BD%E6%BC%AB%E4%B9%8B%E5%85%89%E5%BA%9F%E6%9F%B4%E7%8B%90%E9%98%BF%E6%A1%94%E4%BA%BA%E7%B1%BB%E7%9A%84%E8%BE%B9%E7%95%8C%E5%88%B0%E5%BA%95%E5%9C%A8%E5%93%AA%E9%87%8C/</link>
       <pubDate>Thu, 06 Oct 2022 05:42:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/thinking/%E6%B5%85%E8%B0%88%E5%9B%BD%E6%BC%AB%E4%B9%8B%E5%85%89%E5%BA%9F%E6%9F%B4%E7%8B%90%E9%98%BF%E6%A1%94%E4%BA%BA%E7%B1%BB%E7%9A%84%E8%BE%B9%E7%95%8C%E5%88%B0%E5%BA%95%E5%9C%A8%E5%93%AA%E9%87%8C/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;</description>
+      <guid>/thinking/%E6%B5%85%E8%B0%88%E5%9B%BD%E6%BC%AB%E4%B9%8B%E5%85%89%E5%BA%9F%E6%9F%B4%E7%8B%90%E9%98%BF%E6%A1%94%E4%BA%BA%E7%B1%BB%E7%9A%84%E8%BE%B9%E7%95%8C%E5%88%B0%E5%BA%95%E5%9C%A8%E5%93%AA%E9%87%8C/</guid>
+      <description>&lt;p&gt;副标题：“人类”的边界到底在哪里？&lt;/p&gt;&lt;p&gt;本文字数10841字，预计消耗您50分钟用于彻底的阅读，27分钟用于走马观花式的阅读。&lt;/p&gt;&lt;p&gt;讲真，在刚刚看到《废柴狐阿桔》这部漫画的动画版本时，我是有点反感的，大抵是因为长期以来的观影经验促使我看到那种偏可爱风格的画风就不能做些严肃的思考。而剧情整体的发展竟然还透露着一丝腐朽的爱情气息，更是让我觉得有几分矫揉造作。看到动画最后一集，阿桔和小汤在树顶看落日的场面之后我本来还对国漫的复兴又失望了几分，突然看到一条弹幕飘过。&lt;/p&gt;&lt;p&gt;“接下来还有剧情都在漫画里头”&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>如何正确看待一部文艺作品？——夏荷播客《文艺综合评论》</title>
-      <link>https://blog.helim.net/thinking/%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E7%9C%8B%E5%BE%85%E4%B8%80%E9%83%A8%E6%96%87%E8%89%BA%E4%BD%9C%E5%93%81%E5%A4%8F%E8%8D%B7%E6%92%AD%E5%AE%A2%E6%96%87%E8%89%BA%E7%BB%BC%E5%90%88%E8%AF%84%E8%AE%BA/</link>
+      <link>/thinking/%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E7%9C%8B%E5%BE%85%E4%B8%80%E9%83%A8%E6%96%87%E8%89%BA%E4%BD%9C%E5%93%81%E5%A4%8F%E8%8D%B7%E6%92%AD%E5%AE%A2%E6%96%87%E8%89%BA%E7%BB%BC%E5%90%88%E8%AF%84%E8%AE%BA/</link>
       <pubDate>Sun, 02 Oct 2022 15:56:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/thinking/%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E7%9C%8B%E5%BE%85%E4%B8%80%E9%83%A8%E6%96%87%E8%89%BA%E4%BD%9C%E5%93%81%E5%A4%8F%E8%8D%B7%E6%92%AD%E5%AE%A2%E6%96%87%E8%89%BA%E7%BB%BC%E5%90%88%E8%AF%84%E8%AE%BA/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;</description>
+      <guid>/thinking/%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E7%9C%8B%E5%BE%85%E4%B8%80%E9%83%A8%E6%96%87%E8%89%BA%E4%BD%9C%E5%93%81%E5%A4%8F%E8%8D%B7%E6%92%AD%E5%AE%A2%E6%96%87%E8%89%BA%E7%BB%BC%E5%90%88%E8%AF%84%E8%AE%BA/</guid>
+      <description>&lt;h1&gt;收听方式&lt;/h1&gt;&lt;p&gt;在本站（夏荷播客）上激动地收听：[由于更新事故，有关文件已经丢失]&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>祝愿全世界所有劳动者五一劳动节快乐！/ Happy May Day to all workers!</title>
-      <link>https://blog.helim.net/cs/%E7%A5%9D%E6%84%BF%E5%85%A8%E4%B8%96%E7%95%8C%E6%89%80%E6%9C%89%E5%8A%B3%E5%8A%A8%E8%80%85%E4%BA%94%E4%B8%80%E5%8A%B3%E5%8A%A8%E8%8A%82%E5%BF%AB%E4%B9%90--happy-may-day-to-all-workers/</link>
+      <link>/cs/%E7%A5%9D%E6%84%BF%E5%85%A8%E4%B8%96%E7%95%8C%E6%89%80%E6%9C%89%E5%8A%B3%E5%8A%A8%E8%80%85%E4%BA%94%E4%B8%80%E5%8A%B3%E5%8A%A8%E8%8A%82%E5%BF%AB%E4%B9%90--happy-may-day-to-all-workers/</link>
       <pubDate>Sun, 01 May 2022 10:28:57 +0000</pubDate>
       
-      <guid>https://blog.helim.net/cs/%E7%A5%9D%E6%84%BF%E5%85%A8%E4%B8%96%E7%95%8C%E6%89%80%E6%9C%89%E5%8A%B3%E5%8A%A8%E8%80%85%E4%BA%94%E4%B8%80%E5%8A%B3%E5%8A%A8%E8%8A%82%E5%BF%AB%E4%B9%90--happy-may-day-to-all-workers/</guid>
-      <description> </description>
+      <guid>/cs/%E7%A5%9D%E6%84%BF%E5%85%A8%E4%B8%96%E7%95%8C%E6%89%80%E6%9C%89%E5%8A%B3%E5%8A%A8%E8%80%85%E4%BA%94%E4%B8%80%E5%8A%B3%E5%8A%A8%E8%8A%82%E5%BF%AB%E4%B9%90--happy-may-day-to-all-workers/</guid>
+      <description>劳动节是属于全体劳动者、全体无产阶级的节日，让我们在此庆祝五一劳动节，纪念美国工人的英勇罢工！
+May Day is a day for all workers.Let us celebrate it together, and remember the brave behavior of American workers!</description>
     </item>
     
   </channel>

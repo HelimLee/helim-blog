@@ -3,6 +3,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
    <meta name="description" content="Public Suffix List or PSL，这一专有名词常常出现在各大信息提供者与个人博客上。很多个人博客（包括本博客）在交换友链的时候都指出，域名必须是被PSL收录的后缀。但很多人可能对此有疑惑，为什么要维护这样一份列表，来记录这些Public Suffix呢？更有人会疑问，为什么 .gitee.io这样的域名会选择拒绝加入PSL,或者说，成为一个Public Suffix又意味着什么呢？让我们来从PSL入手，浅看一下当今互联网，在域名层保护隐私、提升用户体验的方式吧。
 一、什么是、为什么、如何是Public Suffix Public Suffix的官方定义是一种任何人都可以（或曾可以）注册的域名之域名后缀。这个定义十分有趣，它实际上指出了浏览器或者其他WEB客户端，是怎么判断“域名”这一概念的构成的。
 我们在互联网上能看到很多“免费二级域名解析”服务，它们往往很有用，可以帮助开发者快速取得公开提供的域名，而不是发一串长而难记忆的IP地址。但这些二级域名解析当中的大部分的所谓“一级域名”都是没有被收录进PSL的，可以理解为它们并没有被认定为是Public Suffix。由此可以将Public Suffix翻译为“公共后缀”。一个例子：假如example.com提供免费的“二级域名解析”，就会有人注册hello.example.com，那这时hello.example.com和example.com就会被认为是一个网站运营体的两个不同的域名，因为后者并没有被视作对外提供注册的Public Suffix。
@@ -18,7 +19,6 @@
 小蓝和小红的例子听起来有些片面，但却准确体现了Super Cookies怎么会造成一个严重的隐私悲剧。但倘若使用PSL中收录的二级域名解析，那这些问题大部分可以避免。现在小蓝注册了blue.eu.org，小红注册了red.eu.org。即使小蓝篡改了小红的页面，使它设置来自blue..的Cookies，因为.eu.org被视作公共后缀，两个网站也被视作截然不同的两站，小蓝被视作小红的第三方——所以浏览器英勇且正确地拦截了这一个请求，使小蓝的破坏计划不能得逞。再极端一点，假如某个PS提供商监守自盗，作为一级域名去篡改二级用户的页面，因为作为公共后缀会被浏览器视为第三方，这些Cookies设定也会被拦截。Super Cookies的威胁成功解除！
 此外，PSL还有一些别的用途。比如将一个域名中最重要的部分加粗显示。p2n2.eu.org这个域名中，显然应该加粗的部分是p2n2，而不应加粗p2n2.eu。或者帮助用户键入正确的域名前缀，正确的解析主机名等。
 总结：为什么拒绝非PSL域名？ 总地看来，友链交换和其他将网站公开链接展示的场合中，拒绝非PSL域名的原因也很好理解了——如果不去这样做，将是对用户隐私的不负责任。因为非PSL域名下的二级域名网站们，在被访问时，浏览器无法正确标记和警惕、拦截第三方Cookies。而如果将这些潜在的危险链接暴露向公众，那的确是不倡导的。我们应该自觉在使用二级域名解析服务时，优先选择那些被PSL收录的域名。保护自己，也尊重他人。">  
-  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-webfont/1.6.0/style.min.css">
   <title>
     
       关于Public Suffix List,你所要知道的一切
@@ -26,11 +26,10 @@
   </title>
 
 
-  <link rel="shortcut icon" type="image/x-icon" href="/" />
   
   
   
-  <link rel="stylesheet" href="/css/main.d07cfa1493bd4cf5a6cf9ceb0245180e7ad271988f0ee5fb495bd05fe063f4eb538c9824fd998588627c25771dcc434997588be713cb79968b07fe3b38c9d68c.css" integrity="sha512-0Hz6FJO9TPWmz5zrAkUYDnrScZiPDuX7SVvQX&#43;Bj9OtTjJgk/ZmFiGJ8JXcdzENJl1iL5xPLeZaLB/47OMnWjA==" />
+  <link rel="stylesheet" href="/css/main.9fbf43ae1844e7e6ce205daa225f13396ea96162c95b8bd53ece1c6af2ef3e8cfb5f30f3ddb8b3386a5280d089443efb175bd3121e492f0c5c3fd8ea8a4e11d0.css"/>
   
   
 </head>

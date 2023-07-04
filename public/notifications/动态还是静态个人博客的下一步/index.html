@@ -3,6 +3,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
    <meta name="description" content="最近看到好多的个人博客都是静态站，搞到最后交互性和观感比动态博客要好上好多。我也想有样学样，把博客打理的颜值高一点，结果昨天放了个加载动画，就收到反馈，一看是加载动画不能隐藏，导致显示一直在加载中，这下尴尬了。
 接到反馈的时候是早上六点多，刚从床上爬起来，衣服都来不及穿赶紧打开电脑。用caniuse.com一看，好家伙，原来readystate这个API一堆的浏览器的支持状态是未知。看来用得还是太莽撞了，真的惹成祸了。只好开始亡羊补牢，把加载动画的代码删了。
 现在我又开始胡思乱想了。最近无论是通过开往还是通过十年之约-虫洞访问到的个人博客里，大多数都是静态博客。这些博客在本地渲染好静态文件之后，部署到静态网站服务商，以此实现无需服务端算力，同时节约了经费。我又看看那些为数不多的动态博客，也不是像本站这样用PHP实现，要么用Node.js，要么用其他的自设计或者广泛运用的独立博客程序。
@@ -15,7 +16,6 @@
 2023年5月26日，夏荷博客，正式决定迁移到Hexo Butterfly的博客模式，并在Cloudflare Pages上完成部署。 为了防止SEO问题，将所有之前的文章页面重定向到新的文章页面。同时，使用Waline评论系统来提供一定程度的交互提升。静态博客域名为：blog.helim.net
 同时，本站(log.helim.net)将会继续保持运转，这是一个PHP动态博客，但不再作为主阵地。将会在页面右下角长期显示一个提示：“本站点已经废弃：是时候走向更加节能、高效和弘扬节俭传统美德的静态博客了”并配上链接地址。
 这不代表我放弃了WEB动态编程。相反，一个前后端分离的网站将一定会在中考之后，通过我的努力，诞生在公众面前。">  
-  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-webfont/1.6.0/style.min.css">
   <title>
     
       动态还是静态：个人博客的下一步
@@ -23,11 +23,10 @@
   </title>
 
 
-  <link rel="shortcut icon" type="image/x-icon" href="/" />
   
   
   
-  <link rel="stylesheet" href="/css/main.d07cfa1493bd4cf5a6cf9ceb0245180e7ad271988f0ee5fb495bd05fe063f4eb538c9824fd998588627c25771dcc434997588be713cb79968b07fe3b38c9d68c.css" integrity="sha512-0Hz6FJO9TPWmz5zrAkUYDnrScZiPDuX7SVvQX&#43;Bj9OtTjJgk/ZmFiGJ8JXcdzENJl1iL5xPLeZaLB/47OMnWjA==" />
+  <link rel="stylesheet" href="/css/main.9fbf43ae1844e7e6ce205daa225f13396ea96162c95b8bd53ece1c6af2ef3e8cfb5f30f3ddb8b3386a5280d089443efb175bd3121e492f0c5c3fd8ea8a4e11d0.css"/>
   
   
 </head>

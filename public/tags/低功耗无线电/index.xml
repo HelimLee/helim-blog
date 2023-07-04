@@ -2,31 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>低功耗无线电 on 荷岭网居</title>
-    <link>https://blog.helim.net/tags/%E4%BD%8E%E5%8A%9F%E8%80%97%E6%97%A0%E7%BA%BF%E7%94%B5/</link>
+    <link>/tags/%E4%BD%8E%E5%8A%9F%E8%80%97%E6%97%A0%E7%BA%BF%E7%94%B5/</link>
     <description>Recent content in 低功耗无线电 on 荷岭网居</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 24 Jul 2022 05:59:00 +0000</lastBuildDate><atom:link href="https://blog.helim.net/tags/%E4%BD%8E%E5%8A%9F%E8%80%97%E6%97%A0%E7%BA%BF%E7%94%B5/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Jul 2022 05:59:00 +0000</lastBuildDate><atom:link href="/tags/%E4%BD%8E%E5%8A%9F%E8%80%97%E6%97%A0%E7%BA%BF%E7%94%B5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于短波天线（小环天线）在室内信号信号的可能性研究</title>
-      <link>https://blog.helim.net/science/%E5%85%B3%E4%BA%8E%E7%9F%AD%E6%B3%A2%E5%A4%A9%E7%BA%BF%E5%B0%8F%E7%8E%AF%E5%A4%A9%E7%BA%BF%E5%9C%A8%E5%AE%A4%E5%86%85%E4%BF%A1%E5%8F%B7%E4%BF%A1%E5%8F%B7%E7%9A%84%E5%8F%AF%E8%83%BD%E6%80%A7%E7%A0%94%E7%A9%B6/</link>
+      <link>/science/%E5%85%B3%E4%BA%8E%E7%9F%AD%E6%B3%A2%E5%A4%A9%E7%BA%BF%E5%B0%8F%E7%8E%AF%E5%A4%A9%E7%BA%BF%E5%9C%A8%E5%AE%A4%E5%86%85%E4%BF%A1%E5%8F%B7%E4%BF%A1%E5%8F%B7%E7%9A%84%E5%8F%AF%E8%83%BD%E6%80%A7%E7%A0%94%E7%A9%B6/</link>
       <pubDate>Sun, 24 Jul 2022 05:59:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/science/%E5%85%B3%E4%BA%8E%E7%9F%AD%E6%B3%A2%E5%A4%A9%E7%BA%BF%E5%B0%8F%E7%8E%AF%E5%A4%A9%E7%BA%BF%E5%9C%A8%E5%AE%A4%E5%86%85%E4%BF%A1%E5%8F%B7%E4%BF%A1%E5%8F%B7%E7%9A%84%E5%8F%AF%E8%83%BD%E6%80%A7%E7%A0%94%E7%A9%B6/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;</description>
+      <guid>/science/%E5%85%B3%E4%BA%8E%E7%9F%AD%E6%B3%A2%E5%A4%A9%E7%BA%BF%E5%B0%8F%E7%8E%AF%E5%A4%A9%E7%BA%BF%E5%9C%A8%E5%AE%A4%E5%86%85%E4%BF%A1%E5%8F%B7%E4%BF%A1%E5%8F%B7%E7%9A%84%E5%8F%AF%E8%83%BD%E6%80%A7%E7%A0%94%E7%A9%B6/</guid>
+      <description>&lt;p&gt;发表者：夏荷&lt;/p&gt;&lt;p&gt;我们知道，短波接收对于方向性的要求不重要，理论上只要该地区存在有短波信号传递，那么天线的朝向不会影响信号的传递。但在实际的接收中，一些天线，尤其指小环天线，实际上对于接受环境和方向非常考究，尤其是在室内接受时。（换言之，小环天线在室内的接收成功，甚至达到高质量接收的可能性是很大的，只要控制好室内环境和接收方向。）&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>FM:简易低功率调频发射套装</title>
-      <link>https://blog.helim.net/science/fm-%E7%AE%80%E6%98%93%E4%BD%8E%E5%8A%9F%E7%8E%87%E8%B0%83%E9%A2%91%E5%8F%91%E5%B0%84%E5%A5%97%E8%A3%85/</link>
+      <link>/science/fm-%E7%AE%80%E6%98%93%E4%BD%8E%E5%8A%9F%E7%8E%87%E8%B0%83%E9%A2%91%E5%8F%91%E5%B0%84%E5%A5%97%E8%A3%85/</link>
       <pubDate>Thu, 13 Jan 2022 20:23:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/science/fm-%E7%AE%80%E6%98%93%E4%BD%8E%E5%8A%9F%E7%8E%87%E8%B0%83%E9%A2%91%E5%8F%91%E5%B0%84%E5%A5%97%E8%A3%85/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;</description>
+      <guid>/science/fm-%E7%AE%80%E6%98%93%E4%BD%8E%E5%8A%9F%E7%8E%87%E8%B0%83%E9%A2%91%E5%8F%91%E5%B0%84%E5%A5%97%E8%A3%85/</guid>
+      <description>&lt;!-- wp:html --&gt;
+&lt;div class=&#34;wp-block-argon-admonition admonition shadow-sm&#34; style=&#34;border-left-color:#f75676&#34;&gt;&lt;div class=&#34;admonition-body&#34;&gt;这是低功率发射装置，本装置设置功率为150mW,请读者在效仿时注意发射功率根据国家要求，在不准入频段无证无呼号发射无线电是不得超过1W的（1W=1000mW），请自重&lt;/div&gt;&lt;/div&gt;
+&lt;!-- /wp:html --&gt;
+&lt;!-- wp:html --&gt;
+&lt;div class=&#34;wp-block-argon-alert alert&#34; style=&#34;background-color:#f75676&#34;&gt;&lt;span class=&#34;alert-inner--icon&#34;&gt;&lt;i class=&#34;fa fa-info-circle&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;span class=&#34;alert-inner--text&#34;&gt;在家庭或其他形式的非专业室内操作大于运行总电压12V的电路将会是有危险的。操作大于36V的电路则有可能致命。继续阅读本文即代表您承诺自行负担所有风险。&lt;/span&gt;&lt;/div&gt;
+&lt;!-- /wp:html --&gt;
+&lt;!-- wp:more --&gt;</description>
     </item>
     
   </channel>

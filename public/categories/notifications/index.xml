@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notifications on 荷岭网居</title>
-    <link>https://blog.helim.net/categories/notifications/</link>
+    <link>/categories/notifications/</link>
     <description>Recent content in Notifications on 荷岭网居</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 26 May 2023 20:25:54 +0000</lastBuildDate><atom:link href="https://blog.helim.net/categories/notifications/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 May 2023 20:25:54 +0000</lastBuildDate><atom:link href="/categories/notifications/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>动态还是静态：个人博客的下一步</title>
-      <link>https://blog.helim.net/notifications/%E5%8A%A8%E6%80%81%E8%BF%98%E6%98%AF%E9%9D%99%E6%80%81%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%B8%8B%E4%B8%80%E6%AD%A5/</link>
+      <link>/notifications/%E5%8A%A8%E6%80%81%E8%BF%98%E6%98%AF%E9%9D%99%E6%80%81%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%B8%8B%E4%B8%80%E6%AD%A5/</link>
       <pubDate>Fri, 26 May 2023 20:25:54 +0000</pubDate>
       
-      <guid>https://blog.helim.net/notifications/%E5%8A%A8%E6%80%81%E8%BF%98%E6%98%AF%E9%9D%99%E6%80%81%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%B8%8B%E4%B8%80%E6%AD%A5/</guid>
+      <guid>/notifications/%E5%8A%A8%E6%80%81%E8%BF%98%E6%98%AF%E9%9D%99%E6%80%81%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%B8%8B%E4%B8%80%E6%AD%A5/</guid>
       <description>最近看到好多的个人博客都是静态站，搞到最后交互性和观感比动态博客要好上好多。我也想有样学样，把博客打理的颜值高一点，结果昨天放了个加载动画，就收到反馈，一看是加载动画不能隐藏，导致显示一直在加载中，这下尴尬了。
 接到反馈的时候是早上六点多，刚从床上爬起来，衣服都来不及穿赶紧打开电脑。用caniuse.com一看，好家伙，原来readystate这个API一堆的浏览器的支持状态是未知。看来用得还是太莽撞了，真的惹成祸了。只好开始亡羊补牢，把加载动画的代码删了。
 现在我又开始胡思乱想了。最近无论是通过开往还是通过十年之约-虫洞访问到的个人博客里，大多数都是静态博客。这些博客在本地渲染好静态文件之后，部署到静态网站服务商，以此实现无需服务端算力，同时节约了经费。我又看看那些为数不多的动态博客，也不是像本站这样用PHP实现，要么用Node.js，要么用其他的自设计或者广泛运用的独立博客程序。
@@ -29,10 +29,10 @@
     
     <item>
       <title>因中考中断更新通知&amp;2023年5月夏荷网站统计报告</title>
-      <link>https://blog.helim.net/notifications/%E5%9B%A0%E4%B8%AD%E8%80%83%E4%B8%AD%E6%96%AD%E6%9B%B4%E6%96%B0%E9%80%9A%E7%9F%A5amp2023%E5%B9%B45%E6%9C%88%E5%A4%8F%E8%8D%B7%E7%BD%91%E7%AB%99%E7%BB%9F%E8%AE%A1%E6%8A%A5%E5%91%8A/</link>
+      <link>/notifications/%E5%9B%A0%E4%B8%AD%E8%80%83%E4%B8%AD%E6%96%AD%E6%9B%B4%E6%96%B0%E9%80%9A%E7%9F%A5amp2023%E5%B9%B45%E6%9C%88%E5%A4%8F%E8%8D%B7%E7%BD%91%E7%AB%99%E7%BB%9F%E8%AE%A1%E6%8A%A5%E5%91%8A/</link>
       <pubDate>Sun, 21 May 2023 21:32:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/notifications/%E5%9B%A0%E4%B8%AD%E8%80%83%E4%B8%AD%E6%96%AD%E6%9B%B4%E6%96%B0%E9%80%9A%E7%9F%A5amp2023%E5%B9%B45%E6%9C%88%E5%A4%8F%E8%8D%B7%E7%BD%91%E7%AB%99%E7%BB%9F%E8%AE%A1%E6%8A%A5%E5%91%8A/</guid>
+      <guid>/notifications/%E5%9B%A0%E4%B8%AD%E8%80%83%E4%B8%AD%E6%96%AD%E6%9B%B4%E6%96%B0%E9%80%9A%E7%9F%A5amp2023%E5%B9%B45%E6%9C%88%E5%A4%8F%E8%8D%B7%E7%BD%91%E7%AB%99%E7%BB%9F%E8%AE%A1%E6%8A%A5%E5%91%8A/</guid>
       <description>2023年的5月是夏荷博客辉煌的一月。
 根据Cloudflare的统计，在2023/4/21到2023/5/21期间，仅李荷林首页和夏荷博客导航这两个通过Cloudflare代理的页面，其独立访客数量达到3.5k(~3500独立访客)，总请求数量达到41.44k，总服务的内容大小达到510MB，其中105MB命中缓存。本站数据持续向好（前提是没有无聊的人刷流量）
 然而，天下没有不散的筵席，况且我并没说要散这场筵席。由于我在市特长生考试中失利，接下来将不得不进入中考准备程序。我多次思考，慎重考虑是否要暂停夏荷博客的更新。但很遗憾，鉴于现阶段精力的限制，夏荷博客将不得不进入缓更乃至停更时期。
@@ -43,19 +43,19 @@
     
     <item>
       <title>庆祝夏荷博客百篇文章</title>
-      <link>https://blog.helim.net/notifications/%E5%BA%86%E7%A5%9D%E5%A4%8F%E8%8D%B7%E5%8D%9A%E5%AE%A2%E7%99%BE%E7%AF%87%E6%96%87%E7%AB%A0/</link>
+      <link>/notifications/%E5%BA%86%E7%A5%9D%E5%A4%8F%E8%8D%B7%E5%8D%9A%E5%AE%A2%E7%99%BE%E7%AF%87%E6%96%87%E7%AB%A0/</link>
       <pubDate>Mon, 15 May 2023 22:28:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/notifications/%E5%BA%86%E7%A5%9D%E5%A4%8F%E8%8D%B7%E5%8D%9A%E5%AE%A2%E7%99%BE%E7%AF%87%E6%96%87%E7%AB%A0/</guid>
+      <guid>/notifications/%E5%BA%86%E7%A5%9D%E5%A4%8F%E8%8D%B7%E5%8D%9A%E5%AE%A2%E7%99%BE%E7%AF%87%E6%96%87%E7%AB%A0/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Helim ASP 本站的非商业AI使用帮助</title>
-      <link>https://blog.helim.net/notifications/helim-asp-%E6%9C%AC%E7%AB%99%E7%9A%84%E9%9D%9E%E5%95%86%E4%B8%9Aai%E4%BD%BF%E7%94%A8%E5%B8%AE%E5%8A%A9/</link>
+      <link>/notifications/helim-asp-%E6%9C%AC%E7%AB%99%E7%9A%84%E9%9D%9E%E5%95%86%E4%B8%9Aai%E4%BD%BF%E7%94%A8%E5%B8%AE%E5%8A%A9/</link>
       <pubDate>Sat, 13 May 2023 22:05:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/notifications/helim-asp-%E6%9C%AC%E7%AB%99%E7%9A%84%E9%9D%9E%E5%95%86%E4%B8%9Aai%E4%BD%BF%E7%94%A8%E5%B8%AE%E5%8A%A9/</guid>
+      <guid>/notifications/helim-asp-%E6%9C%AC%E7%AB%99%E7%9A%84%E9%9D%9E%E5%95%86%E4%B8%9Aai%E4%BD%BF%E7%94%A8%E5%B8%AE%E5%8A%A9/</guid>
       <description>Helim ASP (AI Service Provider) 是我的一个公益（非盈利、非商用）计划，旨在帮助难以使用最新的AI内容生成技术的创作者与其它互联网边缘用户，更好地使用这些技术，并以此拓展文艺的素养。正如《为什么互联网的边缘用户如此重要？》所记录的我的感想一样，这个计划的目的还包括通过提供非商业的AI使用机会，通过将中心技术推向边缘的形式，力求将最新的技术推给多数人，以保障他们的数字权利。如果您也希望让新科技投入到更广泛的群众中去，您也可以尝试开展类似的计划。但本计划只是个人爱好、研究性质的，并不希望扩张团队范围。
 简叙 现在很多内容创作者，或者很多有志于通过AI来创作内容的人士，亦或者只是对AI感兴趣的过客，都因为这样那样的原因，没有条件亲手尝试AI，或者没有耐心和闲暇、负担不起学习成本，所以无法将AI运行出比较好的结果。在专业工作者们正为了AI和去中心化概念结合起来的同时，我这个非专业的爱好者，也想利用手头的资源，添一把向上的火，帮助更多的人进入和了解AI相关的内容创作，以让我们的表达权得到共同的进步。同时，还可以帮助初创的内容创作者，让人与AI优势互补，创作出既有特色，又有一定技术含量的混合作品（即混合了音乐、文学、美术等等多门美学学科的成就的作品），以此提升创作者知名度，方便日后与其它对象展开深度合作——最终也会反映到文化的更加多元上来——因为AI给予了其使用者平等程度表达的可能。
 [scode type=&amp;ldquo;yellow&amp;rdquo;]再次强调：这是一个个人的、非商业的兴趣项目。请求使用AI者需要为他们的生成作品负完全责任。我会出于友谊地提示不适宜生成的内容，但不对其结果负任何责任，请知晓。本人未运行任何交互式网站平台来直接提供这些服务，本人不是ISP（互联网服务提供商/云服务商）。[/scode]
@@ -72,10 +72,10 @@
     
     <item>
       <title>永远明亮的双眼，一世短暂的闹钟（终）</title>
-      <link>https://blog.helim.net/notifications/%E6%B0%B8%E8%BF%9C%E6%98%8E%E4%BA%AE%E7%9A%84%E5%8F%8C%E7%9C%BC%E4%B8%80%E4%B8%96%E7%9F%AD%E6%9A%82%E7%9A%84%E9%97%B9%E9%92%9F%E7%BB%88/</link>
+      <link>/notifications/%E6%B0%B8%E8%BF%9C%E6%98%8E%E4%BA%AE%E7%9A%84%E5%8F%8C%E7%9C%BC%E4%B8%80%E4%B8%96%E7%9F%AD%E6%9A%82%E7%9A%84%E9%97%B9%E9%92%9F%E7%BB%88/</link>
       <pubDate>Mon, 01 May 2023 21:01:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/notifications/%E6%B0%B8%E8%BF%9C%E6%98%8E%E4%BA%AE%E7%9A%84%E5%8F%8C%E7%9C%BC%E4%B8%80%E4%B8%96%E7%9F%AD%E6%9A%82%E7%9A%84%E9%97%B9%E9%92%9F%E7%BB%88/</guid>
+      <guid>/notifications/%E6%B0%B8%E8%BF%9C%E6%98%8E%E4%BA%AE%E7%9A%84%E5%8F%8C%E7%9C%BC%E4%B8%80%E4%B8%96%E7%9F%AD%E6%9A%82%E7%9A%84%E9%97%B9%E9%92%9F%E7%BB%88/</guid>
       <description>2131年4月24日，GMT17:18, 月球，红旗六号地下实验综合体，放射区入口走道H-1
 岭一行人在这个昏暗的走道里，尽管没人穿皮鞋或者高跟鞋，走道里还是回响着明亮的脚步声。而且还能隐约听见隐藏在脚步声中感应电灯开关的声音。或许这就是拜吸音能力极强的月壤所赐罢。墙上还贴着海报，上面的日期都好像是最新的，什么”庆祝2131年五一星际工人劳动节“之类，看来说这里是个废弃设施还是有点不妥。但尽管周遭环境收拾的多么停当，那些悬浮在空气中的月尘也还是暗示，这里最多就只有几个AI维持日常的打理了。且灰尘这般大，恐怕，那几个AI也坚持不了几天了。
 这一行人的航天服明显变薄了不少，因为隔热气体已经被抽走储存在压力罐里了。但头盔还是不能摘掉，因为空气质量仍未达到卫健委要求的质量，但由于已经切换到过滤模式，岭还是认为自己算是呼吸到了月球产空气。不得不说，和地球上那些地下室里的空气的比起来没什么差别，只是明显没有潮湿的气味，毕竟月球上哪里凭空产生水呢？
@@ -101,43 +101,44 @@
     
     <item>
       <title>劳动节快乐！ / 本站将使用B站UP主 @aa阿城 的音乐作为站点全局播放音乐</title>
-      <link>https://blog.helim.net/notifications/%E5%8A%B3%E5%8A%A8%E8%8A%82%E5%BF%AB%E4%B9%90---%E6%9C%AC%E7%AB%99%E5%B0%86%E4%BD%BF%E7%94%A8b%E7%AB%99up%E4%B8%BB-@aa%E9%98%BF%E5%9F%8E-%E7%9A%84%E9%9F%B3%E4%B9%90%E4%BD%9C%E4%B8%BA%E7%AB%99%E7%82%B9%E5%85%A8%E5%B1%80%E6%92%AD%E6%94%BE%E9%9F%B3%E4%B9%90/</link>
+      <link>/notifications/%E5%8A%B3%E5%8A%A8%E8%8A%82%E5%BF%AB%E4%B9%90---%E6%9C%AC%E7%AB%99%E5%B0%86%E4%BD%BF%E7%94%A8b%E7%AB%99up%E4%B8%BB-@aa%E9%98%BF%E5%9F%8E-%E7%9A%84%E9%9F%B3%E4%B9%90%E4%BD%9C%E4%B8%BA%E7%AB%99%E7%82%B9%E5%85%A8%E5%B1%80%E6%92%AD%E6%94%BE%E9%9F%B3%E4%B9%90/</link>
       <pubDate>Mon, 01 May 2023 09:47:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/notifications/%E5%8A%B3%E5%8A%A8%E8%8A%82%E5%BF%AB%E4%B9%90---%E6%9C%AC%E7%AB%99%E5%B0%86%E4%BD%BF%E7%94%A8b%E7%AB%99up%E4%B8%BB-@aa%E9%98%BF%E5%9F%8E-%E7%9A%84%E9%9F%B3%E4%B9%90%E4%BD%9C%E4%B8%BA%E7%AB%99%E7%82%B9%E5%85%A8%E5%B1%80%E6%92%AD%E6%94%BE%E9%9F%B3%E4%B9%90/</guid>
+      <guid>/notifications/%E5%8A%B3%E5%8A%A8%E8%8A%82%E5%BF%AB%E4%B9%90---%E6%9C%AC%E7%AB%99%E5%B0%86%E4%BD%BF%E7%94%A8b%E7%AB%99up%E4%B8%BB-@aa%E9%98%BF%E5%9F%8E-%E7%9A%84%E9%9F%B3%E4%B9%90%E4%BD%9C%E4%B8%BA%E7%AB%99%E7%82%B9%E5%85%A8%E5%B1%80%E6%92%AD%E6%94%BE%E9%9F%B3%E4%B9%90/</guid>
       <description>尊敬的夏荷博客读者：
 首先感谢大家一直以来对夏荷博客的支持，我们一直在努力打造更加优秀的博客平台，并为大家提供更好的体验。
 今天，向大家宣布：将采用Bilibili Uploader(视频博主) aa阿城 / CsLrisEto（/kʌzəˈrɪlɪzetɒ/）的音乐作为夏荷博客的全局播放器音乐。选择了aa阿城的音乐，是因为他的音乐风格符合我们博客平台的主题，并且也得到了大家广泛的喜爱。
 值得注意的是，在使用这些音乐时，尊重了作者的版权和使用要求，继续坚持尊重创作者合理权益的原则。他在一期视频中已经指出了对他作品的版权使用要求，具体请查看Bilibili上的此视频。
 最后，祝您五·一国际劳动节/五·一国际示威游行日/五·一美利坚工人大罢工纪念日节日快乐，阖家欢乐，身体健康。
 堾荷甃 2023年5月1日
-附上有关使用许可的图片： 附上有关使用许可的专门的图片： 版权授权信息：</description>
+附上有关使用许可的图片： 附上有关使用许可的专门的图片： 版权授权信息：
+允许非商业使用版权拥有者已经通过非正式文书的形式，并非单独针对夏荷博客授予所有人将其作品用于非商业目的。夏荷博客是非商业网站，不通过音乐功能盈利，满足版权拥有者的要求。如果仍然有疑问，或变更版权，请电子邮件联系。</description>
     </item>
     
     <item>
       <title>意料外的中断</title>
-      <link>https://blog.helim.net/notifications/%E6%84%8F%E6%96%99%E5%A4%96%E7%9A%84%E4%B8%AD%E6%96%AD/</link>
+      <link>/notifications/%E6%84%8F%E6%96%99%E5%A4%96%E7%9A%84%E4%B8%AD%E6%96%AD/</link>
       <pubDate>Sun, 23 Apr 2023 21:31:18 +0000</pubDate>
       
-      <guid>https://blog.helim.net/notifications/%E6%84%8F%E6%96%99%E5%A4%96%E7%9A%84%E4%B8%AD%E6%96%AD/</guid>
+      <guid>/notifications/%E6%84%8F%E6%96%99%E5%A4%96%E7%9A%84%E4%B8%AD%E6%96%AD/</guid>
       <description>由于SSL证书过期，本站出现无法访问，去中心化博客出现字体无法正确加载。现已修复。</description>
     </item>
     
     <item>
       <title>欢迎您，联合撰稿人！</title>
-      <link>https://blog.helim.net/notifications/%E6%AC%A2%E8%BF%8E%E6%82%A8%E8%81%94%E5%90%88%E6%92%B0%E7%A8%BF%E4%BA%BA/</link>
+      <link>/notifications/%E6%AC%A2%E8%BF%8E%E6%82%A8%E8%81%94%E5%90%88%E6%92%B0%E7%A8%BF%E4%BA%BA/</link>
       <pubDate>Sat, 01 Apr 2023 21:54:46 +0000</pubDate>
       
-      <guid>https://blog.helim.net/notifications/%E6%AC%A2%E8%BF%8E%E6%82%A8%E8%81%94%E5%90%88%E6%92%B0%E7%A8%BF%E4%BA%BA/</guid>
+      <guid>/notifications/%E6%AC%A2%E8%BF%8E%E6%82%A8%E8%81%94%E5%90%88%E6%92%B0%E7%A8%BF%E4%BA%BA/</guid>
       <description>本站欢迎联合撰稿人的投稿。如果有投稿，请您直接发送至heliumlee@helim.net</description>
     </item>
     
     <item>
       <title>请支持《树骷髅》作品的投票</title>
-      <link>https://blog.helim.net/notifications/%E8%AF%B7%E6%94%AF%E6%8C%81%E6%A0%91%E9%AA%B7%E9%AB%85%E4%BD%9C%E5%93%81%E7%9A%84%E6%8A%95%E7%A5%A8/</link>
+      <link>/notifications/%E8%AF%B7%E6%94%AF%E6%8C%81%E6%A0%91%E9%AA%B7%E9%AB%85%E4%BD%9C%E5%93%81%E7%9A%84%E6%8A%95%E7%A5%A8/</link>
       <pubDate>Mon, 27 Feb 2023 21:01:57 +0000</pubDate>
       
-      <guid>https://blog.helim.net/notifications/%E8%AF%B7%E6%94%AF%E6%8C%81%E6%A0%91%E9%AA%B7%E9%AB%85%E4%BD%9C%E5%93%81%E7%9A%84%E6%8A%95%E7%A5%A8/</guid>
+      <guid>/notifications/%E8%AF%B7%E6%94%AF%E6%8C%81%E6%A0%91%E9%AA%B7%E9%AB%85%E4%BD%9C%E5%93%81%E7%9A%84%E6%8A%95%E7%A5%A8/</guid>
       <description>《树骷髅》是我在Fandom后室中的一篇故事投稿，现在它正在参与第一届故事竞赛。
 目前，竞赛的投票正在进行中，如果您愿意，请登录或注册一个Fandom帐号，并访问Fandom页面滑到最底端为该文章投上一票。
 感激不尽！</description>
@@ -145,74 +146,115 @@
     
     <item>
       <title>夏荷博客支持LaTex（数学）公式！</title>
-      <link>https://blog.helim.net/notifications/%E5%A4%8F%E8%8D%B7%E5%8D%9A%E5%AE%A2%E6%94%AF%E6%8C%81latex%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</link>
+      <link>/notifications/%E5%A4%8F%E8%8D%B7%E5%8D%9A%E5%AE%A2%E6%94%AF%E6%8C%81latex%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</link>
       <pubDate>Sun, 20 Nov 2022 20:33:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/notifications/%E5%A4%8F%E8%8D%B7%E5%8D%9A%E5%AE%A2%E6%94%AF%E6%8C%81latex%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</guid>
-      <description> </description>
+      <guid>/notifications/%E5%A4%8F%E8%8D%B7%E5%8D%9A%E5%AE%A2%E6%94%AF%E6%8C%81latex%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</guid>
+      <description>$$\ce{6CO2 + 6H2O-&amp;gt;[光照][叶绿体] C6H12O6 + 6O2}$$
+$$E = mc^2$$
+$$P = I \times U$$
+$$\ce{CuO + CO -&amp;gt;[\triangle] CO2 + Cu}$$</description>
     </item>
     
     <item>
       <title>《我和我最亲爱的朋友们》作品将更名为《亲爱挚友》</title>
-      <link>https://blog.helim.net/notifications/%E6%88%91%E5%92%8C%E6%88%91%E6%9C%80%E4%BA%B2%E7%88%B1%E7%9A%84%E6%9C%8B%E5%8F%8B%E4%BB%AC%E4%BD%9C%E5%93%81%E5%B0%86%E6%9B%B4%E5%90%8D%E4%B8%BA%E4%BA%B2%E7%88%B1%E6%8C%9A%E5%8F%8B/</link>
+      <link>/notifications/%E6%88%91%E5%92%8C%E6%88%91%E6%9C%80%E4%BA%B2%E7%88%B1%E7%9A%84%E6%9C%8B%E5%8F%8B%E4%BB%AC%E4%BD%9C%E5%93%81%E5%B0%86%E6%9B%B4%E5%90%8D%E4%B8%BA%E4%BA%B2%E7%88%B1%E6%8C%9A%E5%8F%8B/</link>
       <pubDate>Fri, 18 Nov 2022 21:51:44 +0000</pubDate>
       
-      <guid>https://blog.helim.net/notifications/%E6%88%91%E5%92%8C%E6%88%91%E6%9C%80%E4%BA%B2%E7%88%B1%E7%9A%84%E6%9C%8B%E5%8F%8B%E4%BB%AC%E4%BD%9C%E5%93%81%E5%B0%86%E6%9B%B4%E5%90%8D%E4%B8%BA%E4%BA%B2%E7%88%B1%E6%8C%9A%E5%8F%8B/</guid>
-      <description> </description>
+      <guid>/notifications/%E6%88%91%E5%92%8C%E6%88%91%E6%9C%80%E4%BA%B2%E7%88%B1%E7%9A%84%E6%9C%8B%E5%8F%8B%E4%BB%AC%E4%BD%9C%E5%93%81%E5%B0%86%E6%9B%B4%E5%90%8D%E4%B8%BA%E4%BA%B2%E7%88%B1%E6%8C%9A%E5%8F%8B/</guid>
+      <description>为了更好体现作品主旨，《我和我最亲爱的朋友们》将更名为《亲爱挚友》
+英文翻译被确定为 Dear Friends Ever</description>
     </item>
     
     <item>
       <title>很惊讶？但您输入的是正确的网络域名地址！</title>
-      <link>https://blog.helim.net/notifications/%E5%BE%88%E6%83%8A%E8%AE%B6%E4%BD%86%E6%82%A8%E8%BE%93%E5%85%A5%E7%9A%84%E6%98%AF%E6%AD%A3%E7%A1%AE%E7%9A%84%E7%BD%91%E7%BB%9C%E5%9F%9F%E5%90%8D%E5%9C%B0%E5%9D%80/</link>
+      <link>/notifications/%E5%BE%88%E6%83%8A%E8%AE%B6%E4%BD%86%E6%82%A8%E8%BE%93%E5%85%A5%E7%9A%84%E6%98%AF%E6%AD%A3%E7%A1%AE%E7%9A%84%E7%BD%91%E7%BB%9C%E5%9F%9F%E5%90%8D%E5%9C%B0%E5%9D%80/</link>
       <pubDate>Thu, 10 Nov 2022 21:59:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/notifications/%E5%BE%88%E6%83%8A%E8%AE%B6%E4%BD%86%E6%82%A8%E8%BE%93%E5%85%A5%E7%9A%84%E6%98%AF%E6%AD%A3%E7%A1%AE%E7%9A%84%E7%BD%91%E7%BB%9C%E5%9F%9F%E5%90%8D%E5%9C%B0%E5%9D%80/</guid>
-      <description> </description>
+      <guid>/notifications/%E5%BE%88%E6%83%8A%E8%AE%B6%E4%BD%86%E6%82%A8%E8%BE%93%E5%85%A5%E7%9A%84%E6%98%AF%E6%AD%A3%E7%A1%AE%E7%9A%84%E7%BD%91%E7%BB%9C%E5%9F%9F%E5%90%8D%E5%9C%B0%E5%9D%80/</guid>
+      <description>helim.net 是夏荷最新的域名！
+没错，你没看错，就是我梦寐以求的 .NET 域名！
+Helium 去掉了 u 这便是：去掉了 Unhappiness!
+新域名的读音是：/hælɪmː/ (音似：哈里木)</description>
     </item>
     
     <item>
       <title>新的技术，新的希望，新的篇章！</title>
-      <link>https://blog.helim.net/notifications/%E6%96%B0%E7%9A%84%E6%8A%80%E6%9C%AF%E6%96%B0%E7%9A%84%E5%B8%8C%E6%9C%9B%E6%96%B0%E7%9A%84%E7%AF%87%E7%AB%A0/</link>
+      <link>/notifications/%E6%96%B0%E7%9A%84%E6%8A%80%E6%9C%AF%E6%96%B0%E7%9A%84%E5%B8%8C%E6%9C%9B%E6%96%B0%E7%9A%84%E7%AF%87%E7%AB%A0/</link>
       <pubDate>Sat, 10 Sep 2022 19:47:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/notifications/%E6%96%B0%E7%9A%84%E6%8A%80%E6%9C%AF%E6%96%B0%E7%9A%84%E5%B8%8C%E6%9C%9B%E6%96%B0%E7%9A%84%E7%AF%87%E7%AB%A0/</guid>
-      <description> </description>
+      <guid>/notifications/%E6%96%B0%E7%9A%84%E6%8A%80%E6%9C%AF%E6%96%B0%E7%9A%84%E5%B8%8C%E6%9C%9B%E6%96%B0%E7%9A%84%E7%AF%87%E7%AB%A0/</guid>
+      <description>《新的篇章》好似那燃起的火炬
+在暗夜里渐渐远去。
+成了一首暗暗的曲，
+协奏路旁幽幽的绿。
+新的技术，
+诞生用不着谁的准许，
+好似那杨柳一缕，
+轻轻拂过老少男女。
+新的希望，
+出现为替代徘徊惆怅，
+好似那池塘一方，
+总是久久碧波荡漾。
+新的篇章，
+一定谱写地更加激昂。
+新的篇章，
+一定打开了更胜利的方向！
+高呼吧！
+新的技术，
+新的希望，
+新的篇章！</description>
     </item>
     
     <item>
       <title>欢迎回来，一切照旧。</title>
-      <link>https://blog.helim.net/notifications/%E6%AC%A2%E8%BF%8E%E5%9B%9E%E6%9D%A5%E4%B8%80%E5%88%87%E7%85%A7%E6%97%A7/</link>
+      <link>/notifications/%E6%AC%A2%E8%BF%8E%E5%9B%9E%E6%9D%A5%E4%B8%80%E5%88%87%E7%85%A7%E6%97%A7/</link>
       <pubDate>Fri, 22 Jul 2022 17:19:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/notifications/%E6%AC%A2%E8%BF%8E%E5%9B%9E%E6%9D%A5%E4%B8%80%E5%88%87%E7%85%A7%E6%97%A7/</guid>
-      <description> </description>
+      <guid>/notifications/%E6%AC%A2%E8%BF%8E%E5%9B%9E%E6%9D%A5%E4%B8%80%E5%88%87%E7%85%A7%E6%97%A7/</guid>
+      <description>在观测到服务器网络性能下降后，我们采取了重装系统和性能调整等措施。目前应该达到正常访问水平。
+今后，我们将继续走下去，继续向着30年历程迈进！
+After we discovered the decrease of the Server&#39;s Network Performance, we started actions like re-installing system and adjusting performance. Now, the site should reached its healthy-running level.
+Moreover, we will keep working and learning, we will make steps to a 30-year&#39;s goal future!</description>
     </item>
     
     <item>
       <title>30年计划，50年目标 / 30 years project, 50 years target</title>
-      <link>https://blog.helim.net/notifications/30%E5%B9%B4%E8%AE%A1%E5%88%9250%E5%B9%B4%E7%9B%AE%E6%A0%87---30-years-project-50-years-target/</link>
+      <link>/notifications/30%E5%B9%B4%E8%AE%A1%E5%88%9250%E5%B9%B4%E7%9B%AE%E6%A0%87---30-years-project-50-years-target/</link>
       <pubDate>Sun, 22 May 2022 16:22:38 +0000</pubDate>
       
-      <guid>https://blog.helim.net/notifications/30%E5%B9%B4%E8%AE%A1%E5%88%9250%E5%B9%B4%E7%9B%AE%E6%A0%87---30-years-project-50-years-target/</guid>
-      <description> </description>
+      <guid>/notifications/30%E5%B9%B4%E8%AE%A1%E5%88%9250%E5%B9%B4%E7%9B%AE%E6%A0%87---30-years-project-50-years-target/</guid>
+      <description>亲爱的读者朋友们：
+夏荷博客自2017年以来一直断断续续地运营着，至今已经过去5年有余。夏荷博客各方面累计发文早已过百，是名副其实“历史悠久”的博客。
+然而，这些年来，资本巨头的垄断让个人网站几乎销声匿迹。这让我不禁哀叹：难道个人网站没有未来吗？
+我的答案，是否定的。我坚信，个人网站一定会在未来随着时代变化而重新迎来春天。为此，我决定，要让本站连续不间断运营30年，而更宏大的目标是50年。
+接下来的30年，运气好的话是50年，我们，一起见证这条道路的成功！
+Dear readers:
+Xiahe Blog has been on since 2017, over five years ago. Xiahe Blog has posted over a hundred posts on different platforms, it&#39;s truely are &#34;historic blog&#34;.
+However, these years, because of the monopoly of big capitalists, personal websites have almost &#34;disappeared&#34;. It made me thought &#34;Is this the end of personal websites?&#34;
+My answer is : NO. I am now surely believe that under the developing of society, personal websites will reach the tomorrow.</description>
     </item>
     
     <item>
       <title>祝愿所有劳动妇女3·8国际劳动妇女节快乐！</title>
-      <link>https://blog.helim.net/notifications/%E7%A5%9D%E6%84%BF%E6%89%80%E6%9C%89%E5%8A%B3%E5%8A%A8%E5%A6%87%E5%A5%B338%E5%9B%BD%E9%99%85%E5%8A%B3%E5%8A%A8%E5%A6%87%E5%A5%B3%E8%8A%82%E5%BF%AB%E4%B9%90/</link>
+      <link>/notifications/%E7%A5%9D%E6%84%BF%E6%89%80%E6%9C%89%E5%8A%B3%E5%8A%A8%E5%A6%87%E5%A5%B338%E5%9B%BD%E9%99%85%E5%8A%B3%E5%8A%A8%E5%A6%87%E5%A5%B3%E8%8A%82%E5%BF%AB%E4%B9%90/</link>
       <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/notifications/%E7%A5%9D%E6%84%BF%E6%89%80%E6%9C%89%E5%8A%B3%E5%8A%A8%E5%A6%87%E5%A5%B338%E5%9B%BD%E9%99%85%E5%8A%B3%E5%8A%A8%E5%A6%87%E5%A5%B3%E8%8A%82%E5%BF%AB%E4%B9%90/</guid>
-      <description> </description>
+      <guid>/notifications/%E7%A5%9D%E6%84%BF%E6%89%80%E6%9C%89%E5%8A%B3%E5%8A%A8%E5%A6%87%E5%A5%B338%E5%9B%BD%E9%99%85%E5%8A%B3%E5%8A%A8%E5%A6%87%E5%A5%B3%E8%8A%82%E5%BF%AB%E4%B9%90/</guid>
+      <description>广大的妇女朋友们，
+3·8国际劳动妇女节是属于你们的节日。3·8国际劳动妇女节的设立目的是为了宣扬将妇女劳动力从旧思想旧道德中解放的思想。妇女在历史上一直因为种种原因丧失了劳动的权利，但通过漫长的斗争，妇女们争取到了劳动的权利，积极建设社会，成为了劳动妇女，成为了“能顶半边天”的妇女。
+但是，近年来，用心不轨的人提出了“女神节”“女生节”这种脱离了劳动的别称，更有甚者借此机会鼓动女性购物，宣传消费主义。这种行为是可耻的，是每一个公民（无论男女）都要起来反对的。我们要抵制这种“去劳动化”的宣传语，坚决保证3·8只是劳动者的节日！</description>
     </item>
     
     <item>
       <title>当你来到：一切照旧。</title>
-      <link>https://blog.helim.net/notifications/%E5%BD%93%E4%BD%A0%E6%9D%A5%E5%88%B0%E4%B8%80%E5%88%87%E7%85%A7%E6%97%A7/</link>
+      <link>/notifications/%E5%BD%93%E4%BD%A0%E6%9D%A5%E5%88%B0%E4%B8%80%E5%88%87%E7%85%A7%E6%97%A7/</link>
       <pubDate>Wed, 02 Mar 2022 21:52:03 +0000</pubDate>
       
-      <guid>https://blog.helim.net/notifications/%E5%BD%93%E4%BD%A0%E6%9D%A5%E5%88%B0%E4%B8%80%E5%88%87%E7%85%A7%E6%97%A7/</guid>
-      <description> </description>
+      <guid>/notifications/%E5%BD%93%E4%BD%A0%E6%9D%A5%E5%88%B0%E4%B8%80%E5%88%87%E7%85%A7%E6%97%A7/</guid>
+      <description>你可能不会感觉到，但夏荷博客已经更换了服务器。
+原先夏荷博客使用的香港CLD机房服务器的上层网络线路遭到攻击。（对于这种情况我是无法解决的），在沟通后，切换了香港KC机房的服务器。
+这两者其实根本不会有什么访问体验的差别，但如果您是境外用户可能速度会在可接受的范围内不可避免的降低极小的一点。</description>
     </item>
     
   </channel>

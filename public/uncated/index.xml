@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Uncateds on 荷岭网居</title>
-    <link>https://blog.helim.net/uncated/</link>
+    <link>/uncated/</link>
     <description>Recent content in Uncateds on 荷岭网居</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 20 May 2023 13:04:00 +0000</lastBuildDate><atom:link href="https://blog.helim.net/uncated/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 May 2023 13:04:00 +0000</lastBuildDate><atom:link href="/uncated/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>更加GPT的“一言”接口：HitokotoGPT</title>
-      <link>https://blog.helim.net/uncated/%E6%9B%B4%E5%8A%A0gpt%E7%9A%84%E4%B8%80%E8%A8%80%E6%8E%A5%E5%8F%A3hitokotogpt/</link>
+      <link>/uncated/%E6%9B%B4%E5%8A%A0gpt%E7%9A%84%E4%B8%80%E8%A8%80%E6%8E%A5%E5%8F%A3hitokotogpt/</link>
       <pubDate>Sat, 20 May 2023 13:04:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/uncated/%E6%9B%B4%E5%8A%A0gpt%E7%9A%84%E4%B8%80%E8%A8%80%E6%8E%A5%E5%8F%A3hitokotogpt/</guid>
+      <guid>/uncated/%E6%9B%B4%E5%8A%A0gpt%E7%9A%84%E4%B8%80%E8%A8%80%E6%8E%A5%E5%8F%A3hitokotogpt/</guid>
       <description>HitokotoGPT 是我一时兴起做的一个简单小脚本，用来提供一个基于 ChatGPT 的 “一言” 接口。
 这个原版所谓的 “一言” 接口是一个项目，它在每一次请求 API 时都会返回一句话，用来装点网站的文艺风范。而 HitokotoGPT 则更进一步，它使用 ChatGPT 来动态生成这句话，使得网站上的文学装点也显得更加新颖。
 HitokotoGPT 建立在 ChatGPT 上，是一个简单部署的 Python 程序。通过这一程序，你将可以简单地获取由 ChatGPT 生成的 “名言警句”。你可以自己部署这一程序，也可以使用公开的接口。本项目自带的公开接口仅供测试用，不对其稳定性负责。
@@ -25,10 +25,10 @@ pip install -r requirements.txt 这个安装过程将很快结束。完成后请
     
     <item>
       <title>Github遭受一周三次停机，本站未受直接影响</title>
-      <link>https://blog.helim.net/uncated/github%E9%81%AD%E5%8F%97%E4%B8%80%E5%91%A8%E4%B8%89%E6%AC%A1%E5%81%9C%E6%9C%BA%E6%9C%AC%E7%AB%99%E6%9C%AA%E5%8F%97%E7%9B%B4%E6%8E%A5%E5%BD%B1%E5%93%8D/</link>
+      <link>/uncated/github%E9%81%AD%E5%8F%97%E4%B8%80%E5%91%A8%E4%B8%89%E6%AC%A1%E5%81%9C%E6%9C%BA%E6%9C%AC%E7%AB%99%E6%9C%AA%E5%8F%97%E7%9B%B4%E6%8E%A5%E5%BD%B1%E5%93%8D/</link>
       <pubDate>Thu, 11 May 2023 22:28:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/uncated/github%E9%81%AD%E5%8F%97%E4%B8%80%E5%91%A8%E4%B8%89%E6%AC%A1%E5%81%9C%E6%9C%BA%E6%9C%AC%E7%AB%99%E6%9C%AA%E5%8F%97%E7%9B%B4%E6%8E%A5%E5%BD%B1%E5%93%8D/</guid>
+      <guid>/uncated/github%E9%81%AD%E5%8F%97%E4%B8%80%E5%91%A8%E4%B8%89%E6%AC%A1%E5%81%9C%E6%9C%BA%E6%9C%AC%E7%AB%99%E6%9C%AA%E5%8F%97%E7%9B%B4%E6%8E%A5%E5%BD%B1%E5%93%8D/</guid>
       <description>Github在其官方Twitter上发布消息，其网站已于GMT 2023/5/11 十三时左右（北京时间下午九点）遭受性能下降。但实则很多业务完全无法访问。
 Github作为托管了大量开源软件的Git托管平台，凭借着免费的服务和大量的、甚至直接构成互联网本身的仓库，成为互联网上已经不可或缺的一个基础设施。如果Github永久停止，那将是对自由软件和互联网的一次重创。这次停机只是一次意外，但因为类似的故障在本周内已经发生约三次，还是引起了开发者和公众的忧虑。
 有用户在官推下表示：“这周已经宕机2-3次了，对于Github的服务来说，这非常多”
@@ -37,20 +37,20 @@ Github作为托管了大量开源软件的Git托管平台，凭借着免费的�
     
     <item>
       <title>技术速报：AI可以画手了。</title>
-      <link>https://blog.helim.net/uncated/%E6%8A%80%E6%9C%AF%E9%80%9F%E6%8A%A5ai%E5%8F%AF%E4%BB%A5%E7%94%BB%E6%89%8B%E4%BA%86/</link>
+      <link>/uncated/%E6%8A%80%E6%9C%AF%E9%80%9F%E6%8A%A5ai%E5%8F%AF%E4%BB%A5%E7%94%BB%E6%89%8B%E4%BA%86/</link>
       <pubDate>Thu, 04 May 2023 22:05:55 +0000</pubDate>
       
-      <guid>https://blog.helim.net/uncated/%E6%8A%80%E6%9C%AF%E9%80%9F%E6%8A%A5ai%E5%8F%AF%E4%BB%A5%E7%94%BB%E6%89%8B%E4%BA%86/</guid>
+      <guid>/uncated/%E6%8A%80%E6%9C%AF%E9%80%9F%E6%8A%A5ai%E5%8F%AF%E4%BB%A5%E7%94%BB%E6%89%8B%E4%BA%86/</guid>
       <description>图片由Kamiya.dev ASP生成。
 纯AI生成，未作人工修改。模型为AnythingV5_PrtRE</description>
     </item>
     
     <item>
       <title>观看《空中浩劫》S23E06四川8633</title>
-      <link>https://blog.helim.net/uncated/%E8%A7%82%E7%9C%8B%E7%A9%BA%E4%B8%AD%E6%B5%A9%E5%8A%ABs23e06%E5%9B%9B%E5%B7%9D8633/</link>
+      <link>/uncated/%E8%A7%82%E7%9C%8B%E7%A9%BA%E4%B8%AD%E6%B5%A9%E5%8A%ABs23e06%E5%9B%9B%E5%B7%9D8633/</link>
       <pubDate>Sat, 08 Apr 2023 22:34:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/uncated/%E8%A7%82%E7%9C%8B%E7%A9%BA%E4%B8%AD%E6%B5%A9%E5%8A%ABs23e06%E5%9B%9B%E5%B7%9D8633/</guid>
+      <guid>/uncated/%E8%A7%82%E7%9C%8B%E7%A9%BA%E4%B8%AD%E6%B5%A9%E5%8A%ABs23e06%E5%9B%9B%E5%B7%9D8633/</guid>
       <description>这个视频由空中浩劫字幕组制作。视频资源来自ACICFG空中浩劫中文字幕组。
 按照他们的许可，本资源采用CC BY-NC-ND 4.0授权。
 如果有版权问题，请及时留言联系并商议删除。
@@ -60,10 +60,10 @@ Github作为托管了大量开源软件的Git托管平台，凭借着免费的�
     
     <item>
       <title>无线志异：短波不短长波长，UV波段发远方</title>
-      <link>https://blog.helim.net/uncated/%E6%97%A0%E7%BA%BF%E5%BF%97%E5%BC%82%E7%9F%AD%E6%B3%A2%E4%B8%8D%E7%9F%AD%E9%95%BF%E6%B3%A2%E9%95%BFuv%E6%B3%A2%E6%AE%B5%E5%8F%91%E8%BF%9C%E6%96%B9/</link>
+      <link>/uncated/%E6%97%A0%E7%BA%BF%E5%BF%97%E5%BC%82%E7%9F%AD%E6%B3%A2%E4%B8%8D%E7%9F%AD%E9%95%BF%E6%B3%A2%E9%95%BFuv%E6%B3%A2%E6%AE%B5%E5%8F%91%E8%BF%9C%E6%96%B9/</link>
       <pubDate>Fri, 24 Mar 2023 21:33:23 +0000</pubDate>
       
-      <guid>https://blog.helim.net/uncated/%E6%97%A0%E7%BA%BF%E5%BF%97%E5%BC%82%E7%9F%AD%E6%B3%A2%E4%B8%8D%E7%9F%AD%E9%95%BF%E6%B3%A2%E9%95%BFuv%E6%B3%A2%E6%AE%B5%E5%8F%91%E8%BF%9C%E6%96%B9/</guid>
+      <guid>/uncated/%E6%97%A0%E7%BA%BF%E5%BF%97%E5%BC%82%E7%9F%AD%E6%B3%A2%E4%B8%8D%E7%9F%AD%E9%95%BF%E6%B3%A2%E9%95%BFuv%E6%B3%A2%E6%AE%B5%E5%8F%91%E8%BF%9C%E6%96%B9/</guid>
       <description>话说到了二十一世纪，各种无线电通讯技术，那是一个雨后春笋般地林立起来。现在每个人都能接触到的技术，当属载波聚合(LTE)了。这个LTE，也倒是一个清奇。正常通讯发送的信号大部分是低频的，而载波聚合能够将低频的信号，承载在高频的正弦波。信息论有言，波长越短，波能携带的信息就越多，换言之，带宽就越大。相较于3G，4G最大的特色就是提高了频率，降低了波长。而所谓5G，也只是再把波长缩得更短。当然，波长越短，波的指向性就会越明显，它能覆盖的服务范围也就越小。幸亏跑在甚高频的这些民用通讯，对于带宽要求大，而对于覆盖范围并没有什么苛求。于是载波技术被广泛用作一种移动设备接入互联网的手段。
 但这个载波，也是一个无底大坑。它的延迟与带宽的稳定性，一直困扰着网络工程师们。而相比于以太网的节能减排，它的高能耗也是广泛应用的一大门槛。这是因为和信息一样，波长越短，波能携带的能量也越多。其他的原因，有如群众的恐慌，因为学习只学半截者可能会断章取义，认为只要波长越短，电磁波致癌的风险就越大。虽然波长越短能量确实越大，但一切波长小于可见光的电磁波，其最大的危害是让人感到热（微波炉原理），其他没有任何伤害。否则，每天出去晒个太阳，不也得掉三层皮了？
 不过载波的发展速度放缓不代表其他无线电技术就陪着它一起停滞。即使在现代，依旧有相当一部分无线电爱好者，正在使用看似新潮，实则古老的设备通联。
@@ -80,19 +80,19 @@ Github作为托管了大量开源软件的Git托管平台，凭借着免费的�
     
     <item>
       <title>纪念巴黎公社运动152周年</title>
-      <link>https://blog.helim.net/uncated/%E7%BA%AA%E5%BF%B5%E5%B7%B4%E9%BB%8E%E5%85%AC%E7%A4%BE%E8%BF%90%E5%8A%A8152%E5%91%A8%E5%B9%B4/</link>
+      <link>/uncated/%E7%BA%AA%E5%BF%B5%E5%B7%B4%E9%BB%8E%E5%85%AC%E7%A4%BE%E8%BF%90%E5%8A%A8152%E5%91%A8%E5%B9%B4/</link>
       <pubDate>Sat, 18 Mar 2023 17:34:06 +0000</pubDate>
       
-      <guid>https://blog.helim.net/uncated/%E7%BA%AA%E5%BF%B5%E5%B7%B4%E9%BB%8E%E5%85%AC%E7%A4%BE%E8%BF%90%E5%8A%A8152%E5%91%A8%E5%B9%B4/</guid>
+      <guid>/uncated/%E7%BA%AA%E5%BF%B5%E5%B7%B4%E9%BB%8E%E5%85%AC%E7%A4%BE%E8%BF%90%E5%8A%A8152%E5%91%A8%E5%B9%B4/</guid>
       <description>巴黎公社是一次伟大的尝试。</description>
     </item>
     
     <item>
       <title>给Cloudreve配上在线查看文档的玩意</title>
-      <link>https://blog.helim.net/uncated/%E7%BB%99cloudreve%E9%85%8D%E4%B8%8A%E5%9C%A8%E7%BA%BF%E6%9F%A5%E7%9C%8B%E6%96%87%E6%A1%A3%E7%9A%84%E7%8E%A9%E6%84%8F/</link>
+      <link>/uncated/%E7%BB%99cloudreve%E9%85%8D%E4%B8%8A%E5%9C%A8%E7%BA%BF%E6%9F%A5%E7%9C%8B%E6%96%87%E6%A1%A3%E7%9A%84%E7%8E%A9%E6%84%8F/</link>
       <pubDate>Sun, 05 Mar 2023 14:55:20 +0000</pubDate>
       
-      <guid>https://blog.helim.net/uncated/%E7%BB%99cloudreve%E9%85%8D%E4%B8%8A%E5%9C%A8%E7%BA%BF%E6%9F%A5%E7%9C%8B%E6%96%87%E6%A1%A3%E7%9A%84%E7%8E%A9%E6%84%8F/</guid>
+      <guid>/uncated/%E7%BB%99cloudreve%E9%85%8D%E4%B8%8A%E5%9C%A8%E7%BA%BF%E6%9F%A5%E7%9C%8B%E6%96%87%E6%A1%A3%E7%9A%84%E7%8E%A9%E6%84%8F/</guid>
       <description>Cloudreve可以说是一款质量上乘的开源软件开源网盘解决方案了。拿它给我的NAS(仅限HelimLAN局域网)做网盘服务用，那是相当方便。
 只是我的这个网盘服务是只给局域网用的，所以自带的那个Office APP在线文档预览是用不得的。况且Office在线版的加载速度，大家也都心知肚明。于是我就想能不能用比如Onlyoffice来完成个纯前端的文档编辑和预览。
 初步配置 当然，首先是把我的Cloudreve基础服务搭配好。在以前，我一直都是用IP地址直接访问。不过我去Cloudflare那边改了几条记录，发现这个DNS竟然可以解析一个内网地址。那我乐坏了，把nas.helim.net解析到了我这边的内网地址。这样我的那些设备就不用想方设法地改hosts或者输一大长串IP地址了。
@@ -108,29 +108,37 @@ cd /etc/onlyoffice/documentserver #打开目录 nano local.json #开始编辑 �
     
     <item>
       <title>明天会更好 / A better Tomorrow</title>
-      <link>https://blog.helim.net/uncated/%E6%98%8E%E5%A4%A9%E4%BC%9A%E6%9B%B4%E5%A5%BD---a-better-tomorrow/</link>
+      <link>/uncated/%E6%98%8E%E5%A4%A9%E4%BC%9A%E6%9B%B4%E5%A5%BD---a-better-tomorrow/</link>
       <pubDate>Sun, 12 Feb 2023 13:13:23 +0000</pubDate>
       
-      <guid>https://blog.helim.net/uncated/%E6%98%8E%E5%A4%A9%E4%BC%9A%E6%9B%B4%E5%A5%BD---a-better-tomorrow/</guid>
+      <guid>/uncated/%E6%98%8E%E5%A4%A9%E4%BC%9A%E6%9B%B4%E5%A5%BD---a-better-tomorrow/</guid>
       <description>突然发现这首歌和后室（The Backrooms）的情况很搭配。现在让ACE唱了一遍，结果放在下面。
 [vplayer url=&amp;ldquo;https://share.helim.net/?/abettertomorrow.mp4&amp;rdquo;]</description>
     </item>
     
     <item>
       <title>R-12 花园</title>
-      <link>https://blog.helim.net/uncated/r-12-%E8%8A%B1%E5%9B%AD/</link>
+      <link>/uncated/r-12-%E8%8A%B1%E5%9B%AD/</link>
       <pubDate>Thu, 02 Feb 2023 21:31:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/uncated/r-12-%E8%8A%B1%E5%9B%AD/</guid>
-      <description>span</description>
+      <guid>/uncated/r-12-%E8%8A%B1%E5%9B%AD/</guid>
+      <description>span
+这是我所挚爱的花园。
+在春日风和雨所寂寞的时刻，阳光会沿着落满圣洁灰尘的废墟，撒在抽枝怒长的植物上。它们以光线和露水的可能，以空气中悬浮的碳的力量，在缓慢流逝的时间中，给这日渐破败的小世界留下自己作为生物的一笔一画。根须顺着水流，狠狠地向地下坚实的岩块冲荡着，誓要在凌乱的世界中，以柔软的根茎，刻画下难以抹去的痕迹。
+花和草们永远对世界怀抱以最大的善意。哪怕是对裹挟着沙石而呼啸的西北来风，哪怕是轰隆作响，随时降下万丈雷霆的阴霾天空。如果有风吹来，那它们会让它无妨地吹过它们的枝叶，即使原本平静的它们会因此而在风中摇曳——但是无所谓，但是都一样。
+固定的事物，也可以是充满激烈梦想的生命。所有的植物都只是在静默的生长——缓慢，但确实在生长。哪怕是一年也不会长高半毫米，因为这是一块贫瘠的土地。而花园也因此显得一成不变，这里会随着时间流逝改变的，只有地上大块的石头慢慢的风化分解，以及太阳每天周而复始地斜射变化。
+腐烂是会蔓延开来，伴随一天早上空气中血腥的气息。那些是内脏，血淋淋地流淌在地面上。植物们是见不得血的，但不妨碍它们开始饮用这不知何处来的甘露。而伴随着一朵朵所有植物从未见过的花朵，相继在这土地上盛开——
+那是什么样的花呢？
+那花却散发着腥臭味，鲜红并变得黯淡，逐渐随着空气而凝固——那花却真的在流动，在慢慢地行走。
+在嘶吼，在我最挚爱的花园中抒发。</description>
     </item>
     
     <item>
       <title>重振旗鼓，全新优化，更高质量</title>
-      <link>https://blog.helim.net/uncated/%E9%87%8D%E6%8C%AF%E6%97%97%E9%BC%93%E5%85%A8%E6%96%B0%E4%BC%98%E5%8C%96%E6%9B%B4%E9%AB%98%E8%B4%A8%E9%87%8F/</link>
+      <link>/uncated/%E9%87%8D%E6%8C%AF%E6%97%97%E9%BC%93%E5%85%A8%E6%96%B0%E4%BC%98%E5%8C%96%E6%9B%B4%E9%AB%98%E8%B4%A8%E9%87%8F/</link>
       <pubDate>Thu, 02 Feb 2023 20:28:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/uncated/%E9%87%8D%E6%8C%AF%E6%97%97%E9%BC%93%E5%85%A8%E6%96%B0%E4%BC%98%E5%8C%96%E6%9B%B4%E9%AB%98%E8%B4%A8%E9%87%8F/</guid>
+      <guid>/uncated/%E9%87%8D%E6%8C%AF%E6%97%97%E9%BC%93%E5%85%A8%E6%96%B0%E4%BC%98%E5%8C%96%E6%9B%B4%E9%AB%98%E8%B4%A8%E9%87%8F/</guid>
       <description>我想，是时候结束“颠沛流离”的博客生活了。
 这里的一切已经做好了永不再变更的准备——最后的一次更改是启用了这个88元的主题。
 结束了。因为这片最后的净土已经建成。

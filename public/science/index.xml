@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sciences on 荷岭网居</title>
-    <link>https://blog.helim.net/science/</link>
+    <link>/science/</link>
     <description>Recent content in Sciences on 荷岭网居</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 28 May 2023 19:38:54 +0000</lastBuildDate><atom:link href="https://blog.helim.net/science/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 May 2023 19:38:54 +0000</lastBuildDate><atom:link href="/science/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>数据后室-The Backrooms Fandom中英两站页面数量变迁估测</title>
-      <link>https://blog.helim.net/science/backrooms-statistics/</link>
+      <link>/science/backrooms-statistics/</link>
       <pubDate>Sun, 28 May 2023 19:38:54 +0000</pubDate>
       
-      <guid>https://blog.helim.net/science/backrooms-statistics/</guid>
+      <guid>/science/backrooms-statistics/</guid>
       <description>本站不是The Backrooms的附属/官方网站，本统计只是娱乐目的，请您知晓。
 数据收集 数据样本是从Internet Archive的Wayback Machine留存的页面中收集而来的。可信度高，连续性较强。通过对数据的归纳汇总估算了每个月月末的页面数量，可能会有所偏差。且本次数据收集排除了极端异常量（Fandom Backrooms CN删文退站高峰期的数据并没有被Internet Archive记录下来），导致在短时极端事件期间的数据未有明确体现。
 数据分析 调查是重要的了解事物发展的方式。通过本次参考性的抽样调查，可以看出中英后室两站的发展具有以下共同特点：
@@ -26,10 +26,10 @@ P2N2 Network 下载：data.7z</description>
     
     <item>
       <title>无线志异：序</title>
-      <link>https://blog.helim.net/science/%E6%97%A0%E7%BA%BF%E5%BF%97%E5%BC%82%E5%BA%8F/</link>
+      <link>/science/%E6%97%A0%E7%BA%BF%E5%BF%97%E5%BC%82%E5%BA%8F/</link>
       <pubDate>Wed, 22 Mar 2023 21:07:15 +0000</pubDate>
       
-      <guid>https://blog.helim.net/science/%E6%97%A0%E7%BA%BF%E5%BF%97%E5%BC%82%E5%BA%8F/</guid>
+      <guid>/science/%E6%97%A0%E7%BA%BF%E5%BF%97%E5%BC%82%E5%BA%8F/</guid>
       <description>所谓无线电者，盖以电磁波而名于世也。电磁波者，乃电场之变垂于磁场之变者也。或携能，或携讯，穿梭交叉。尝以为此为新技，乃知此为近代上古科学，已百年有余也。电报者，乃电磁波也。通联者，亦电磁波也。更不必言收音者，皆为此之接收彼之电讯，所耗能甚多，而带宽止于二三语音、抑滴答电报足矣。
 入二十一世纪，电磁波更泛用也。电报少见，而即时通讯大兴。文字文件欤媒体，皆可以自电磁波而导递于空气，于光缆，于太虚。信息之论更有云，“磁电之波，乃万物所携信之波变，所行愈频，所携信愈繁。”而自电报所用之中长波，至微波于无线局域网，其带宽数以千倍扩也。恍惚顷刻间，无论文件巨微，皆如期达。
 于无线之基石，科学前人有其预备，所筑者乃谓曰因特网。又辅以TCP/IP与蜂窝移动，便利万民，香飘千秋。
@@ -40,10 +40,10 @@ P2N2 Network 下载：data.7z</description>
     
     <item>
       <title>霞鹜文楷 WebFont V1.250发布（附特定字符无法显示的解决方案）</title>
-      <link>https://blog.helim.net/science/%E9%9C%9E%E9%B9%9C%E6%96%87%E6%A5%B7-webfont-v1.250%E5%8F%91%E5%B8%83%E9%99%84%E7%89%B9%E5%AE%9A%E5%AD%97%E7%AC%A6%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</link>
+      <link>/science/%E9%9C%9E%E9%B9%9C%E6%96%87%E6%A5%B7-webfont-v1.250%E5%8F%91%E5%B8%83%E9%99%84%E7%89%B9%E5%AE%9A%E5%AD%97%E7%AC%A6%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</link>
       <pubDate>Sat, 04 Feb 2023 14:20:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/science/%E9%9C%9E%E9%B9%9C%E6%96%87%E6%A5%B7-webfont-v1.250%E5%8F%91%E5%B8%83%E9%99%84%E7%89%B9%E5%AE%9A%E5%AD%97%E7%AC%A6%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</guid>
+      <guid>/science/%E9%9C%9E%E9%B9%9C%E6%96%87%E6%A5%B7-webfont-v1.250%E5%8F%91%E5%B8%83%E9%99%84%E7%89%B9%E5%AE%9A%E5%AD%97%E7%AC%A6%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</guid>
       <description>前段时间，知名中文开源字体霞鹜文楷发布了v1.250版本。然而，很多用户仍然在使用1.235甚至更陈旧的webfont版本。我已经重新编译了最新的WebFont版本。并将它托管在了我自己的CNDC的服务器上。
 发布最新版本 提供下载链接 原理 中文的字体调用一直都是一个让人伤脑筋的问题。曾经使用TTF文件来启用字体，然而这会带来极大的带宽需求。需要将整个TTF文件下载到本地。一个TTF小有15M，大则有30多M，十分的不便。
 然而经过一段时间的研究，一些前端工程师发现中文字体可以通过切分Unicode区域，并将每个区域对准到每一个woff文件作为子集，以次来实现按需调用，极大减少了带宽需求。代价是这种字体(WebFont)需要专门构建。
@@ -64,68 +64,77 @@ body{ font-family: &amp;#34;LXGW WenKai&amp;#34;; } 您还可以设置字体Fall
     
     <item>
       <title>水的分解——化学反应笔记</title>
-      <link>https://blog.helim.net/science/%E6%B0%B4%E7%9A%84%E5%88%86%E8%A7%A3%E5%8C%96%E5%AD%A6%E5%8F%8D%E5%BA%94%E7%AC%94%E8%AE%B0/</link>
+      <link>/science/%E6%B0%B4%E7%9A%84%E5%88%86%E8%A7%A3%E5%8C%96%E5%AD%A6%E5%8F%8D%E5%BA%94%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Mon, 21 Nov 2022 04:19:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/science/%E6%B0%B4%E7%9A%84%E5%88%86%E8%A7%A3%E5%8C%96%E5%AD%A6%E5%8F%8D%E5%BA%94%E7%AC%94%E8%AE%B0/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;</description>
+      <guid>/science/%E6%B0%B4%E7%9A%84%E5%88%86%E8%A7%A3%E5%8C%96%E5%AD%A6%E5%8F%8D%E5%BA%94%E7%AC%94%E8%AE%B0/</guid>
+      <description>&lt;p&gt;我们可能会发现日常生活中最常见的水其实是一种隐藏的能源，因为它可以分解成氢气和氧气，在混合燃烧的过程中释放出大量的热（能量）。&lt;/p&gt;&lt;p&gt;那么，我们可以做些什么来分解水呢？&lt;/p&gt;&lt;p&gt;实际上，科学家们已经找到了很多方法来做到这一点。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>电学plusplus：电解水，但是用9V铅电池</title>
-      <link>https://blog.helim.net/science/%E7%94%B5%E5%AD%A6plusplus%E7%94%B5%E8%A7%A3%E6%B0%B4%E4%BD%86%E6%98%AF%E7%94%A89v%E9%93%85%E7%94%B5%E6%B1%A0/</link>
+      <link>/science/%E7%94%B5%E5%AD%A6plusplus%E7%94%B5%E8%A7%A3%E6%B0%B4%E4%BD%86%E6%98%AF%E7%94%A89v%E9%93%85%E7%94%B5%E6%B1%A0/</link>
       <pubDate>Thu, 29 Sep 2022 22:48:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/science/%E7%94%B5%E5%AD%A6plusplus%E7%94%B5%E8%A7%A3%E6%B0%B4%E4%BD%86%E6%98%AF%E7%94%A89v%E9%93%85%E7%94%B5%E6%B1%A0/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;</description>
+      <guid>/science/%E7%94%B5%E5%AD%A6plusplus%E7%94%B5%E8%A7%A3%E6%B0%B4%E4%BD%86%E6%98%AF%E7%94%A89v%E9%93%85%E7%94%B5%E6%B1%A0/</guid>
+      <description>&lt;p&gt;在化学老师的强烈建议（指上课讲了两句话）下，我决定尝试电解水。&lt;/p&gt;&lt;p&gt;但是问题（第一个问题）很快就来了。我们都知道家用供电都是交流电，可是电解用的都是直流电。再说即使真的用交流电也可以电解水，我也绝对不能向水里通上220V的交流电，那样水会直接被击穿，接着家里的空气开关就要跳闸抗议了&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>电学初探：简单电路，和家庭用试验电源</title>
-      <link>https://blog.helim.net/science/%E7%94%B5%E5%AD%A6%E5%88%9D%E6%8E%A2%E7%AE%80%E5%8D%95%E7%94%B5%E8%B7%AF%E5%92%8C%E5%AE%B6%E5%BA%AD%E7%94%A8%E8%AF%95%E9%AA%8C%E7%94%B5%E6%BA%90/</link>
+      <link>/science/%E7%94%B5%E5%AD%A6%E5%88%9D%E6%8E%A2%E7%AE%80%E5%8D%95%E7%94%B5%E8%B7%AF%E5%92%8C%E5%AE%B6%E5%BA%AD%E7%94%A8%E8%AF%95%E9%AA%8C%E7%94%B5%E6%BA%90/</link>
       <pubDate>Sun, 11 Sep 2022 19:44:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/science/%E7%94%B5%E5%AD%A6%E5%88%9D%E6%8E%A2%E7%AE%80%E5%8D%95%E7%94%B5%E8%B7%AF%E5%92%8C%E5%AE%B6%E5%BA%AD%E7%94%A8%E8%AF%95%E9%AA%8C%E7%94%B5%E6%BA%90/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;</description>
+      <guid>/science/%E7%94%B5%E5%AD%A6%E5%88%9D%E6%8E%A2%E7%AE%80%E5%8D%95%E7%94%B5%E8%B7%AF%E5%92%8C%E5%AE%B6%E5%BA%AD%E7%94%A8%E8%AF%95%E9%AA%8C%E7%94%B5%E6%BA%90/</guid>
+      <description>&lt;p&gt;在本文中，将介绍如何使用简单易得的电学实验套装，研究最简单的照明电路，以及家庭用试验电源。&lt;/p&gt;&lt;p&gt;存储在夏荷档案库的视频：&lt;br&gt;[档案库崩溃事故，造成文件永久性丢失]&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>关于短波天线（小环天线）在室内信号信号的可能性研究</title>
-      <link>https://blog.helim.net/science/%E5%85%B3%E4%BA%8E%E7%9F%AD%E6%B3%A2%E5%A4%A9%E7%BA%BF%E5%B0%8F%E7%8E%AF%E5%A4%A9%E7%BA%BF%E5%9C%A8%E5%AE%A4%E5%86%85%E4%BF%A1%E5%8F%B7%E4%BF%A1%E5%8F%B7%E7%9A%84%E5%8F%AF%E8%83%BD%E6%80%A7%E7%A0%94%E7%A9%B6/</link>
+      <link>/science/%E5%85%B3%E4%BA%8E%E7%9F%AD%E6%B3%A2%E5%A4%A9%E7%BA%BF%E5%B0%8F%E7%8E%AF%E5%A4%A9%E7%BA%BF%E5%9C%A8%E5%AE%A4%E5%86%85%E4%BF%A1%E5%8F%B7%E4%BF%A1%E5%8F%B7%E7%9A%84%E5%8F%AF%E8%83%BD%E6%80%A7%E7%A0%94%E7%A9%B6/</link>
       <pubDate>Sun, 24 Jul 2022 05:59:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/science/%E5%85%B3%E4%BA%8E%E7%9F%AD%E6%B3%A2%E5%A4%A9%E7%BA%BF%E5%B0%8F%E7%8E%AF%E5%A4%A9%E7%BA%BF%E5%9C%A8%E5%AE%A4%E5%86%85%E4%BF%A1%E5%8F%B7%E4%BF%A1%E5%8F%B7%E7%9A%84%E5%8F%AF%E8%83%BD%E6%80%A7%E7%A0%94%E7%A9%B6/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;</description>
+      <guid>/science/%E5%85%B3%E4%BA%8E%E7%9F%AD%E6%B3%A2%E5%A4%A9%E7%BA%BF%E5%B0%8F%E7%8E%AF%E5%A4%A9%E7%BA%BF%E5%9C%A8%E5%AE%A4%E5%86%85%E4%BF%A1%E5%8F%B7%E4%BF%A1%E5%8F%B7%E7%9A%84%E5%8F%AF%E8%83%BD%E6%80%A7%E7%A0%94%E7%A9%B6/</guid>
+      <description>&lt;p&gt;发表者：夏荷&lt;/p&gt;&lt;p&gt;我们知道，短波接收对于方向性的要求不重要，理论上只要该地区存在有短波信号传递，那么天线的朝向不会影响信号的传递。但在实际的接收中，一些天线，尤其指小环天线，实际上对于接受环境和方向非常考究，尤其是在室内接受时。（换言之，小环天线在室内的接收成功，甚至达到高质量接收的可能性是很大的，只要控制好室内环境和接收方向。）&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>无线电简报：今晚无线电观测正常进行，昨晚因恶劣强对流暂停</title>
-      <link>https://blog.helim.net/science/%E6%97%A0%E7%BA%BF%E7%94%B5%E7%AE%80%E6%8A%A5%E4%BB%8A%E6%99%9A%E6%97%A0%E7%BA%BF%E7%94%B5%E8%A7%82%E6%B5%8B%E6%AD%A3%E5%B8%B8%E8%BF%9B%E8%A1%8C%E6%98%A8%E6%99%9A%E5%9B%A0%E6%81%B6%E5%8A%A3%E5%BC%BA%E5%AF%B9%E6%B5%81%E6%9A%82%E5%81%9C/</link>
+      <link>/science/%E6%97%A0%E7%BA%BF%E7%94%B5%E7%AE%80%E6%8A%A5%E4%BB%8A%E6%99%9A%E6%97%A0%E7%BA%BF%E7%94%B5%E8%A7%82%E6%B5%8B%E6%AD%A3%E5%B8%B8%E8%BF%9B%E8%A1%8C%E6%98%A8%E6%99%9A%E5%9B%A0%E6%81%B6%E5%8A%A3%E5%BC%BA%E5%AF%B9%E6%B5%81%E6%9A%82%E5%81%9C/</link>
       <pubDate>Sun, 27 Mar 2022 21:14:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/science/%E6%97%A0%E7%BA%BF%E7%94%B5%E7%AE%80%E6%8A%A5%E4%BB%8A%E6%99%9A%E6%97%A0%E7%BA%BF%E7%94%B5%E8%A7%82%E6%B5%8B%E6%AD%A3%E5%B8%B8%E8%BF%9B%E8%A1%8C%E6%98%A8%E6%99%9A%E5%9B%A0%E6%81%B6%E5%8A%A3%E5%BC%BA%E5%AF%B9%E6%B5%81%E6%9A%82%E5%81%9C/</guid>
-      <description> </description>
+      <guid>/science/%E6%97%A0%E7%BA%BF%E7%94%B5%E7%AE%80%E6%8A%A5%E4%BB%8A%E6%99%9A%E6%97%A0%E7%BA%BF%E7%94%B5%E8%A7%82%E6%B5%8B%E6%AD%A3%E5%B8%B8%E8%BF%9B%E8%A1%8C%E6%98%A8%E6%99%9A%E5%9B%A0%E6%81%B6%E5%8A%A3%E5%BC%BA%E5%AF%B9%E6%B5%81%E6%9A%82%E5%81%9C/</guid>
+      <description>以后将每日按照此格式发布无线电观测日志记录
+昨日观测总结：
+昨早晨进行无线电观测，未有异常，信号接受程度中等。
+重大发现报告：
+将收音机(PL-660)外接天线连接到窗户上时发现收音意外良好BPM标准时间标准频率发播台并不是全24H播报BPM确实位于西安而非其他地方（这个好像不能算什么发现）历史观测重大报告：BBC对华广播被中国之声（中央人民广播电台第一套广播节目）干扰
+备注：昨夜观测因强对流天气可能性大而暂停
+今日观测计划：
+NHK-World-Japn华语(6190kHz) </description>
     </item>
     
     <item>
       <title>FM:简易低功率调频发射套装</title>
-      <link>https://blog.helim.net/science/fm-%E7%AE%80%E6%98%93%E4%BD%8E%E5%8A%9F%E7%8E%87%E8%B0%83%E9%A2%91%E5%8F%91%E5%B0%84%E5%A5%97%E8%A3%85/</link>
+      <link>/science/fm-%E7%AE%80%E6%98%93%E4%BD%8E%E5%8A%9F%E7%8E%87%E8%B0%83%E9%A2%91%E5%8F%91%E5%B0%84%E5%A5%97%E8%A3%85/</link>
       <pubDate>Thu, 13 Jan 2022 20:23:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/science/fm-%E7%AE%80%E6%98%93%E4%BD%8E%E5%8A%9F%E7%8E%87%E8%B0%83%E9%A2%91%E5%8F%91%E5%B0%84%E5%A5%97%E8%A3%85/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;</description>
+      <guid>/science/fm-%E7%AE%80%E6%98%93%E4%BD%8E%E5%8A%9F%E7%8E%87%E8%B0%83%E9%A2%91%E5%8F%91%E5%B0%84%E5%A5%97%E8%A3%85/</guid>
+      <description>&lt;!-- wp:html --&gt;
+&lt;div class=&#34;wp-block-argon-admonition admonition shadow-sm&#34; style=&#34;border-left-color:#f75676&#34;&gt;&lt;div class=&#34;admonition-body&#34;&gt;这是低功率发射装置，本装置设置功率为150mW,请读者在效仿时注意发射功率根据国家要求，在不准入频段无证无呼号发射无线电是不得超过1W的（1W=1000mW），请自重&lt;/div&gt;&lt;/div&gt;
+&lt;!-- /wp:html --&gt;
+&lt;!-- wp:html --&gt;
+&lt;div class=&#34;wp-block-argon-alert alert&#34; style=&#34;background-color:#f75676&#34;&gt;&lt;span class=&#34;alert-inner--icon&#34;&gt;&lt;i class=&#34;fa fa-info-circle&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;span class=&#34;alert-inner--text&#34;&gt;在家庭或其他形式的非专业室内操作大于运行总电压12V的电路将会是有危险的。操作大于36V的电路则有可能致命。继续阅读本文即代表您承诺自行负担所有风险。&lt;/span&gt;&lt;/div&gt;
+&lt;!-- /wp:html --&gt;
+&lt;!-- wp:more --&gt;</description>
     </item>
     
     <item>
       <title>十张惊艳的AI生成图片，还有闲话一则</title>
-      <link>https://blog.helim.net/science/%E5%8D%81%E5%BC%A0%E6%83%8A%E8%89%B3%E7%9A%84ai%E7%94%9F%E6%88%90%E5%9B%BE%E7%89%87%E8%BF%98%E6%9C%89%E9%97%B2%E8%AF%9D%E4%B8%80%E5%88%99/</link>
+      <link>/science/%E5%8D%81%E5%BC%A0%E6%83%8A%E8%89%B3%E7%9A%84ai%E7%94%9F%E6%88%90%E5%9B%BE%E7%89%87%E8%BF%98%E6%9C%89%E9%97%B2%E8%AF%9D%E4%B8%80%E5%88%99/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/science/%E5%8D%81%E5%BC%A0%E6%83%8A%E8%89%B3%E7%9A%84ai%E7%94%9F%E6%88%90%E5%9B%BE%E7%89%87%E8%BF%98%E6%9C%89%E9%97%B2%E8%AF%9D%E4%B8%80%E5%88%99/</guid>
+      <guid>/science/%E5%8D%81%E5%BC%A0%E6%83%8A%E8%89%B3%E7%9A%84ai%E7%94%9F%E6%88%90%E5%9B%BE%E7%89%87%E8%BF%98%E6%9C%89%E9%97%B2%E8%AF%9D%E4%B8%80%E5%88%99/</guid>
       <description>Stable Diffusion技术，已经取得了巨大的飞跃。现在的Stable Diffusion，已经不再是当时不听话的NovelAI的同义词，而是一个更先进、更个性、更创造、更符合信息熵理论的计算机科学成果了。
 [scode type=&amp;ldquo;iblue&amp;rdquo;]本文包含很多图片。请注意流量消耗。且这些图片存储在Kamiya网络，而不是荷李网络[/scode]
 风景画 很多人以为SD最擅长的是画人物，其实不然。SD的伟大在于它详略得当，可以做到以假乱真，让读者认为构图“好像没什么问题”，但是这也就意味着里边的问题多了去了。而人体绘画，由于我们每个人从早到晚都能看见人类，所以非常熟悉，如果有什么错误很难逃过眼睛。什么多了一根或少了一根手指了之类。而风景，尤其奇美的风景，除非是专业的旅游爱好者都很难看出破绽。这个时候SD的惊艳才完全体现。毕竟SD从模糊一步步降噪到清晰的原理，也决定了宏大绘画是它更擅长的。

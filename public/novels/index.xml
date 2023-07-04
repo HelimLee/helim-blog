@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Novels on 荷岭网居</title>
-    <link>https://blog.helim.net/novels/</link>
+    <link>/novels/</link>
     <description>Recent content in Novels on 荷岭网居</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 02 May 2023 22:12:28 +0000</lastBuildDate><atom:link href="https://blog.helim.net/novels/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 May 2023 22:12:28 +0000</lastBuildDate><atom:link href="/novels/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>带来她的眼睛（终：一）</title>
-      <link>https://blog.helim.net/novels/%E5%B8%A6%E6%9D%A5%E5%A5%B9%E7%9A%84%E7%9C%BC%E7%9D%9B%E7%BB%88%E4%B8%80/</link>
+      <link>/novels/%E5%B8%A6%E6%9D%A5%E5%A5%B9%E7%9A%84%E7%9C%BC%E7%9D%9B%E7%BB%88%E4%B8%80/</link>
       <pubDate>Tue, 02 May 2023 22:12:28 +0000</pubDate>
       
-      <guid>https://blog.helim.net/novels/%E5%B8%A6%E6%9D%A5%E5%A5%B9%E7%9A%84%E7%9C%BC%E7%9D%9B%E7%BB%88%E4%B8%80/</guid>
+      <guid>/novels/%E5%B8%A6%E6%9D%A5%E5%A5%B9%E7%9A%84%E7%9C%BC%E7%9D%9B%E7%BB%88%E4%B8%80/</guid>
       <description>本文是对永远明亮的双眼，一世短暂的闹钟（终）一文的故事提纲的补全。
 2131 年 4 月 24 日，GMT17:18, 月球，红旗六号地下实验综合体，放射区入口走道 H-1
 岭一行人在这个昏暗的走道里，尽管没人穿皮鞋或者高跟鞋，走道里还是回响着明亮的脚步声。而且还能隐约听见隐藏在脚步声中感应电灯开关的声音。或许这就是拜吸音能力极强的月壤所赐罢。墙上还贴着海报，上面的日期都好像是最新的，什么” 庆祝 2131 年五一星际工人劳动节 “之类，看来说这里是个废弃设施还是有点不妥。但尽管周遭环境收拾的多么停当，那些悬浮在空气中的月尘也还是暗示，这里最多就只有几个 AI 维持日常的打理了。且灰尘这般大，恐怕，那几个 AI 也坚持不了几天了。
@@ -65,10 +65,10 @@
     
     <item>
       <title>一个闹钟（科幻小说）（二）</title>
-      <link>https://blog.helim.net/novels/%E4%B8%80%E4%B8%AA%E9%97%B9%E9%92%9F%E7%A7%91%E5%B9%BB%E5%B0%8F%E8%AF%B4%E4%BA%8C/</link>
+      <link>/novels/%E4%B8%80%E4%B8%AA%E9%97%B9%E9%92%9F%E7%A7%91%E5%B9%BB%E5%B0%8F%E8%AF%B4%E4%BA%8C/</link>
       <pubDate>Thu, 27 Apr 2023 19:48:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/novels/%E4%B8%80%E4%B8%AA%E9%97%B9%E9%92%9F%E7%A7%91%E5%B9%BB%E5%B0%8F%E8%AF%B4%E4%BA%8C/</guid>
+      <guid>/novels/%E4%B8%80%E4%B8%AA%E9%97%B9%E9%92%9F%E7%A7%91%E5%B9%BB%E5%B0%8F%E8%AF%B4%E4%BA%8C/</guid>
       <description>月球上静谧得可怕。其实电磁降落仓下降时，速度之缓慢和环境的安静，一度让岭或秋以为自己是在做公交车——甚至比公交车还要安静。在地球上跨越一个大洲就需要乘坐响声震天的协和客机，但登月竟然一件同坐电梯一样的易事。不过当岭开始往自己身上套那件有点沉的太空服后，还是感受到了一种庄严肃穆——尽管来到月球已经比跨洲旅行还要简单了。
 寂静的电磁下降结束了，紧接着是吓了二人一跳的咔哒声。其实并不是什么意外，只是降落仓和对接口衔接的声音。“嚯，看来还是机械结构更可靠呢，月球上都在用”，初次来到月球的岭如此强颜欢笑，对脸色已经有点发青的小赵说。他点了点头。
 “孩子们，把头盔带上，挡光板拉下来，外面可亮了！”一个雄浑的声音响起，刚刚准备好的二人，刷地一下，便被降落仓内外的压差压了出去。低重力的环境导致二位似乎飞了起来，旋转着，共舞在蔚蓝色地球的背影下，由于没有大气层的阻挡，那蓝色地球看起来简直就像一张墙纸，清晰得骇人。
@@ -82,16 +82,15 @@
 不知是什么原因，岭和赵突然闭上了眼。
 岭和赵感受到背后传来一声巨响，随后是强烈的向上的推力。是姿态调整喷气系统紧急启动了，因为接地速度过快。不过这一下子也让岭和赵没有站稳。等外骨骼响应过来，他们才真正的见到了那雄浑声音的发出者，他正在用一种有点鄙夷又有点无奈的眼神看着初来月球的两人。“快点吧，土著们。”
 土著是对地球住民的戏称。不过二人还是被眼前这个人震撼了一下。因为和他们所构想的那又高又壮的勇士形象不同，这声音的持有者竟然是一个细胳膊细腿的二十多岁的年轻人，由于透过屏蔽层接收不到什么紫外线，脸上又白又净，但五官却长得极其规整，有种让人觉得莫名其妙的力量。
-外骨骼被切换成标准重力模式后，二人才算能正常在月球上走路了。这位队长并不是他们今天实验的主角，他只是负责带一行人和永恒闹钟到MRI设施入口处而已。
-f.style.border=&amp;ldquo;none&amp;rdquo;; f.style.height=&amp;ldquo;489px&amp;rdquo;; f.style.width=&amp;ldquo;90%&amp;rdquo;; f.style.transition=&amp;ldquo;all 0.5s ease&amp;rdquo;; var d = document.getElementById(&amp;ldquo;zf_div_Om70Iu-JT7s7T7kSRR5dgNRqMSc6jIBv-XDkleWEEog&amp;rdquo;); d.appendChild(f); window.addEventListener(&amp;lsquo;message&amp;rsquo;, function (){ var evntData = event.data; if( evntData &amp;amp;&amp;amp; evntData.constructor == String ){ var zf_ifrm_data = evntData.split(&amp;quot;|&amp;quot;); if ( zf_ifrm_data.length == 2 ) { var zf_perma = zf_ifrm_data[0]; var zf_ifrm_ht_nw = ( parseInt(zf_ifrm_data[1], 10) + 15 ) + &amp;ldquo;px&amp;rdquo;; var iframe = document.getElementById(&amp;ldquo;zf_div_Om70Iu-JT7s7T7kSRR5dgNRqMSc6jIBv-XDkleWEEog&amp;rdquo;).getElementsByTagName(&amp;ldquo;iframe&amp;rdquo;)[0]; if ( (iframe.</description>
+外骨骼被切换成标准重力模式后，二人才算能正常在月球上走路了。这位队长并不是他们今天实验的主角，他只是负责带一行人和永恒闹钟到MRI设施入口处而已。</description>
     </item>
     
     <item>
       <title>一个闹钟（科幻小说）</title>
-      <link>https://blog.helim.net/novels/%E4%B8%80%E4%B8%AA%E9%97%B9%E9%92%9F%E7%A7%91%E5%B9%BB%E5%B0%8F%E8%AF%B4/</link>
+      <link>/novels/%E4%B8%80%E4%B8%AA%E9%97%B9%E9%92%9F%E7%A7%91%E5%B9%BB%E5%B0%8F%E8%AF%B4/</link>
       <pubDate>Wed, 26 Apr 2023 21:32:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/novels/%E4%B8%80%E4%B8%AA%E9%97%B9%E9%92%9F%E7%A7%91%E5%B9%BB%E5%B0%8F%E8%AF%B4/</guid>
+      <guid>/novels/%E4%B8%80%E4%B8%AA%E9%97%B9%E9%92%9F%E7%A7%91%E5%B9%BB%E5%B0%8F%E8%AF%B4/</guid>
       <description>[scode type=&amp;ldquo;iblue&amp;rsquo;]本文向刘慈欣的《带上她的眼睛》致敬。[/scode]
 2131年的地球就是不一样了。其实已经没有多少人类还住在地球上了，大概30万？还在一天天地减少。而且这当中也只有不到一成的才是土生土长的地球人，其他很多都是跨越星际的移民。估计是厌倦了太空的探索，想归隐田园乐趣，于是游子归乡，回到了地球。也因此，这三十万人里头多以老年人居多，平常下下棋，打打牌，叙叙旧。其实和一百多年前的地球老年人没什么两样。无非年龄大了一些——一百五十岁也是很常有的事。
 岭或秋就不太一样了，他今年十多岁，是地球上为数不多的年轻人，也正是意气风发时。说了地球上有一些是土生土长，还有一些是归隐田园，他哪个都不是。他是正儿八经的“来自太空的孩子”，在长期记忆还没有形成的时候，就被发送到了地球上的社会化抚养系统里。从没有见过自己父母的他，对于地球、地球上的这个微型人类社会，却真正当成了自己的生母了。所以当每年一月份，星际人类的接驳舰跃迁进入近地球轨道时，他看着那些庞然大物，没有一点羡慕，当别人劝他离开地球去看看宇宙时，他还百般不情愿。
@@ -128,12 +127,13 @@ f.style.border=&amp;ldquo;none&amp;rdquo;; f.style.height=&amp;ldquo;489px&amp;r
     
     <item>
       <title>（架空/整活）岭霞市医科大学附属中学阅读理解真题</title>
-      <link>https://blog.helim.net/novels/%E6%9E%B6%E7%A9%BA-%E6%95%B4%E6%B4%BB%E5%B2%AD%E9%9C%9E%E5%B8%82%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E4%B8%AD%E5%AD%A6%E9%98%85%E8%AF%BB%E7%90%86%E8%A7%A3%E7%9C%9F%E9%A2%98/</link>
+      <link>/novels/%E6%9E%B6%E7%A9%BA-%E6%95%B4%E6%B4%BB%E5%B2%AD%E9%9C%9E%E5%B8%82%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E4%B8%AD%E5%AD%A6%E9%98%85%E8%AF%BB%E7%90%86%E8%A7%A3%E7%9C%9F%E9%A2%98/</link>
       <pubDate>Sun, 26 Feb 2023 16:56:48 +0000</pubDate>
       
-      <guid>https://blog.helim.net/novels/%E6%9E%B6%E7%A9%BA-%E6%95%B4%E6%B4%BB%E5%B2%AD%E9%9C%9E%E5%B8%82%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E4%B8%AD%E5%AD%A6%E9%98%85%E8%AF%BB%E7%90%86%E8%A7%A3%E7%9C%9F%E9%A2%98/</guid>
+      <guid>/novels/%E6%9E%B6%E7%A9%BA-%E6%95%B4%E6%B4%BB%E5%B2%AD%E9%9C%9E%E5%B8%82%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E4%B8%AD%E5%AD%A6%E9%98%85%E8%AF%BB%E7%90%86%E8%A7%A3%E7%9C%9F%E9%A2%98/</guid>
       <description>岭霞市医科大学附属中学，是市内教学水平一流的学校，现在将它的期末考试阅读理解真题收集陈列在此。
-我好想做嘉然小姐的狗啊。
+（一）（28分）
+我好想做嘉然小姐的狗啊我好想做嘉然小姐的狗啊。
 可是嘉然小姐说她喜欢的是猫，我哭了——我知道，既非狗，亦非猫者为什么要哭。
 我从没奢望嘉然小姐能喜欢自己。体谅，明白，我都懂。所有人，所有人都喜欢理解、余裕、上手、天才与打钱1的萌萌的狗狗或者猫猫。明面上如此做，那暗面立，就没有人，没有人会喜欢阴湿带病的老鼠！
 而我是老鼠，不敢奢望喜欢，从而渴望变成狗的老鼠。
@@ -161,10 +161,10 @@ f.style.border=&amp;ldquo;none&amp;rdquo;; f.style.height=&amp;ldquo;489px&amp;r
     
     <item>
       <title>老树还不想死（二）</title>
-      <link>https://blog.helim.net/novels/%E8%80%81%E6%A0%91%E8%BF%98%E4%B8%8D%E6%83%B3%E6%AD%BB%E4%BA%8C/</link>
+      <link>/novels/%E8%80%81%E6%A0%91%E8%BF%98%E4%B8%8D%E6%83%B3%E6%AD%BB%E4%BA%8C/</link>
       <pubDate>Fri, 17 Feb 2023 21:25:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/novels/%E8%80%81%E6%A0%91%E8%BF%98%E4%B8%8D%E6%83%B3%E6%AD%BB%E4%BA%8C/</guid>
+      <guid>/novels/%E8%80%81%E6%A0%91%E8%BF%98%E4%B8%8D%E6%83%B3%E6%AD%BB%E4%BA%8C/</guid>
       <description>老树在那儿使劲嚼着米饭，希望这能够使自己忘掉那最后一丝的疑虑。
 其实这种疑虑最开始的源泉还是这顿饭本身，毕竟这是问别人借钱吃大餐。向前老树就算是心里想法再大胆，别人眼里，他还是一个听话懂事，借钱有借有还，功课追求上进的学生。而一旦他选择离家出走，首先，自己将成为村里其他家长口中的反面教材。老树胆子大是不假，但还没有大到能把自己以后的名声全部孤注一掷。他这么一走，就算家长不心急如焚地去找，那些还对他有一丁点好印象的老师也要心灰意冷了。
 他抓起杯子喝了一大口饮料，冰凉的感觉浸透了他整个大脑，他希望这能让自己繁杂的思绪冷静下来。
@@ -189,10 +189,10 @@ f.style.border=&amp;ldquo;none&amp;rdquo;; f.style.height=&amp;ldquo;489px&amp;r
     
     <item>
       <title>老树还不想死</title>
-      <link>https://blog.helim.net/novels/%E8%80%81%E6%A0%91%E8%BF%98%E4%B8%8D%E6%83%B3%E6%AD%BB/</link>
+      <link>/novels/%E8%80%81%E6%A0%91%E8%BF%98%E4%B8%8D%E6%83%B3%E6%AD%BB/</link>
       <pubDate>Thu, 16 Feb 2023 21:59:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/novels/%E8%80%81%E6%A0%91%E8%BF%98%E4%B8%8D%E6%83%B3%E6%AD%BB/</guid>
+      <guid>/novels/%E8%80%81%E6%A0%91%E8%BF%98%E4%B8%8D%E6%83%B3%E6%AD%BB/</guid>
       <description>[scode type=&amp;ldquo;iblue&amp;rdquo;]本文是《信》的故事快览版。有关更多信息，敬请访问《信》的相关信息发布页面：小记一则（Archive 208）[/scode]
 外面的冷气使劲儿地往那楼梯间里的窝棚里吹，老树冷得快要叫出来了。他还不想死，毕竟自己还有梦要追，还有发大财的梦呢。那洁白的大雪和漆黑的夜色之中，于是传来老树一阵阵的惨叫声。其实冷还是可以忍受，饿也无伤大雅，但是又冷又饿就好像要昏过去了。
 不过在最后一位过客走上楼梯之后，整个空间陷入死寂，老树也只好颤抖着睡了。或许也可以算是昏死过去，总之进入了无清醒意识的状态。
@@ -214,10 +214,10 @@ f.style.border=&amp;ldquo;none&amp;rdquo;; f.style.height=&amp;ldquo;489px&amp;r
     
     <item>
       <title>公寓：《蔚然成林》最终章</title>
-      <link>https://blog.helim.net/novels/%E5%85%AC%E5%AF%93%E8%94%9A%E7%84%B6%E6%88%90%E6%9E%97%E6%9C%80%E7%BB%88%E7%AB%A0/</link>
+      <link>/novels/%E5%85%AC%E5%AF%93%E8%94%9A%E7%84%B6%E6%88%90%E6%9E%97%E6%9C%80%E7%BB%88%E7%AB%A0/</link>
       <pubDate>Sat, 04 Feb 2023 21:35:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/novels/%E5%85%AC%E5%AF%93%E8%94%9A%E7%84%B6%E6%88%90%E6%9E%97%E6%9C%80%E7%BB%88%E7%AB%A0/</guid>
+      <guid>/novels/%E5%85%AC%E5%AF%93%E8%94%9A%E7%84%B6%E6%88%90%E6%9E%97%E6%9C%80%E7%BB%88%E7%AB%A0/</guid>
       <description>《蔚然成林》系列小说，最终章。
 22世纪初，太阳系，地球
 地球上已经不剩下多少人了。中纬度往上便被冰雪覆盖，中纬线以下则夏凉冬寒，赤道则完全被浓密的雨林覆盖。
@@ -268,65 +268,72 @@ f.style.border=&amp;ldquo;none&amp;rdquo;; f.style.height=&amp;ldquo;489px&amp;r
     
     <item>
       <title>《亲爱挚友》第二章：启航</title>
-      <link>https://blog.helim.net/novels/%E4%BA%B2%E7%88%B1%E6%8C%9A%E5%8F%8B%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%90%AF%E8%88%AA/</link>
+      <link>/novels/%E4%BA%B2%E7%88%B1%E6%8C%9A%E5%8F%8B%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%90%AF%E8%88%AA/</link>
       <pubDate>Fri, 18 Nov 2022 22:25:11 +0000</pubDate>
       
-      <guid>https://blog.helim.net/novels/%E4%BA%B2%E7%88%B1%E6%8C%9A%E5%8F%8B%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%90%AF%E8%88%AA/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;</description>
+      <guid>/novels/%E4%BA%B2%E7%88%B1%E6%8C%9A%E5%8F%8B%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%90%AF%E8%88%AA/</guid>
+      <description>&lt;p&gt;这篇文章应该已经顺利地电传给了偌老。再次感谢他对于我笔记的整理。&lt;/p&gt;&lt;p&gt;我想，一个旧时代里、旧生活中所谓的英雄，在新时代中、新生活里应该是真正的罪人。如此好像，一个旧而真正的罪人，也便真的能在一个新的阶段称为所谓的英雄。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>竞赛作文草稿：坚守</title>
-      <link>https://blog.helim.net/novels/%E7%AB%9E%E8%B5%9B%E4%BD%9C%E6%96%87%E8%8D%89%E7%A8%BF%E5%9D%9A%E5%AE%88/</link>
+      <link>/novels/%E7%AB%9E%E8%B5%9B%E4%BD%9C%E6%96%87%E8%8D%89%E7%A8%BF%E5%9D%9A%E5%AE%88/</link>
       <pubDate>Sun, 06 Nov 2022 16:37:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/novels/%E7%AB%9E%E8%B5%9B%E4%BD%9C%E6%96%87%E8%8D%89%E7%A8%BF%E5%9D%9A%E5%AE%88/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;</description>
+      <guid>/novels/%E7%AB%9E%E8%B5%9B%E4%BD%9C%E6%96%87%E8%8D%89%E7%A8%BF%E5%9D%9A%E5%AE%88/</guid>
+      <description>&lt;p&gt;“所以，你说，你在坚守的是什么呢？”&lt;/p&gt;&lt;p&gt;电话那头的声音愈来愈小了。这是一通单向的电话，他听不见的。&lt;/p&gt;&lt;p&gt;“你可想问我，在坚守什么？”&lt;/p&gt;&lt;p&gt;一切故事的开头，是那个酷热难耐的下午。王正在家里翻看一本看了无数遍的童话，心已经跑到九霄云外去了。他15岁了，对于童话并不喜爱，今天只是无聊到了透顶，只好看看这些打发时间。&lt;/p&gt;&lt;p&gt;不过时间，貌似也不耐烦于他的打发了。一件叫他有趣的事开始了。王闭上眼，靠在沙发上，听着时钟滴答滴答地步进，做着一些虚幻的白日梦。恍惚间觉得时钟响得并不十分均匀，好像有10秒之久的时间，却只响了两三下，再过一会儿，明明不到五秒钟，却已经响了好几十次。也许只是心理上的颓废造成了时觉的紊乱。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>留下一颗星</title>
-      <link>https://blog.helim.net/novels/%E7%95%99%E4%B8%8B%E4%B8%80%E9%A2%97%E6%98%9F/</link>
+      <link>/novels/%E7%95%99%E4%B8%8B%E4%B8%80%E9%A2%97%E6%98%9F/</link>
       <pubDate>Wed, 02 Nov 2022 02:54:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/novels/%E7%95%99%E4%B8%8B%E4%B8%80%E9%A2%97%E6%98%9F/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;</description>
+      <guid>/novels/%E7%95%99%E4%B8%8B%E4%B8%80%E9%A2%97%E6%98%9F/</guid>
+      <description>&lt;p&gt;我的外婆是一个伟大的人。她是一位光荣的航天英雄，曾经参与了第一个返回舱的设计。还亲身参与了降落伞的制作。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>《亲爱挚友》第一章：告别</title>
-      <link>https://blog.helim.net/novels/%E4%BA%B2%E7%88%B1%E6%8C%9A%E5%8F%8B%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%91%8A%E5%88%AB/</link>
+      <link>/novels/%E4%BA%B2%E7%88%B1%E6%8C%9A%E5%8F%8B%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%91%8A%E5%88%AB/</link>
       <pubDate>Wed, 27 Jul 2022 01:40:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/novels/%E4%BA%B2%E7%88%B1%E6%8C%9A%E5%8F%8B%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%91%8A%E5%88%AB/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;</description>
+      <guid>/novels/%E4%BA%B2%E7%88%B1%E6%8C%9A%E5%8F%8B%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%91%8A%E5%88%AB/</guid>
+      <description>&lt;p&gt;亲爱的读者朋友们好啊。不出意外的话，本篇作为《我和我最亲爱的朋友们》这部书的第一章节已经传给偌澎瀚老先生了。偌老这些年来一直和我互通消息，并给予我以很热情的支持和鼓励。在我最难熬的时刻，也是他帮助我走出阴影；在我名扬四海的时候，又是他告诉我要保持谦虚。我对他真的是很感激，也真的表达对他还愿意给我做序的感谢。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>《亲爱挚友》序言章节（正式首发）</title>
-      <link>https://blog.helim.net/novels/%E4%BA%B2%E7%88%B1%E6%8C%9A%E5%8F%8B%E5%BA%8F%E8%A8%80%E7%AB%A0%E8%8A%82%E6%AD%A3%E5%BC%8F%E9%A6%96%E5%8F%91/</link>
+      <link>/novels/%E4%BA%B2%E7%88%B1%E6%8C%9A%E5%8F%8B%E5%BA%8F%E8%A8%80%E7%AB%A0%E8%8A%82%E6%AD%A3%E5%BC%8F%E9%A6%96%E5%8F%91/</link>
       <pubDate>Mon, 25 Jul 2022 08:00:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/novels/%E4%BA%B2%E7%88%B1%E6%8C%9A%E5%8F%8B%E5%BA%8F%E8%A8%80%E7%AB%A0%E8%8A%82%E6%AD%A3%E5%BC%8F%E9%A6%96%E5%8F%91/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;</description>
+      <guid>/novels/%E4%BA%B2%E7%88%B1%E6%8C%9A%E5%8F%8B%E5%BA%8F%E8%A8%80%E7%AB%A0%E8%8A%82%E6%AD%A3%E5%BC%8F%E9%A6%96%E5%8F%91/</guid>
+      <description>&lt;p&gt;&#34;Sir, here&#39;s your telegraph&#34;（“先生，这是给您的电报”）&lt;/p&gt;&lt;p&gt;一个年轻的女性将一张已经印刷过了的纸递到我手上。&lt;/p&gt;&lt;p&gt;我取过它，原先可能洁白的纸上已经沾染了永无法褪去的米黄。然而尽管古老，字体确是标准的等线体，很是正式。事实上，这个时代，电报系统早已被完全废弃，况且，这个地区的官方语言早已不是英语，就连繁中都因为写起来麻烦，读起来又费神用的人都不多了。但我并不惊讶，也无需惊讶，恰因纸上最后一行默默写道：&lt;/p&gt;&lt;p&gt;“Your sincerely, William C Sconner&#34; (“您忠实的，威廉·C·斯康尔”）&lt;/p&gt;&lt;p&gt;他无论在电报里中用了怎样华丽的词藻，目的就是拜托我为他的新书写一部序，我能如何呢？写罢。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>《亲爱挚友》 前瞻预告：最后的三小时</title>
-      <link>https://blog.helim.net/novels/%E4%BA%B2%E7%88%B1%E6%8C%9A%E5%8F%8B-%E5%89%8D%E7%9E%BB%E9%A2%84%E5%91%8A%E6%9C%80%E5%90%8E%E7%9A%84%E4%B8%89%E5%B0%8F%E6%97%B6/</link>
+      <link>/novels/%E4%BA%B2%E7%88%B1%E6%8C%9A%E5%8F%8B-%E5%89%8D%E7%9E%BB%E9%A2%84%E5%91%8A%E6%9C%80%E5%90%8E%E7%9A%84%E4%B8%89%E5%B0%8F%E6%97%B6/</link>
       <pubDate>Mon, 25 Jul 2022 05:09:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/novels/%E4%BA%B2%E7%88%B1%E6%8C%9A%E5%8F%8B-%E5%89%8D%E7%9E%BB%E9%A2%84%E5%91%8A%E6%9C%80%E5%90%8E%E7%9A%84%E4%B8%89%E5%B0%8F%E6%97%B6/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;</description>
+      <guid>/novels/%E4%BA%B2%E7%88%B1%E6%8C%9A%E5%8F%8B-%E5%89%8D%E7%9E%BB%E9%A2%84%E5%91%8A%E6%9C%80%E5%90%8E%E7%9A%84%E4%B8%89%E5%B0%8F%E6%97%B6/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://cnfiles.xhwork.top:65534/static/img/3hleft.png&#34; alt=&#34;3 hours left&#34; ---
+title=&#34;3 hours left&#34;&gt;&lt;/p&gt;&lt;p&gt;《我和我最亲爱的朋友们——序言》已经正式定稿，完成了最后的校对和修改，将在2022/7/25 0:00定时发送！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>《碎窗歌》</title>
-      <link>https://blog.helim.net/novels/%E7%A2%8E%E7%AA%97%E6%AD%8C/</link>
+      <link>/novels/%E7%A2%8E%E7%AA%97%E6%AD%8C/</link>
       <pubDate>Sat, 23 Jul 2022 23:46:00 +0000</pubDate>
       
-      <guid>https://blog.helim.net/novels/%E7%A2%8E%E7%AA%97%E6%AD%8C/</guid>
-      <description> </description>
+      <guid>/novels/%E7%A2%8E%E7%AA%97%E6%AD%8C/</guid>
+      <description>《碎窗歌》
+万雨皆飘荡，孤火独燃光。
+寒风何所向？屋角慢落霜。
+The Broken Window
+Once all the rain fall, a candle can break the law.
+What&#39;s the wind blow for?
+In home the snow roar.</description>
     </item>
     
   </channel>

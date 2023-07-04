@@ -3,6 +3,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
    <meta name="description" content="前段时间，知名中文开源字体霞鹜文楷发布了v1.250版本。然而，很多用户仍然在使用1.235甚至更陈旧的webfont版本。我已经重新编译了最新的WebFont版本。并将它托管在了我自己的CNDC的服务器上。
 发布最新版本 提供下载链接 原理 中文的字体调用一直都是一个让人伤脑筋的问题。曾经使用TTF文件来启用字体，然而这会带来极大的带宽需求。需要将整个TTF文件下载到本地。一个TTF小有15M，大则有30多M，十分的不便。
 然而经过一段时间的研究，一些前端工程师发现中文字体可以通过切分Unicode区域，并将每个区域对准到每一个woff文件作为子集，以次来实现按需调用，极大减少了带宽需求。代价是这种字体(WebFont)需要专门构建。
@@ -19,7 +20,6 @@ python3 ./update.py --package ${您要构建的字体包名} 如果您使用Wind
 &lt;link href=&#34;${您服务器上的地址}/style.css&#34; rel=&#34;stylesheet&#34; /&gt; 在Head中添加了这样的引用后，您将可以在任何随后的css中定义字体。譬如对全站启用霞鹜文楷标准字体，您需要在引用后添加这样的CSS：
 body{ font-family: &#34;LXGW WenKai&#34;; } 您还可以设置字体Fallback规则等。这可能对修复特定字符无法显示有重要帮助。
 控制使用的字体，需要使用各自特定的 font-face,它们各自都对应着一个特定的字体。LXGW WenKai对应着霞鹜文楷的标准版本，而 LXGW WenKai Mono（本站使用的字体）对应着霞鹜文楷的等宽版本（常见于展示代码）">  
-  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-webfont/1.6.0/style.min.css">
   <title>
     
       霞鹜文楷 WebFont V1.250发布（附特定字符无法显示的解决方案）
@@ -27,11 +27,10 @@ body{ font-family: &#34;LXGW WenKai&#34;; } 您还可以设置字体Fallback规�
   </title>
 
 
-  <link rel="shortcut icon" type="image/x-icon" href="/" />
   
   
   
-  <link rel="stylesheet" href="/css/main.d07cfa1493bd4cf5a6cf9ceb0245180e7ad271988f0ee5fb495bd05fe063f4eb538c9824fd998588627c25771dcc434997588be713cb79968b07fe3b38c9d68c.css" integrity="sha512-0Hz6FJO9TPWmz5zrAkUYDnrScZiPDuX7SVvQX&#43;Bj9OtTjJgk/ZmFiGJ8JXcdzENJl1iL5xPLeZaLB/47OMnWjA==" />
+  <link rel="stylesheet" href="/css/main.9fbf43ae1844e7e6ce205daa225f13396ea96162c95b8bd53ece1c6af2ef3e8cfb5f30f3ddb8b3386a5280d089443efb175bd3121e492f0c5c3fd8ea8a4e11d0.css"/>
   
   
 </head>
@@ -83,7 +82,7 @@ body{ font-family: &#34;LXGW WenKai&#34;; } 您还可以设置字体Fallback规�
 <h2 id="使用本站的托管">使用本站的托管</h2>
 <p>本站的托管也可以工作。</p>
 <p>本站的 <code>style.css</code>地址是 <code>https://cndc.helim.net:5244/d/zerospeedyDC1/static/lxgw-fonts-v1.250/style.css</code></p>
-<h2 id="span-id特定字符显示异常特定字符显示异常span"><!-- raw HTML omitted -->特定字符显示异常<!-- raw HTML omitted --></h2>
+<h2 id="span-id特定字符显示异常特定字符显示异常span"><span id="特定字符显示异常">特定字符显示异常</span></h2>
 <p>特定字符显示异常是一个诡异的错误。本站就遭遇了这个问题。</p>
 <p>我现在正在使用的笔名是“堾荷甃”，没有意外的话，这三个字得益于霞鹜文楷庞大的字库，应该能够正常显示在您的设备上。然而事实是，在调试过程中，“堾”字一直遇到显示困难。稍后我进行了研究，发现如果使用这样的CSS，这个问题就会被修复：</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>@<span style="color:#66d9ef">font-face</span>{
