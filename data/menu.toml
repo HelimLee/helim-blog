@@ -9,8 +9,9 @@ title = "Info"
 
   [[entries.entries]]
   title = "站点内容遵照CC-BY-SA协议提供。"
+  
   [[entries.entries]]
-  title = "你现在可以下载李荷岭的<a href='https://keys.openpgp.org/vks/v1/by-fingerprint/03CB0B527CB6E67BB2084199BD14C8D276B764E4'>OpenPGP公钥</a>（指纹：03CB0B527CB6E67BB2084199BD14C8D276B764E4）。"
+  title = "GPG Public key of Helim Lee is available. Fingerprint: 1DA47858FF8F5B81F6EE569FC2113FF2D91F6958, <a href='https://keys.openpgp.org/vks/v1/by-fingerprint/1DA47858FF8F5B81F6EE569FC2113FF2D91F6958'>Download from OpenPGP.org</a>"
 [[entries]]
 title = "Posts"
   [[entries.entries]]
