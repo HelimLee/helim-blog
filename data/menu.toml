@@ -1,5 +1,5 @@
 [[entries]]
-title = "Info"
+title = "门牌"
 
   [[entries.entries]]
   title = "这里是<a href='/about'>李荷岭</a>的网络居所"
@@ -11,7 +11,7 @@ title = "Info"
   title = "站点内容遵照CC-BY-SA协议提供。"
   
 [[entries]]
-title = "Posts"
+title = "屋里"
   [[entries.entries]]
   title = "Categories"
   url = "/categories"
@@ -23,17 +23,17 @@ title = "Posts"
   show_more_url = "archive"
 
 [[entries]]
-title = "rss"
+title = "门铃(RSS)"
 url = "index.xml"
 
 [[entries]]
-title = "Additional Content"
+title = "窗外"
 
   [[entries.entries]]
   title = "Friends"
   url = "mailto:i@helim.net?subject=Add Friend Link"
     [[entries.entries.entries]]
-    title = "晓雨杂记"
+    title = "晓雨杂记(无法连接)"
     url = "https://lihaoyu.cn/"
 
   [[entries.entries]]
